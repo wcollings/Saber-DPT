@@ -1,0 +1,50 @@
+[symbol9]
+desc {}
+uniq 5
+[resources]
+<font>
+{-family {OF Helvetica} -size 4 -weight normal  -slant roman -underline 0 -overstrike 0 -type outline}
+<color>
+{pink} {#ffc0cb}
+{lightgoldenrod1} {#ffec8b}
+<linestyle>
+{-}
+<image>
+<layer>
+{electrical}
+{vis}
+[events]
+[section]
+default
+320 320
+<properties>
+primitive gate_driver_hilow SABER string {} 320 70 2 1 0 8 2 {} 0 2 {} {} {} 6 l
+ref *opt* {} string {} 320 -120 0 0 0 5 2 {} {} 1 {Reference designator} {} {} 6 l
+tool StateAMS MA string {} 320 -240 0 0 0 5 2 {} {} 1 {State Machine Editor} {} {{m MA:PropEditor {}}} 6 l
+ramp_off 10n SABER string {} 320 -360 0 0 0 5 2 {} {} 1 {ramp_off} {} {} 6 l
+ramp_on 10n SABER string {} 320 -480 0 0 0 5 2 {} {} 1 {ramp_on} {} {} 6 l
+toff1 35.1u SABER string {} 320 -600 0 0 0 5 2 {} {} 1 {toff1} {} {} 6 l
+toff2 4.9u SABER string {} 320 -720 0 0 0 5 2 {} {} 1 {toff2} {} {} 6 l
+ton1 *req* SABER string {} 320 -840 0 0 0 5 2 {} {} 1 {126.5u} {} {} 6 l
+ton2 5u SABER string {} 320 -960 0 0 0 5 2 {} {} 1 {ton2} {} {} 6 l
+<ports>
+v_high 960 480 1 0 960 960 400 0 8 1 3 0 0 1 {} 6
+m 320 -320 1 0 320 320 -400 0 8 1 3 0 0 1 {} 6
+v_low 960 160 1 0 960 960 80 0 8 1 3 0 0 1 {} 6
+<sym_events>
+<prop_events>
+<view>
+Default
+{}
+0 0 640 640
+r gr_2_ 0 0 640 640 0 1 10 1 0 0 6 
+a gr_3_ 0 1 320 320 480 480 0 359 0 1 10 1 0 0 6 
+a gr_4_ 0 1 320 320 160 160 0 359 0 1 10 1 0 0 6 
+l gr_5_ 0 1 1 0 1 10 1 0 {320 160  304 192 334 204} {8 10 3} 6 
+b gr_6_ 0 1 1 0 1 10 1 0 {192 304 160 352 192 448 272 480 336 448} {8 10 3} 6 
+l gr_7_ 0 1 1 0 1 10 1 0 {320 480  336 448 304 432} {8 10 3} 6 
+b gr_8_ 0 1 1 0 1 10 1 0 {448 336 480 288 448 192 368 160 304 192} {8 10 3} 6 
+l gr_9_ 0 1 1 0 1 10 1 0 {960 480 640 480} {8 10 3} 6 
+l gr_10_ 0 1 1 0 1 10 1 0 {320 -320 320 0} {8 10 3} 6 
+l gr_11_ 0 1 1 0 1 10 1 0 {960 160 640 160} {8 10 3} 6 
+

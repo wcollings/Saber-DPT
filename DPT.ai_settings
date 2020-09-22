@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="DesignSettings" type="Version=2.0">
+      <section name="Tran" type="Version=2.0" />
+    </sectionGroup>
+  </configSections>
+  <sectionGroupInstance name="DesignSettings">
+    <sectionInstance name="Tran">
+      <setting name="terror" serializeAs="String">
+        <value>5E-09</value>
+      </setting>
+      <setting name="order" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="pins" serializeAs="String">
+        <value>Across and Through Variables</value>
+      </setting>
+      <setting name="siglist" serializeAs="String">
+        <value>:...:*</value>
+      </setting>
+      <setting name="tniter" serializeAs="String">
+        <value>15</value>
+      </setting>
+      <setting name="tstep" serializeAs="String">
+        <value>0.1n</value>
+      </setting>
+      <setting name="tend" serializeAs="String">
+        <value>200u</value>
+      </setting>
+    </sectionInstance>
+  </sectionGroupInstance>
+</configuration>

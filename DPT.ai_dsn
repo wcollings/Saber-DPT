@@ -1,0 +1,22 @@
+[ai_design_20]
+[uniq_id]
+0
+[resources]
+<font>
+<color>
+<linestyle>
+<image>
+<layer>
+{electrical}
+{vis}
+{borderannotation}
+{probe}
+<style>
+[dependency]
+[sch_type]
+<properties>
+lg_hi 14n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
+lg_low 1.5n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
+rshunt 0.5 SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
+[simulator_type]
+hdl

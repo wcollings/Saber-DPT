@@ -1,0 +1,234 @@
+class ::MA::SttTool
+version 1.7
+preferences {
+	mapping {
+		time 1u
+		profile linear
+	}
+	transition {
+		time 1u
+		profile linear
+	}
+	threshold_band 1p
+	hdl MAST
+	simulation_time time
+	time_derivative d_by_dt
+	time_integral idt
+	architecture behavioral
+	timeout_res 1e-10
+}
+diagramEditor {
+	class ::MA::SttDiagram
+	states {
+		S2 {
+			class ::MA::SttState
+			name Off2
+			color #76b4d6
+			entry 
+			exit 
+			comment 
+			initial 0
+			xl 0
+			yl 0
+			lock 1
+			x 188.27455841618
+			y 219.85334154265
+		}
+		S3 {
+			class ::MA::SttState
+			name On2
+			color #76b4d6
+			entry 
+			exit 
+			comment 
+			initial 0
+			xl 0
+			yl 0
+			lock 1
+			x 330.40871803905
+			y 110.18295306783
+		}
+		S4 {
+			class ::MA::SttState
+			name End
+			color #76b4d6
+			entry 
+			exit 
+			comment 
+			initial 0
+			xl 0
+			yl 0
+			lock 1
+			x 346.90268582733
+			y 212.10857553237
+		}
+		S5 {
+			class ::MA::SttState
+			name Off1
+			color #76b4d6
+			entry 
+			exit 
+			comment Delay before the test starts
+			initial 1
+			xl 0
+			yl 0
+			lock 1
+			x 64.145253883969
+			y 136.83803356116
+		}
+		S6 {
+			class ::MA::SttState
+			name On1
+			color #76b4d6
+			entry 
+			exit 
+			comment 
+			initial 0
+			xl 0
+			yl 0
+			lock 1
+			x 195.8273381295
+			y 113.49533559717
+		}
+	}
+	transitions {
+		T2 {
+			class ::MA::SttTransition
+			condition timeout(toff2)
+			action 
+			comment 
+			priority low
+			visible yes
+			ai -0.39269908169872
+			ri 0.5411961001462
+			ar 0
+			al 0.0738478103977
+			rl 0.26674564290897
+			start S2
+			end S3
+			time ramp_on
+			profile linear
+		}
+		T3 {
+			class ::MA::SttTransition
+			condition timeout(ton2)
+			action 
+			comment 
+			priority low
+			visible yes
+			ai -0.39269908169872
+			ri 0.5411961001462
+			ar 0
+			al -1.8631419951196
+			rl 0.49032184559972
+			start S3
+			end S4
+			time ramp_off
+			profile linear
+		}
+		T4 {
+			class ::MA::SttTransition
+			condition timeout(toff1)
+			action 
+			comment 
+			priority low
+			visible yes
+			ai -0.39269908169872
+			ri 0.5411961001462
+			ar 0
+			al 0
+			rl 0
+			start S5
+			end S6
+			time ramp_on
+			profile linear
+		}
+		T5 {
+			class ::MA::SttTransition
+			condition timeout(ton1)
+			action 
+			comment 
+			priority low
+			visible yes
+			ai -0.39269908169872
+			ri 0.5411961001462
+			ar 0
+			al 1.5106422585172
+			rl 0.69117296764169
+			start S6
+			end S2
+			time ramp_off
+			profile linear
+		}
+	}
+}
+topologyEditor {
+	class ::MA::SttTopology
+	P1 {
+		name p
+		comment 
+		position top
+		type Electrical
+	}
+	P2 {
+		name m
+		comment 
+		position bottom
+		type Electrical
+	}
+}
+quantityEditor {
+	class ::MA::SttQuantity
+	Q3 {
+		name ramp_off
+		comment 
+		type argument
+		equation 10n
+	}
+	Q4 {
+		name ramp_on
+		comment 
+		type argument
+		equation 10n
+	}
+	Q5 {
+		name v
+		comment 
+		type across
+		pinp p
+		pinm m
+		unit Voltage (V)
+		equations {
+			S2 -0.1
+			S3 4.5
+			S4 -0.1
+			S6 4.5
+			S5 -0.1
+		}
+	}
+	Q6 {
+		name toff1
+		comment 
+		type argument
+		equation 35.1u
+	}
+	Q7 {
+		name toff2
+		comment 
+		type argument
+		equation 4.9u
+	}
+	Q8 {
+		name ton1
+		comment 126.5u
+		type argument
+		equation 
+	}
+	Q9 {
+		name ton2
+		comment 
+		type argument
+		equation 5u
+	}
+}
+

@@ -1,0 +1,56 @@
+format_version 3
+template MAST_PKG_gate_driver
+
+language mast
+
+design_unit_type package
+
+% Template arguments...
+(0)
+
+% Externals...
+(0)
+
+% Connection points...
+(0)
+
+% Local declarations...
+(0)
+
+% Netlist...
+(0)
+
+format_version 3
+template gate_driver
+
+language mast
+
+design_unit_type template
+
+% Template arguments...
+(6)
+number ramp_off = #1.0e-08
+number ramp_on = #1.0e-08
+number toff1 = #3.51e-05
+number toff2 = #4.9e-06
+number ton1
+number ton2 = #5.0e-06
+
+
+% Externals...
+(0)
+
+
+% Connection points...
+(2)
+pin electrical v i p
+pin electrical v i m
+
+
+% Local declarations...
+(0)
+
+% Netlist...
+(0)
+
+

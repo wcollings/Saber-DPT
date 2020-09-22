@@ -1,0 +1,90 @@
+# Created with StateAMS 1.7.
+
+element template gate_driver p m = ramp_off, ramp_on, toff1, toff2, ton1, \
+    ton2
+electrical p, m
+number ramp_off=10n, ramp_on=10n, toff1=35.1u, toff2=4.9u, ton1, ton2=5u
+{
+    foreign transition
+    state nu current_timeout=0, timeout1=-1, timeout2=-1, timeout3=-1, \
+        timeout4=-1, active=1, eq=4, profile=1, svector[5]=[0,0,0,1,0]
+    state time tbegin=0, tend=0
+    val nu s1, s2, s3, s4, s5
+    val v v
+    var nu var1
+    # Process including states ("Off1","On1","Off2","On2","End").
+    when (time_init|event_on(active)|event_on(timeout1)|event_on(timeout2)| \
+        event_on(timeout3)|event_on(timeout4)) {
+        if (time_init) {
+            current_timeout=1
+            schedule_event(toff1, timeout3, current_timeout)
+        }
+        # Transition from state "Off2" to state "On2".
+        if ((active==3)&(timeout1==current_timeout)) {
+            schedule_event(time, active, 4)
+            if (eq~=2) {
+                eq=2
+                tbegin=time
+                tend=time+ramp_on
+                profile=1
+                svector=[s1, s2, s3, s4, s5]
+                schedule_next_time(time)
+                schedule_next_time(tend)
+            }
+            current_timeout=current_timeout+1
+            schedule_event(time+ton2, timeout2, current_timeout)
+        }
+        # Transition from state "On2" to state "End".
+        else if ((active==4)&(timeout2==current_timeout)) {
+            schedule_event(time, active, 5)
+            if (eq~=3) {
+                eq=3
+                tbegin=time
+                tend=time+ramp_off
+                profile=1
+                svector=[s1, s2, s3, s4, s5]
+                schedule_next_time(time)
+                schedule_next_time(tend)
+            }
+        }
+        # Transition from state "Off1" to state "On1".
+        else if ((time_domain)&((active==1)&(timeout3==current_timeout))) {
+            schedule_event(time, active, 2)
+            if (eq~=5) {
+                eq=5
+                tbegin=time
+                tend=time+ramp_on
+                profile=1
+                svector=[s1, s2, s3, s4, s5]
+                schedule_next_time(time)
+                schedule_next_time(tend)
+            }
+            current_timeout=current_timeout+1
+            schedule_event(time+ton1, timeout4, current_timeout)
+        }
+        # Transition from state "On1" to state "Off2".
+        else if ((active==2)&(timeout4==current_timeout)) {
+            schedule_event(time, active, 3)
+            if (eq~=1) {
+                eq=1
+                tbegin=time
+                tend=time+ramp_off
+                profile=1
+                svector=[s1, s2, s3, s4, s5]
+                schedule_next_time(time)
+                schedule_next_time(tend)
+            }
+            current_timeout=current_timeout+1
+            schedule_event(time+toff2, timeout1, current_timeout)
+        }
+    }
+    values {
+        (s1, s2, s3, s4, s5)=transition(time, eq, tbegin, tend, profile, \
+            svector)
+        v=v(p,m)
+    }
+    equations {
+        i(p->m)+=var1
+        var1 : v=4.5*(s2+s5)-0.1*(s1+s3+s4)
+    }
+}

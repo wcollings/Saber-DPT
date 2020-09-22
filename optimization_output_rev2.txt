@@ -1,0 +1,12 @@
+parameter		current		nominal		minimum		maximum
+:dpt_rev7:esl		2.04955e-09	6.36e-09	1e-09		2e-08	
+:dpt_rev7:esr		0.00383573	0.0075		0.001		0.02	
+:dpt_rev7:lb		1e-09		8.3e-09		1e-09		2e-08	
+:dpt_rev7:lg		1e-09		1.5e-09		1e-09		5e-08	
+:dpt_rev7:ramp_off	1.00078e-09	1e-08		1e-09		2e-08	
+:dpt_rev7:ramp_on	1e-09		1e-08		1e-09		2e-08	
+:dpt_rev7:toff1		3.50271e-05	3.5e-05		3.49e-05	3.51e-05	
+:dpt_rev7:toff2		5.01607e-06	5e-06		4.9e-06		5.1e-06	
+:dpt_rev7:ton1		0.000126089	0.000126	0.0001259	0.0001261	
+:dpt_rev7:ton2		5.08784e-06	5e-06		4.9e-06		5.1e-06	
+:dpt_rev7:r.rg:rnom	0.221554	0.1		0.01		10	

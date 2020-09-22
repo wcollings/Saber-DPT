@@ -1,0 +1,3392 @@
+class ::MA::MOSFET
+version 1.4
+model {
+	type n
+	diode 1
+	recovery 0
+	avalanche 1
+	inductances 0
+	thermal static
+	zthStages 6
+	gan 1
+}
+settings {
+	Switching {
+		sim {
+			tstep 1p
+			tsmax .1n
+			terror 1e-6
+			tniter 30
+			order 2
+			density 1
+		}
+		defs {
+			tdon {
+				start 10% Vgs(on)
+				end 10% Id
+			}
+			tdoff {
+				start 90% Vgs(on)
+				end 90% Id
+			}
+			tr {
+				start 10% Id
+				end 90% Id
+			}
+			tf {
+				start 90% Id
+				end 10% Id
+			}
+			Eon {
+				start 10% Vgs(on)
+				end 2% Vdd
+			}
+			Eoff {
+				start 90% Vgs(on)
+				end 2% Id
+			}
+		}
+		Vdd 50
+		Id 45
+		Vgson 5
+		Vgsoff -3
+		Rgon 1
+		Rgoff 1
+		Load L
+		Diode Ideal
+		tdon 1.431705n
+		tr 538.8236p
+		Eon 3.093633u
+		tdoff 3.646419n
+		tf 573.6898p
+		Eoff 1.70327u
+		tend 5u
+		dIddt 83.80938578118g
+		dVdsdt 33.65787254936g
+	}
+	IdVds {
+		VdsSweep {
+			values 
+			from 0
+			constant 0
+			to 3
+			by 0.1
+			type Step By
+			steps 100
+		}
+		VgsSweep {
+			type Set Values
+			values 3 4 5
+			from 1
+			to 10
+			by 0.1
+			steps 100
+			constant 1
+		}
+	}
+	IdVgs {
+		VgsSweep {
+			values 
+			from 0
+			constant 0
+			to 5
+			by 0.1
+			type Step By
+			steps 100
+		}
+		Vds 10
+	}
+	RdsId {
+		VdsSweep {
+			values 
+			from 0
+			constant 0
+			to 3
+			by 0.1
+			type Step By
+			steps 100
+		}
+		VgsSweep {
+			type Set Values
+			values 3.5 4 4.5 5
+			from 1
+			to 10
+			by 0.1
+			steps 100
+			constant 1
+		}
+	}
+	Caps {
+		VdsSweep {
+			values 
+			from -40
+			constant -10
+			to 100
+			by 0.1
+			type Step By
+			steps 100
+		}
+	}
+	DiodeIV {
+		VSweep {
+			values 
+			from 0
+			constant 0.1
+			to 5
+			steps 100
+			type Linear Steps
+			by 0.1
+		}
+	}
+	Zth1 {
+		TpSweep {
+			values 
+			from 1u
+			constant 1u
+			to 10
+			steps 50
+			type Log Steps
+			by 0.1
+		}
+		DutyCycleSweep {
+			type Set Values
+			values 0 0.01 0.02 0.05 0.1 0.2 0.5
+			from 1
+			to 10
+			by 0.1
+			steps 100
+			constant 1
+		}
+	}
+	Zth2 {
+		TpSweep {
+			values 
+			from 1u
+			constant 1u
+			to 10
+			steps 50
+			type Log Steps
+			by 0.1
+		}
+		DutyCycleSweep {
+			type Set Values
+			values 0.5 0.2 0.1 0.05 0.02 0
+			from 1
+			to 10
+			by 0.1
+			steps 100
+			constant 1
+		}
+	}
+	VgsQg {
+		Vdd 50
+		Vgson 5
+		Vgsoff 0
+		Id 25
+		ViewVds 0
+		Qg 12.92159n
+	}
+	RevRecov {
+		If0 50
+		dIdt 100meg
+		tend 1.5u
+	}
+	IgVgs {
+		VgsSweep {
+			values 
+			from 0
+			constant 0
+			to 10
+			by 0.1
+			type Step By
+			steps 100
+		}
+	}
+}
+ratings {
+	tjmax undef
+	tjmin undef
+	pdmax_ja undef
+	pdmax_jc undef
+	vdsmax undef
+	vgsmax undef
+	idmaxavg undef
+	idmax undef
+}
+rtherms {
+	rth_ja undef
+	rth_jc undef
+	rth_hs undef
+}
+viewMgr {
+	class ::MA::ViewMgr
+	IdVds {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_idvds_25C.PNG
+			zoom 1.0
+			curveCount 3
+			axis {
+				x {
+					name Vds
+					start 0
+					end 3
+					scale linear
+				}
+				y {
+					name Id
+					start 0
+					end 400
+					scale linear
+				}
+			}
+			paramDef fixed
+			frame {
+				class ::MA::ScanFrame
+				x0 48.0
+				y0 245.0
+				x1 334.0
+				y1 245.0
+				x2 48.0
+				y2 28.0
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					parameters {
+						vgs 3
+					}
+					points {
+						point1 {
+							x 331.0
+							y 162.0
+						}
+						point2 {
+							x 297.0
+							y 163.0
+						}
+						point3 {
+							x 257.0
+							y 166.0
+						}
+						point4 {
+							x 202.0
+							y 172.0
+						}
+						point5 {
+							x 157.0
+							y 181.0
+						}
+						point6 {
+							x 116.0
+							y 194.0
+						}
+						point7 {
+							x 85.0
+							y 211.0
+						}
+						point8 {
+							x 63.0
+							y 228.0
+						}
+					}
+				}
+				1 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #00a4cc
+					parameters {
+						vgs 4
+					}
+					points {
+						point1 {
+							x 319.0
+							y 28.0
+						}
+						point2 {
+							x 271.0
+							y 40.0
+						}
+						point3 {
+							x 236.0
+							y 50.0
+						}
+						point4 {
+							x 187.0
+							y 73.0
+						}
+						point5 {
+							x 148.0
+							y 101.0
+						}
+						point6 {
+							x 110.0
+							y 141.0
+						}
+						point7 {
+							x 82.0
+							y 181.0
+						}
+						point8 {
+							x 61.0
+							y 223.0
+						}
+					}
+				}
+				2 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #00a200
+					parameters {
+						vgs 5
+					}
+					points {
+						point1 {
+							x 158.0
+							y 31.0
+						}
+						point2 {
+							x 139.0
+							y 59.0
+						}
+						point3 {
+							x 120.0
+							y 92.0
+						}
+						point4 {
+							x 100.0
+							y 128.0
+						}
+						point5 {
+							x 79.0
+							y 174.0
+						}
+						point6 {
+							x 57.0
+							y 219.0
+						}
+					}
+				}
+			}
+			parameters {
+				vgs {
+					type string
+				}
+			}
+		}
+	}
+	IdVgs {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_idvgs.PNG
+			zoom 1.0
+			curveCount 1
+			axis {
+				x {
+					name Vgs
+					start 0.5
+					end 5
+					scale linear
+				}
+				y {
+					name Id
+					start 0
+					end 400
+					scale linear
+				}
+			}
+			paramDef none
+			frame {
+				class ::MA::ScanFrame
+				x0 50.0
+				y0 249.0
+				x1 337.0
+				y1 249.0
+				x2 50.0
+				y2 30
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					points {
+						point1 {
+							x 270.0
+							y 34.0
+						}
+						point2 {
+							x 249.0
+							y 77.0
+						}
+						point3 {
+							x 229.0
+							y 119.0
+						}
+						point4 {
+							x 205.0
+							y 173.0
+						}
+						point5 {
+							x 187.0
+							y 210.0
+						}
+						point6 {
+							x 168.0
+							y 235.0
+						}
+					}
+				}
+			}
+		}
+	}
+	RdsId {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image 
+			zoom 1.0
+			curveCount 0
+			axis {
+				x {
+					name Id
+					start 0
+					end 100
+					scale linear
+				}
+				y {
+					name Rds
+					start 0
+					end 1
+					scale linear
+				}
+			}
+			paramDef fixed
+			frame {
+				class ::MA::ScanFrame
+				x0 30
+				y0 275
+				x1 360
+				y1 275
+				x2 30
+				y2 30
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+			}
+			parameters {
+				vgs {
+					type string
+				}
+			}
+		}
+	}
+	Caps {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_caps.png
+			zoom 1.0
+			curveCount 3
+			axis {
+				x {
+					name Vds
+					start 0
+					end 100
+					scale linear
+				}
+				y {
+					name C
+					start 1p
+					end 4000p
+					scale log
+				}
+			}
+			paramDef fixed
+			frame {
+				class ::MA::ScanFrame
+				x0 51.0
+				y0 248.0
+				x1 340.0
+				y1 248.0
+				x2 51.0
+				y2 29.0
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					parameters {
+						cap ciss
+					}
+					points {
+						point1 {
+							x 334.0
+							y 57.0
+						}
+						point2 {
+							x 307.0
+							y 57.0
+						}
+						point3 {
+							x 274.0
+							y 57.0
+						}
+						point4 {
+							x 237.0
+							y 57.0
+						}
+						point5 {
+							x 191.0
+							y 57.0
+						}
+						point6 {
+							x 149.0
+							y 57.0
+						}
+						point7 {
+							x 90.0
+							y 57.0
+						}
+						point8 {
+							x 55.0
+							y 52.0
+						}
+					}
+				}
+				1 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #00a4cc
+					parameters {
+						cap coss
+					}
+					points {
+						point1 {
+							x 336.0
+							y 75.0
+						}
+						point2 {
+							x 294.0
+							y 75.0
+						}
+						point3 {
+							x 249.0
+							y 74.0
+						}
+						point4 {
+							x 213.0
+							y 71.0
+						}
+						point5 {
+							x 172.0
+							y 70.0
+						}
+						point6 {
+							x 137.0
+							y 66.0
+						}
+						point7 {
+							x 112.0
+							y 57.0
+						}
+						point8 {
+							x 85.0
+							y 46.0
+						}
+						point9 {
+							x 54.0
+							y 41.0
+						}
+					}
+				}
+				2 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #00a200
+					parameters {
+						cap crss
+					}
+					points {
+						point1 {
+							x 338.0
+							y 207.0
+						}
+						point2 {
+							x 315.0
+							y 206.0
+						}
+						point3 {
+							x 283.0
+							y 205.0
+						}
+						point4 {
+							x 243.0
+							y 202.0
+						}
+						point5 {
+							x 205.0
+							y 199.0
+						}
+						point6 {
+							x 169.0
+							y 194.0
+						}
+						point7 {
+							x 139.0
+							y 188.0
+						}
+						point8 {
+							x 112.0
+							y 174.0
+						}
+						point9 {
+							x 94.0
+							y 152.0
+						}
+						point10 {
+							x 74.0
+							y 123.0
+						}
+						point11 {
+							x 55.0
+							y 98.0
+						}
+					}
+				}
+			}
+			parameters {
+				cap {
+					type enum
+					values ciss coss crss
+				}
+			}
+		}
+	}
+	VgsQg {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_qg.png
+			zoom 1.0
+			curveCount 1
+			axis {
+				x {
+					name Qg
+					start 0
+					end 15n
+					scale linear
+				}
+				y {
+					name Vgs
+					start 0
+					end 5
+					scale linear
+				}
+			}
+			paramDef none
+			frame {
+				class ::MA::ScanFrame
+				x0 54.0
+				y0 254.0
+				x1 340.0
+				y1 254.0
+				x2 54.0
+				y2 36.0
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					points {
+						point1 {
+							x 55.0
+							y 251.0
+						}
+						point2 {
+							x 82.0
+							y 209.0
+						}
+						point3 {
+							x 120.0
+							y 151.0
+						}
+						point4 {
+							x 164.0
+							y 151.0
+						}
+						point5 {
+							x 221.0
+							y 104.0
+						}
+						point6 {
+							x 268.0
+							y 69.0
+						}
+						point7 {
+							x 304.0
+							y 37.0
+						}
+					}
+				}
+			}
+		}
+	}
+	DiodeIV {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_diodeiv.PNG
+			zoom 1.0
+			curveCount 1
+			axis {
+				x {
+					name V
+					start 0
+					end 5
+					scale linear
+				}
+				y {
+					name I
+					start 0
+					end 400
+					scale linear
+				}
+			}
+			paramDef none
+			frame {
+				class ::MA::ScanFrame
+				x0 70.0
+				y0 248.0
+				x1 358.0
+				y1 248.0
+				x2 70.0
+				y2 30
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					points {
+						point1 {
+							x 207.0
+							y 235.0
+						}
+						point2 {
+							x 223.0
+							y 213.0
+						}
+						point3 {
+							x 234.0
+							y 193.0
+						}
+						point4 {
+							x 248.0
+							y 165.0
+						}
+						point5 {
+							x 262.0
+							y 136.0
+						}
+						point6 {
+							x 279.0
+							y 100.0
+						}
+						point7 {
+							x 296.0
+							y 64.0
+						}
+						point8 {
+							x 310.0
+							y 31.0
+						}
+					}
+				}
+			}
+		}
+	}
+	RevRecov {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image 
+			zoom 1.0
+			curveCount 0
+			axis {
+				x {
+					name t
+					start 0
+					end 500n
+					scale linear
+				}
+				y {
+					name Id
+					start -20
+					end 50
+					scale linear
+				}
+			}
+			paramDef none
+			frame {
+				class ::MA::ScanFrame
+				x0 30
+				y0 275
+				x1 360
+				y1 275
+				x2 30
+				y2 30
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+			}
+		}
+	}
+	Switching {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image 
+			zoom 1.0
+			curveCount 0
+			axis {
+				x {
+					name t
+					start 0
+					end 50u
+					scale linear
+				}
+				y {
+					name Id
+					start 0
+					end 100
+					scale linear
+				}
+			}
+			paramDef none
+			frame {
+				class ::MA::ScanFrame
+				x0 30
+				y0 275
+				x1 360
+				y1 275
+				x2 30
+				y2 30
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+			}
+		}
+	}
+	Zth1 {
+		class ::MA::GraphView
+		update replace
+		xscale log
+		yscale log
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_zth.PNG
+			zoom 1.0
+			curveCount 7
+			axis {
+				x {
+					name tp
+					start 10u
+					end 10
+					scale log
+				}
+				y {
+					name Rth
+					start 0.0001
+					end 1
+					scale log
+				}
+			}
+			paramDef fixed
+			frame {
+				class ::MA::ScanFrame
+				x0 90.0
+				y0 196.0
+				x1 458.0
+				y1 196.0
+				x2 90.0
+				y2 19.0
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					parameters {
+						dutyCycle 0
+					}
+					points {
+						point1 {
+							x 92.0
+							y 158.0
+						}
+						point2 {
+							x 122.0
+							y 134.0
+						}
+						point3 {
+							x 154.0
+							y 114.0
+						}
+						point4 {
+							x 195.0
+							y 87.0
+						}
+						point5 {
+							x 237.0
+							y 62.0
+						}
+						point6 {
+							x 278.0
+							y 41.0
+						}
+						point7 {
+							x 316.0
+							y 28.0
+						}
+						point8 {
+							x 347.0
+							y 21.0
+						}
+						point9 {
+							x 388.0
+							y 21.0
+						}
+						point10 {
+							x 426.0
+							y 19.0
+						}
+						point11 {
+							x 454.0
+							y 18.0
+						}
+					}
+				}
+				1 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #00a4cc
+					parameters {
+						dutyCycle 0.01
+					}
+					points {
+						point1 {
+							x 93.0
+							y 104.0
+						}
+						point2 {
+							x 125.0
+							y 106.0
+						}
+						point3 {
+							x 162.0
+							y 98.0
+						}
+						point4 {
+							x 190.0
+							y 86.0
+						}
+						point5 {
+							x 219.0
+							y 71.0
+						}
+						point6 {
+							x 256.0
+							y 51.0
+						}
+						point7 {
+							x 290.0
+							y 34.0
+						}
+						point8 {
+							x 330.0
+							y 21.0
+						}
+						point9 {
+							x 373.0
+							y 20.0
+						}
+						point10 {
+							x 411.0
+							y 19.0
+						}
+						point11 {
+							x 454.0
+							y 20.0
+						}
+					}
+				}
+				2 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #00a200
+					parameters {
+						dutyCycle 0.02
+					}
+					points {
+						point1 {
+							x 93.0
+							y 94.0
+						}
+						point2 {
+							x 126.0
+							y 93.0
+						}
+						point3 {
+							x 162.0
+							y 88.0
+						}
+						point4 {
+							x 193.0
+							y 80.0
+						}
+						point5 {
+							x 216.0
+							y 71.0
+						}
+						point6 {
+							x 243.0
+							y 57.0
+						}
+						point7 {
+							x 270.0
+							y 42.0
+						}
+						point8 {
+							x 306.0
+							y 29.0
+						}
+						point9 {
+							x 338.0
+							y 21.0
+						}
+						point10 {
+							x 384.0
+							y 20.0
+						}
+						point11 {
+							x 427.0
+							y 19.0
+						}
+						point12 {
+							x 455.0
+							y 19.0
+						}
+					}
+				}
+				3 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #caa200
+					parameters {
+						dutyCycle 0.05
+					}
+					points {
+						point1 {
+							x 91.0
+							y 76.0
+						}
+						point2 {
+							x 136.0
+							y 77.0
+						}
+						point3 {
+							x 172.0
+							y 73.0
+						}
+						point4 {
+							x 208.0
+							y 68.0
+						}
+						point5 {
+							x 236.0
+							y 61.0
+						}
+						point6 {
+							x 271.0
+							y 45.0
+						}
+						point7 {
+							x 310.0
+							y 26.0
+						}
+						point8 {
+							x 345.0
+							y 20.0
+						}
+						point9 {
+							x 375.0
+							y 21.0
+						}
+						point10 {
+							x 443.0
+							y 18.0
+						}
+					}
+				}
+				4 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #d05b00
+					parameters {
+						dutyCycle 0.1
+					}
+					points {
+						point1 {
+							x 92.0
+							y 64.0
+						}
+						point2 {
+							x 146.0
+							y 63.0
+						}
+						point3 {
+							x 180.0
+							y 61.0
+						}
+						point4 {
+							x 216.0
+							y 59.0
+						}
+						point5 {
+							x 249.0
+							y 50.0
+						}
+						point6 {
+							x 278.0
+							y 40.0
+						}
+						point7 {
+							x 310.0
+							y 26.0
+						}
+						point8 {
+							x 348.0
+							y 20.0
+						}
+						point9 {
+							x 401.0
+							y 20.0
+						}
+						point10 {
+							x 444.0
+							y 19.0
+						}
+					}
+				}
+				5 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0000a7
+					parameters {
+						dutyCycle 0.2
+					}
+					points {
+						point1 {
+							x 91.0
+							y 51.0
+						}
+						point2 {
+							x 138.0
+							y 51.0
+						}
+						point3 {
+							x 188.0
+							y 50.0
+						}
+						point4 {
+							x 237.0
+							y 47.0
+						}
+						point5 {
+							x 265.0
+							y 40.0
+						}
+						point6 {
+							x 298.0
+							y 30.0
+						}
+						point7 {
+							x 326.0
+							y 21.0
+						}
+						point8 {
+							x 375.0
+							y 21.0
+						}
+						point9 {
+							x 434.0
+							y 21.0
+						}
+						point10 {
+							x 458.0
+							y 19.0
+						}
+					}
+				}
+				6 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #a500a7
+					parameters {
+						dutyCycle 0.5
+					}
+					points {
+						point1 {
+							x 91.0
+							y 32.0
+						}
+						point2 {
+							x 133.0
+							y 32.0
+						}
+						point3 {
+							x 184.0
+							y 34.0
+						}
+						point4 {
+							x 233.0
+							y 33.0
+						}
+						point5 {
+							x 277.0
+							y 29.0
+						}
+						point6 {
+							x 308.0
+							y 25.0
+						}
+						point7 {
+							x 353.0
+							y 19.0
+						}
+						point8 {
+							x 398.0
+							y 18.0
+						}
+						point9 {
+							x 454.0
+							y 16.0
+						}
+					}
+				}
+			}
+			parameters {
+				dutyCycle {
+					type string
+				}
+			}
+		}
+	}
+	Zth2 {
+		class ::MA::GraphView
+		update replace
+		xscale log
+		yscale log
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image 
+			zoom 1.0
+			curveCount 0
+			axis {
+				x {
+					name tp
+					start 10u
+					end 1000
+					scale log
+				}
+				y {
+					name Rth
+					start 10m
+					end 10
+					scale log
+				}
+			}
+			paramDef fixed
+			frame {
+				class ::MA::ScanFrame
+				x0 30
+				y0 275
+				x1 360
+				y1 275
+				x2 30
+				y2 30
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+			}
+			parameters {
+				dutyCycle {
+					type string
+				}
+			}
+		}
+	}
+	IgVgs {
+		class ::MA::GraphView
+		update replace
+		xscale undef
+		yscale undef
+		scanTool {
+			class ::MA::ScanTool
+			version 2.4
+			image epc2022_igvgs.png
+			zoom 1.0
+			curveCount 1
+			axis {
+				x {
+					name Vgs
+					start 0
+					end 6
+					scale linear
+				}
+				y {
+					name Ig
+					start 0
+					end 60m
+					scale linear
+				}
+			}
+			paramDef none
+			frame {
+				class ::MA::ScanFrame
+				x0 70.0
+				y0 417.0
+				x1 538.0
+				y1 417.0
+				x2 70.0
+				y2 60.0
+				color blue
+				type rectangle
+			}
+			curves {
+				class ::MA::ScanCurveMgr
+				0 {
+					class ::MA::ScanCurve
+					symbol s
+					coords 
+					symwidth 2
+					linestyle -
+					fill #0082cc
+					points {
+						point1 {
+							x 540.0
+							y 233.0
+						}
+						point2 {
+							x 533.0
+							y 281.0
+						}
+						point3 {
+							x 525.0
+							y 323.0
+						}
+						point4 {
+							x 516.0
+							y 365.0
+						}
+						point5 {
+							x 506.0
+							y 386.0
+						}
+						point6 {
+							x 495.0
+							y 403.0
+						}
+						point7 {
+							x 477.0
+							y 412.0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+prmCtr {
+	class ::MA::PrmCtr
+	temps 25 125
+	prm {
+		vt {
+			value 2.116317 1.80459
+			min -10 -10
+			max 10 10
+			locked 0 0
+		}
+		rds {
+			value 0.001302643 0.001218631
+			min 1m 1m
+			max 1 1
+			locked 0 0
+		}
+		a {
+			value 9160.367 8043.787
+			min 1 1
+			max 10k 10k
+			locked 0 0
+		}
+		b {
+			value 41.8945 111.5296
+			min 0.1 0.1
+			max 500 500
+			locked 0 0
+		}
+		c {
+			value 69.82997 13359.87
+			min 10 10
+			max 50k 50k
+			locked 0 0
+		}
+		d {
+			value 6.86157 7.138538
+			min 0.5 0.5
+			max 10 10
+			locked 0 0
+		}
+		e {
+			value 1000.0 964.2227
+			min 1 1
+			max 1k 1k
+			locked 0 0
+		}
+		f {
+			value 1.766178 1.945764
+			min 0.2 0.2
+			max 2 2
+			locked 0 0
+		}
+		x {
+			value 0.2526005 0.001890643
+			min .1m .1m
+			max 0.99 0.99
+			locked 0 0
+		}
+		y {
+			value 2.49269 2.336589
+			min 0.1 0.1
+			max 2.5 2.5
+			locked 0 0
+		}
+		z {
+			value 1.647002 1.658005
+			min 1.5 1.5
+			max 6 6
+			locked 0 0
+		}
+		alpha {
+			value 499.9892 222.3212
+			min 0.1 0.1
+			max 500 500
+			locked 0 0
+		}
+		vaf {
+			value 120.2898 120
+			min 50 50
+			max 500 500
+			locked 0 0
+		}
+		roff {
+			value 1meg 1meg
+			locked 0 0
+		}
+		ron {
+			value 0.004547534 0.007495716
+			min 1u 1u
+			max 1 1
+			locked 0 0
+		}
+		vd {
+			value 2.388297 2.177354
+			min 0 0
+			max 10 10
+			locked 0 0
+		}
+		n {
+			value 8.331611 6.303957
+			min 2 2
+			max 100 100
+			locked 0 0
+		}
+		vz {
+			value 100 100
+			locked 0 0
+		}
+		rz {
+			value 1 1
+			locked 0 0
+		}
+		dvz {
+			value 1 1
+			locked 0 0
+		}
+		nz {
+			value 3 3
+			locked 0 0
+		}
+		rrk {
+			value 5033.2 5033.2
+			min 1 1
+			max 100k 100k
+			locked 0 0
+		}
+		rrtau {
+			value 12.889n 12.889n
+			min 0.1n 0.1n
+			max 1u 1u
+			locked 0 0
+		}
+		crss0 {
+			value 1.270288n
+			locked 0
+		}
+		crss1 {
+			value 1.263606n
+			locked 0
+		}
+		crss2 {
+			value 404.3082p
+			locked 0
+		}
+		coss0 {
+			value 4.013652n
+			locked 0
+		}
+		coss1 {
+			value 3.970462n
+			locked 0
+		}
+		coss2 {
+			value 2.927397n
+			locked 0
+		}
+		ciss0 {
+			value 2.647971n
+			locked 0
+		}
+		v1 {
+			value -3.740987
+			locked 0
+		}
+		v2 {
+			value -1.206881
+			locked 0
+		}
+		m {
+			value 1.573213
+			min 0.1
+			max 10
+			locked 0
+		}
+		vgs0 {
+			value -20.0
+			min -20
+			max 0
+			locked 0
+		}
+		ld {
+			value 0.1n
+			min .1n
+			max 100n
+			locked 1
+		}
+		ls {
+			value 0.2n
+			min .1n
+			max 100n
+			locked 1
+		}
+		lg {
+			value 0.2n
+			min .1n
+			max 100n
+			locked 1
+		}
+		rg {
+			value 0.3 0.3
+			min 1m 1m
+			max 100 100
+			locked 1 1
+		}
+		rgl {
+			value 4.622787 26.43805
+			min 1 1
+			max 1k 1k
+			locked 0 0
+		}
+		ngl {
+			value 24.12252 10.2514
+			min 3 3
+			max 40 20
+			locked 0 0
+		}
+		vgl {
+			value 6.087217 5.425923
+			min 3 3
+			max 20 20
+			locked 0 0
+		}
+		lp {
+			value 0.1n
+			min .1n
+			max 500n
+			locked 0
+		}
+		cp {
+			value 50p
+			min 1p
+			max 1n
+			locked 0
+		}
+		rp {
+			value 100
+			min 1m
+			max 10k
+			locked 0
+		}
+		ld_ext {
+			value .1n
+			min .1n
+			max 200n
+			locked 0
+		}
+		ls_ext {
+			value .1n
+			min .1n
+			max 200n
+			locked 0
+		}
+		lg_ext {
+			value .5n
+			min .1n
+			max 200n
+			locked 0
+		}
+		rth1_1 {
+			value 0.06110105
+			locked 0
+		}
+		cth1_1 {
+			value 0.01411564
+			locked 0
+		}
+		rth1_2 {
+			value 0.2159373
+			locked 0
+		}
+		cth1_2 {
+			value 0.008527462
+			locked 0
+		}
+		rth1_3 {
+			value 0.0819774
+			locked 0
+		}
+		cth1_3 {
+			value 0.00579825
+			locked 0
+		}
+		rth1_4 {
+			value 0.5720184
+			locked 0
+		}
+		cth1_4 {
+			value 0.02148777
+			locked 0
+		}
+		rth1_5 {
+			value 568.185u
+			locked 0
+		}
+		cth1_5 {
+			value 0.6007316
+			locked 0
+		}
+		rth1_6 {
+			value 0.05563332
+			locked 0
+		}
+		cth1_6 {
+			value 28.25004
+			locked 0
+		}
+		rth1_7 {
+			value 1
+			locked 0
+		}
+		cth1_7 {
+			value 1
+			locked 0
+		}
+		rth2_1 {
+			value 0.05453694
+			locked 0
+		}
+		cth2_1 {
+			value 316.2278u
+			locked 0
+		}
+		rth2_2 {
+			value 0.08569015
+			locked 0
+		}
+		cth2_2 {
+			value 568.0112u
+			locked 0
+		}
+		rth2_3 {
+			value 0.1453393
+			locked 0
+		}
+		cth2_3 {
+			value 0.001101476
+			locked 0
+		}
+		rth2_4 {
+			value 0.2307673
+			locked 0
+		}
+		cth2_4 {
+			value 0.002500858
+			locked 0
+		}
+		rth2_5 {
+			value 0.2885559
+			locked 0
+		}
+		cth2_5 {
+			value 0.007012168
+			locked 0
+		}
+		rth2_6 {
+			value 0.1951105
+			locked 0
+		}
+		cth2_6 {
+			value 0.03266158
+			locked 0
+		}
+		rth2_7 {
+			value 1
+			locked 0
+		}
+		cth2_7 {
+			value 1
+			locked 0
+		}
+		vg_tr {
+			value 1p
+			min 1p
+			max 20n
+			locked 0
+		}
+		vg_tf {
+			value 1p
+			min 1p
+			max 20n
+			locked 0
+		}
+	}
+	obj {
+		idvds {
+			error 2.603682 {}
+			locked 0 0
+			newCluster 1 1
+			disabled 0 0
+			scanTool {
+				0 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_idvds_25C.PNG
+					zoom 1.0
+					curveCount 3
+					axis {
+						x {
+							name Vds
+							start 0
+							end 3
+							scale linear
+						}
+						y {
+							name Id
+							start 0
+							end 400
+							scale linear
+						}
+					}
+					paramDef fixed
+					frame {
+						class ::MA::ScanFrame
+						x0 48.0
+						y0 245.0
+						x1 334.0
+						y1 245.0
+						x2 48.0
+						y2 28.0
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						0 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #0082cc
+							parameters {
+								vgs 3
+							}
+							points {
+								point1 {
+									x 331.0
+									y 162.0
+								}
+								point2 {
+									x 297.0
+									y 163.0
+								}
+								point3 {
+									x 257.0
+									y 166.0
+								}
+								point4 {
+									x 202.0
+									y 172.0
+								}
+								point5 {
+									x 157.0
+									y 181.0
+								}
+								point6 {
+									x 116.0
+									y 194.0
+								}
+								point7 {
+									x 85.0
+									y 211.0
+								}
+								point8 {
+									x 63.0
+									y 228.0
+								}
+							}
+						}
+						1 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #00a4cc
+							parameters {
+								vgs 4
+							}
+							points {
+								point1 {
+									x 319.0
+									y 28.0
+								}
+								point2 {
+									x 271.0
+									y 40.0
+								}
+								point3 {
+									x 236.0
+									y 50.0
+								}
+								point4 {
+									x 187.0
+									y 73.0
+								}
+								point5 {
+									x 148.0
+									y 101.0
+								}
+								point6 {
+									x 110.0
+									y 141.0
+								}
+								point7 {
+									x 82.0
+									y 181.0
+								}
+								point8 {
+									x 61.0
+									y 223.0
+								}
+							}
+						}
+						2 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #00a200
+							parameters {
+								vgs 5
+							}
+							points {
+								point1 {
+									x 158.0
+									y 31.0
+								}
+								point2 {
+									x 139.0
+									y 59.0
+								}
+								point3 {
+									x 120.0
+									y 92.0
+								}
+								point4 {
+									x 100.0
+									y 128.0
+								}
+								point5 {
+									x 79.0
+									y 174.0
+								}
+								point6 {
+									x 57.0
+									y 219.0
+								}
+							}
+						}
+					}
+					parameters {
+						vgs {
+							type string
+						}
+					}
+				}
+			}
+		}
+		idvgs {
+			error 1.957671 58.85945
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+			scanTool {
+				0 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_idvgs.PNG
+					zoom 1.0
+					curveCount 1
+					axis {
+						x {
+							name Vgs
+							start 0.5
+							end 5
+							scale linear
+						}
+						y {
+							name Id
+							start 0
+							end 400
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 50.0
+						y0 249.0
+						x1 337.0
+						y1 249.0
+						x2 50.0
+						y2 30
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						0 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #0082cc
+							points {
+								point1 {
+									x 270.0
+									y 34.0
+								}
+								point2 {
+									x 249.0
+									y 77.0
+								}
+								point3 {
+									x 229.0
+									y 119.0
+								}
+								point4 {
+									x 205.0
+									y 173.0
+								}
+								point5 {
+									x 187.0
+									y 210.0
+								}
+								point6 {
+									x 168.0
+									y 235.0
+								}
+							}
+						}
+					}
+				}
+				1 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_idvgs.PNG
+					zoom 1.0
+					curveCount 2
+					axis {
+						x {
+							name Vgs
+							start 0.5
+							end 5
+							scale linear
+						}
+						y {
+							name Id
+							start 0
+							end 400
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 50.0
+						y0 249.0
+						x1 337.0
+						y1 249.0
+						x2 50.0
+						y2 30
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						1 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #00a4cc
+							points {
+								point1 {
+									x 165.0
+									y 230.0
+								}
+								point2 {
+									x 201.0
+									y 189.0
+								}
+								point3 {
+									x 240.0
+									y 138.0
+								}
+								point4 {
+									x 285.0
+									y 81.0
+								}
+								point5 {
+									x 326.0
+									y 32.0
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		rdsid {
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		caps {
+			error 19.96372
+			locked 0
+			newCluster 1
+			disabled 0
+			scanTool {
+				class ::MA::ScanTool
+				version 2.4
+				image epc2022_caps.png
+				zoom 1.0
+				curveCount 3
+				axis {
+					x {
+						name Vds
+						start 0
+						end 100
+						scale linear
+					}
+					y {
+						name C
+						start 1p
+						end 4000p
+						scale log
+					}
+				}
+				paramDef fixed
+				frame {
+					class ::MA::ScanFrame
+					x0 51.0
+					y0 248.0
+					x1 340.0
+					y1 248.0
+					x2 51.0
+					y2 29.0
+					color blue
+					type rectangle
+				}
+				curves {
+					class ::MA::ScanCurveMgr
+					0 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #0082cc
+						parameters {
+							cap ciss
+						}
+						points {
+							point1 {
+								x 334.0
+								y 57.0
+							}
+							point2 {
+								x 307.0
+								y 57.0
+							}
+							point3 {
+								x 274.0
+								y 57.0
+							}
+							point4 {
+								x 237.0
+								y 57.0
+							}
+							point5 {
+								x 191.0
+								y 57.0
+							}
+							point6 {
+								x 149.0
+								y 57.0
+							}
+							point7 {
+								x 90.0
+								y 57.0
+							}
+							point8 {
+								x 55.0
+								y 52.0
+							}
+						}
+					}
+					1 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #00a4cc
+						parameters {
+							cap coss
+						}
+						points {
+							point1 {
+								x 336.0
+								y 75.0
+							}
+							point2 {
+								x 294.0
+								y 75.0
+							}
+							point3 {
+								x 249.0
+								y 74.0
+							}
+							point4 {
+								x 213.0
+								y 71.0
+							}
+							point5 {
+								x 172.0
+								y 70.0
+							}
+							point6 {
+								x 137.0
+								y 66.0
+							}
+							point7 {
+								x 112.0
+								y 57.0
+							}
+							point8 {
+								x 85.0
+								y 46.0
+							}
+							point9 {
+								x 54.0
+								y 41.0
+							}
+						}
+					}
+					2 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #00a200
+						parameters {
+							cap crss
+						}
+						points {
+							point1 {
+								x 338.0
+								y 207.0
+							}
+							point2 {
+								x 315.0
+								y 206.0
+							}
+							point3 {
+								x 283.0
+								y 205.0
+							}
+							point4 {
+								x 243.0
+								y 202.0
+							}
+							point5 {
+								x 205.0
+								y 199.0
+							}
+							point6 {
+								x 169.0
+								y 194.0
+							}
+							point7 {
+								x 139.0
+								y 188.0
+							}
+							point8 {
+								x 112.0
+								y 174.0
+							}
+							point9 {
+								x 94.0
+								y 152.0
+							}
+							point10 {
+								x 74.0
+								y 123.0
+							}
+							point11 {
+								x 55.0
+								y 98.0
+							}
+						}
+					}
+				}
+				parameters {
+					cap {
+						type enum
+						values ciss coss crss
+					}
+				}
+			}
+		}
+		vgsqg {
+			error 3.437309 {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+			scanTool {
+				0 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_qg.png
+					zoom 1.0
+					curveCount 1
+					axis {
+						x {
+							name Qg
+							start 0
+							end 15n
+							scale linear
+						}
+						y {
+							name Vgs
+							start 0
+							end 5
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 54.0
+						y0 254.0
+						x1 340.0
+						y1 254.0
+						x2 54.0
+						y2 36.0
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						0 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #0082cc
+							points {
+								point1 {
+									x 55.0
+									y 251.0
+								}
+								point2 {
+									x 82.0
+									y 209.0
+								}
+								point3 {
+									x 120.0
+									y 151.0
+								}
+								point4 {
+									x 164.0
+									y 151.0
+								}
+								point5 {
+									x 221.0
+									y 104.0
+								}
+								point6 {
+									x 268.0
+									y 69.0
+								}
+								point7 {
+									x 304.0
+									y 37.0
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		diodeiv {
+			error 1.121546 0.9759953
+			locked 0 0
+			newCluster 1 1
+			disabled 0 0
+			scanTool {
+				0 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_diodeiv.PNG
+					zoom 1.0
+					curveCount 1
+					axis {
+						x {
+							name V
+							start 0
+							end 5
+							scale linear
+						}
+						y {
+							name I
+							start 0
+							end 400
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 70.0
+						y0 248.0
+						x1 358.0
+						y1 248.0
+						x2 70.0
+						y2 30
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						0 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #0082cc
+							points {
+								point1 {
+									x 207.0
+									y 235.0
+								}
+								point2 {
+									x 223.0
+									y 213.0
+								}
+								point3 {
+									x 234.0
+									y 193.0
+								}
+								point4 {
+									x 248.0
+									y 165.0
+								}
+								point5 {
+									x 262.0
+									y 136.0
+								}
+								point6 {
+									x 279.0
+									y 100.0
+								}
+								point7 {
+									x 296.0
+									y 64.0
+								}
+								point8 {
+									x 310.0
+									y 31.0
+								}
+							}
+						}
+					}
+				}
+				1 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_diodeiv.PNG
+					zoom 1.0
+					curveCount 2
+					axis {
+						x {
+							name V
+							start 0
+							end 5
+							scale linear
+						}
+						y {
+							name I
+							start 0
+							end 400
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 70.0
+						y0 248.0
+						x1 358.0
+						y1 248.0
+						x2 70.0
+						y2 30
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						1 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #00a4cc
+							points {
+								point1 {
+									x 199.0
+									y 236.0
+								}
+								point2 {
+									x 228.0
+									y 206.0
+								}
+								point3 {
+									x 258.0
+									y 169.0
+								}
+								point4 {
+									x 291.0
+									y 129.0
+								}
+								point5 {
+									x 319.0
+									y 92.0
+								}
+								point6 {
+									x 352.0
+									y 47.0
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		trr {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 1 1
+			disabled 0 0
+		}
+		irr {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		qrr {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		tdon {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 1 1
+			disabled 0 0
+		}
+		tr {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		eon {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		tdoff {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		tf {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		eoff {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		diddt {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		dvdsdt {
+			value {} {}
+			error {} {}
+			locked 0 0
+			newCluster 0 0
+			disabled 0 0
+		}
+		zth1 {
+			error 29.05699
+			locked 0
+			newCluster 1
+			disabled 0
+			scanTool {
+				class ::MA::ScanTool
+				version 2.4
+				image epc2022_zth.PNG
+				zoom 1.0
+				curveCount 7
+				axis {
+					x {
+						name tp
+						start 10u
+						end 10
+						scale log
+					}
+					y {
+						name Rth
+						start 0.0001
+						end 1
+						scale log
+					}
+				}
+				paramDef fixed
+				frame {
+					class ::MA::ScanFrame
+					x0 90.0
+					y0 196.0
+					x1 458.0
+					y1 196.0
+					x2 90.0
+					y2 19.0
+					color blue
+					type rectangle
+				}
+				curves {
+					class ::MA::ScanCurveMgr
+					0 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #0082cc
+						parameters {
+							dutyCycle 0
+						}
+						points {
+							point1 {
+								x 92.0
+								y 158.0
+							}
+							point2 {
+								x 122.0
+								y 134.0
+							}
+							point3 {
+								x 154.0
+								y 114.0
+							}
+							point4 {
+								x 195.0
+								y 87.0
+							}
+							point5 {
+								x 237.0
+								y 62.0
+							}
+							point6 {
+								x 278.0
+								y 41.0
+							}
+							point7 {
+								x 316.0
+								y 28.0
+							}
+							point8 {
+								x 347.0
+								y 21.0
+							}
+							point9 {
+								x 388.0
+								y 21.0
+							}
+							point10 {
+								x 426.0
+								y 19.0
+							}
+							point11 {
+								x 454.0
+								y 18.0
+							}
+						}
+					}
+					1 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #00a4cc
+						parameters {
+							dutyCycle 0.01
+						}
+						points {
+							point1 {
+								x 93.0
+								y 104.0
+							}
+							point2 {
+								x 125.0
+								y 106.0
+							}
+							point3 {
+								x 162.0
+								y 98.0
+							}
+							point4 {
+								x 190.0
+								y 86.0
+							}
+							point5 {
+								x 219.0
+								y 71.0
+							}
+							point6 {
+								x 256.0
+								y 51.0
+							}
+							point7 {
+								x 290.0
+								y 34.0
+							}
+							point8 {
+								x 330.0
+								y 21.0
+							}
+							point9 {
+								x 373.0
+								y 20.0
+							}
+							point10 {
+								x 411.0
+								y 19.0
+							}
+							point11 {
+								x 454.0
+								y 20.0
+							}
+						}
+					}
+					2 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #00a200
+						parameters {
+							dutyCycle 0.02
+						}
+						points {
+							point1 {
+								x 93.0
+								y 94.0
+							}
+							point2 {
+								x 126.0
+								y 93.0
+							}
+							point3 {
+								x 162.0
+								y 88.0
+							}
+							point4 {
+								x 193.0
+								y 80.0
+							}
+							point5 {
+								x 216.0
+								y 71.0
+							}
+							point6 {
+								x 243.0
+								y 57.0
+							}
+							point7 {
+								x 270.0
+								y 42.0
+							}
+							point8 {
+								x 306.0
+								y 29.0
+							}
+							point9 {
+								x 338.0
+								y 21.0
+							}
+							point10 {
+								x 384.0
+								y 20.0
+							}
+							point11 {
+								x 427.0
+								y 19.0
+							}
+							point12 {
+								x 455.0
+								y 19.0
+							}
+						}
+					}
+					3 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #caa200
+						parameters {
+							dutyCycle 0.05
+						}
+						points {
+							point1 {
+								x 91.0
+								y 76.0
+							}
+							point2 {
+								x 136.0
+								y 77.0
+							}
+							point3 {
+								x 172.0
+								y 73.0
+							}
+							point4 {
+								x 208.0
+								y 68.0
+							}
+							point5 {
+								x 236.0
+								y 61.0
+							}
+							point6 {
+								x 271.0
+								y 45.0
+							}
+							point7 {
+								x 310.0
+								y 26.0
+							}
+							point8 {
+								x 345.0
+								y 20.0
+							}
+							point9 {
+								x 375.0
+								y 21.0
+							}
+							point10 {
+								x 443.0
+								y 18.0
+							}
+						}
+					}
+					4 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #d05b00
+						parameters {
+							dutyCycle 0.1
+						}
+						points {
+							point1 {
+								x 92.0
+								y 64.0
+							}
+							point2 {
+								x 146.0
+								y 63.0
+							}
+							point3 {
+								x 180.0
+								y 61.0
+							}
+							point4 {
+								x 216.0
+								y 59.0
+							}
+							point5 {
+								x 249.0
+								y 50.0
+							}
+							point6 {
+								x 278.0
+								y 40.0
+							}
+							point7 {
+								x 310.0
+								y 26.0
+							}
+							point8 {
+								x 348.0
+								y 20.0
+							}
+							point9 {
+								x 401.0
+								y 20.0
+							}
+							point10 {
+								x 444.0
+								y 19.0
+							}
+						}
+					}
+					5 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #0000a7
+						parameters {
+							dutyCycle 0.2
+						}
+						points {
+							point1 {
+								x 91.0
+								y 51.0
+							}
+							point2 {
+								x 138.0
+								y 51.0
+							}
+							point3 {
+								x 188.0
+								y 50.0
+							}
+							point4 {
+								x 237.0
+								y 47.0
+							}
+							point5 {
+								x 265.0
+								y 40.0
+							}
+							point6 {
+								x 298.0
+								y 30.0
+							}
+							point7 {
+								x 326.0
+								y 21.0
+							}
+							point8 {
+								x 375.0
+								y 21.0
+							}
+							point9 {
+								x 434.0
+								y 21.0
+							}
+							point10 {
+								x 458.0
+								y 19.0
+							}
+						}
+					}
+					6 {
+						class ::MA::ScanCurve
+						symbol s
+						coords 
+						symwidth 2
+						linestyle -
+						fill #a500a7
+						parameters {
+							dutyCycle 0.5
+						}
+						points {
+							point1 {
+								x 91.0
+								y 32.0
+							}
+							point2 {
+								x 133.0
+								y 32.0
+							}
+							point3 {
+								x 184.0
+								y 34.0
+							}
+							point4 {
+								x 233.0
+								y 33.0
+							}
+							point5 {
+								x 277.0
+								y 29.0
+							}
+							point6 {
+								x 308.0
+								y 25.0
+							}
+							point7 {
+								x 353.0
+								y 19.0
+							}
+							point8 {
+								x 398.0
+								y 18.0
+							}
+							point9 {
+								x 454.0
+								y 16.0
+							}
+						}
+					}
+				}
+				parameters {
+					dutyCycle {
+						type string
+					}
+				}
+			}
+		}
+		zth2 {
+			error {}
+			locked 0
+			newCluster 1
+			disabled 0
+		}
+		igvgs {
+			error 4.047092 17.3265
+			locked 0 0 0 0
+			newCluster 1 1
+			disabled 0 0
+			scanTool {
+				0 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_igvgs.png
+					zoom 1.0
+					curveCount 1
+					axis {
+						x {
+							name Vgs
+							start 0
+							end 6
+							scale linear
+						}
+						y {
+							name Ig
+							start 0
+							end 60m
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 70.0
+						y0 417.0
+						x1 538.0
+						y1 417.0
+						x2 70.0
+						y2 60.0
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						0 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #0082cc
+							points {
+								point1 {
+									x 540.0
+									y 233.0
+								}
+								point2 {
+									x 533.0
+									y 281.0
+								}
+								point3 {
+									x 525.0
+									y 323.0
+								}
+								point4 {
+									x 516.0
+									y 365.0
+								}
+								point5 {
+									x 506.0
+									y 386.0
+								}
+								point6 {
+									x 495.0
+									y 403.0
+								}
+								point7 {
+									x 477.0
+									y 412.0
+								}
+							}
+						}
+					}
+				}
+				1 {
+					class ::MA::ScanTool
+					version 2.4
+					image epc2022_igvgs.png
+					zoom 1.0
+					curveCount 2
+					axis {
+						x {
+							name Vgs
+							start 0
+							end 6
+							scale linear
+						}
+						y {
+							name Ig
+							start 0
+							end 60m
+							scale linear
+						}
+					}
+					paramDef none
+					frame {
+						class ::MA::ScanFrame
+						x0 70.0
+						y0 417.0
+						x1 538.0
+						y1 417.0
+						x2 70.0
+						y2 60.0
+						color blue
+						type rectangle
+					}
+					curves {
+						class ::MA::ScanCurveMgr
+						1 {
+							class ::MA::ScanCurve
+							symbol s
+							coords 
+							symwidth 2
+							linestyle -
+							fill #00a4cc
+							points {
+								point1 {
+									x 538.0
+									y 123.0
+								}
+								point2 {
+									x 527.0
+									y 218.0
+								}
+								point3 {
+									x 519.0
+									y 268.0
+								}
+								point4 {
+									x 507.0
+									y 309.0
+								}
+								point5 {
+									x 497.0
+									y 338.0
+								}
+								point6 {
+									x 476.0
+									y 367.0
+								}
+								point7 {
+									x 453.0
+									y 384.0
+								}
+								point8 {
+									x 421.0
+									y 399.0
+								}
+								point9 {
+									x 377.0
+									y 406.0
+								}
+								point10 {
+									x 333.0
+									y 413.0
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	alg {
+		simplex {
+			check 1
+			max_stalled 200
+			restart 0
+			max_eval 500
+		}
+		vns {
+			check 1
+			sizes 0.1 0.2 0.4
+			max_stalled 200
+			restart 0
+			max_eval 500
+		}
+		steepdesc {
+			check 1
+			perturbation 1u
+			resolution 10u
+			max_eval 500
+		}
+		loops 3
+		stop_error 0.1
+	}
+	cluster {
+		0 diodeiv idvds idvgs rdsid caps vgsqg trr qrr irr tdon tr eon tdoff tf eoff diddt dvdsdt zth1 zth2 igvgs
+		1 diodeiv idvds idvgs rdsid vgsqg trr qrr irr tdon tr eon tdoff tf eoff diddt dvdsdt igvgs
+	}
+}
+tolerances {
+	vt 0.3
+	rds 0.3
+	qg 0.3
+	rg 0.3
+	vd 0.3
+	ron 0.3
+	irr 0.3
+	vz 0.3
+}
+

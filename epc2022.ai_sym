@@ -1,0 +1,63 @@
+[symbol19]
+desc {}
+uniq 42
+[resources]
+<font>
+{-family helvetica -size 4 -weight normal -slant roman -underline 0 -overstrike 0}
+{-family {OF Helvetica} -size 12}
+{-family {OF Helvetica} -size 4}
+{-family {OF Helvetica} -size 8}
+<color>
+{} {#90ee90}
+<linestyle>
+{-}
+<image>
+<layer>
+{electrical}
+{vis}
+<style>
+[events]
+[section]
+default
+640 0 
+<properties>
+primitive epc2022 SABER {} String 160 240 2 0 0 4 -1 {} {} {} 1 {Saber template} {} {} 6 l
+ref *opt* {} {} String 800 80 0 0 0 5 -1 {} {} {} 1 {Reference Designator} {} {} 6 l
+tool PowerMOSFET {} {} ma_tool 800 -120 0 0 0 3 -1 {} {} {} 1 {Click value to invoke MOSFET Tool} {} {} 6 l
+mosfet *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+cap *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+diode *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+tol *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+mc *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+ratings *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+rth_ja *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+rth_jc *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+rth_hs *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+part_type *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+part_class *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+temp *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+include_stress *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
+<ports>
+d 640 320 1 0 680 680 300 0 7 0 1 -1 0 1 0 {{pin_fault {(open;short=e)} SABER {} PinFault 640 320 0 0 0 7 1 {} {} {} 1 {} {} {} 6 l}} 6
+g 160 0 1 0 40 200 0 0 5 0 1 -1 0 1 0 {{pin_fault {(open;short=c,e)} SABER {} PinFault 160 0 0 0 0 1 1 {} {} {} 1 {} {} {} 6 l}} 6
+s 640 -320 1 0 680 680 -300 0 5 0 1 -1 0 1 0 {} 6
+<sym_events>
+<prop_events>
+<view>
+Default
+The default graphic
+130 -350 992 350
+l l1 0 1 1 0 1 10 -1 0 {160 0 368 0 } {8 10 3} 6 0 
+l l2 0 1 1 0 1 10 -1 0 {448 -128 640 -128 640 -320 } {8 10 3} 6 0 
+l l3 0 1 1 0 1 10 -1 0 {448 128 640 128 640 320 } {8 10 3} 6 0 
+l l4 0 1 1 0 1 10 -1 0 {368 160 368 -160 } {8 10 3} 6 0 
+l l5 0 1 1 0 1 10 -1 0 {448 160 448 -160 } {8 10 3} 6 0 
+l l7 0 1 1 0 1 10 -1 0 {560 48 496 0 } {8 10 3} 6 0 
+l l8 0 1 1 0 1 10 -1 0 {496 0 560 -48 } {8 10 3} 6 0 
+l gr_15_ 0 1 0 0 1 10 -1 0 {768 80 992 80 } {8 10 3} 6 0 
+l gr_16_ 0 1 0 0 1 10 -1 0 {880 80 768 -80 992 -80 880 80 } {8 10 3} 6 0 
+l gr_17_ 0 1 0 0 1 10 -1 0 {640 240 880 240 880 80 } {8 10 3} 6 0 
+l gr_18_ 0 1 0 0 1 10 -1 0 {640 -240 880 -240 880 -80 } {8 10 3} 6 0 
+l gr_25_ 0 1 1 0 1 10 -1 0 {640 0 448 0 } {8 10 3} 6 0 
+l gr_26_ 0 1 1 0 1 10 -1 0 {640 -128 640 0 } {8 10 3} 6 0 
+<view_groups>
