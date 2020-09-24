@@ -1,0 +1,88 @@
+L: work
+R: 2020.03.0.0
+C: compressed
+E: 0000000deaa86a792772f3b6abf1e8408413cce16991e032c96febedebf3b01314a9f06512bd28475022fa0d
+U: DPT
+U_P: DPT
+U_S: 
+	d: Entity Declaration
+	f: DPT.sin
+	l: MAST
+	t: Thu, 24 Sep 2020 21:09:32 GMT
+	d_l: ai_std
+	d_u: header
+	d_l: mast_std
+	d_u: PREDEF_PKG_MAST
+	d_l: std
+	d_u: standard
+U: DPT.DPT
+U_P: DPT
+U_S: DPT
+	d: Architecture declaration mast
+	f: DPT.sin
+	l: MAST
+	t: Thu, 24 Sep 2020 21:09:32 GMT
+	d_l: mast_std
+	d_u: PREDEF_PKG_MAST
+	d_l: ai_electronic
+	d_u: k
+	d_l: ai_electronic
+	d_u: MAST_PKG_c
+	d_l: ai_std
+	d_u: MAST_PKG_standard
+	d_l: ai_std
+	d_u: MAST_PKG_mtype
+	d_l: ai_std
+	d_u: MAST_PKG_dtype
+	d_l: ai_electronic
+	d_u: l
+	d_l: ai_std
+	d_u: MAST_PKG_process
+	d_l: ai_electronic
+	d_u: MAST_PKG_l
+	d_l: ai_electronic
+	d_u: d
+	d_l: ai_std
+	d_u: thermpar
+	d_l: work
+	d_u: DPT
+	d_l: ai_electronic
+	d_u: r
+	d_l: ai_electronic
+	d_u: c
+	d_l: ai_electronic
+	d_u: MAST_PKG_d
+	d_l: ai_electronic
+	d_u: MAST_PKG_r
+	d_l: std
+	d_u: standard
+	d_l: ai_std
+	d_u: header
+U: DPT.DPT.epc2022
+U_P: DPT.DPT.epc2022
+U_S: 
+	d: Entity Declaration
+	f: ./epc2022.sin
+	l: MAST
+	t: Thu, 24 Sep 2020 21:09:32 GMT
+U: DPT.DPT.epc2022.epc2022
+U_P: DPT.DPT.epc2022
+U_S: epc2022
+	d: Architecture declaration mast
+	f: ./epc2022.sin
+	l: MAST
+	t: Thu, 24 Sep 2020 21:09:32 GMT
+U: DPT.DPT.gate_driver_hilow
+U_P: DPT.DPT.gate_driver_hilow
+U_S: 
+	d: Entity Declaration
+	f: ./gate_driver_hilow.sin
+	l: MAST
+	t: Thu, 24 Sep 2020 21:09:32 GMT
+U: DPT.DPT.gate_driver_hilow.gate_driver_hilow
+U_P: DPT.DPT.gate_driver_hilow
+U_S: gate_driver_hilow
+	d: Architecture declaration mast
+	f: ./gate_driver_hilow.sin
+	l: MAST
+	t: Thu, 24 Sep 2020 21:09:32 GMT

@@ -1,0 +1,12 @@
+This directory contains Advanced Waveform Database (AWD).
+
+The database was written using AWD software version 10.
+It may be read using any later version of AWD.
+
+This file is created for the convenience of the user.
+It is never read or modified by AWD.
+
+To move or rename the database, you must move or rename
+both this directory and the associated reference file:
+    mv name_awd path/name_awd
+    mv name.ai_awd path/name.ai_awd

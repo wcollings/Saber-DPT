@@ -1,0 +1,68 @@
+proc fit {wf ref_wf} {
+    set max [Measure:Maximum  $ref_wf]
+    set tend [lindex [wf:info $ref_wf -xrange] 1]
+    set error 0
+    set diff [calc $wf-$ref_wf]
+    set square [calc $diff*$diff]
+    set integ [calc integ($square)]
+    set error [calc [Measure:At $integ $tend]/$max/$max/$tend]
+    pf:close $diff $square $integ
+    return $error
+}
+
+proc fitVds {wf} {
+    global WF
+    return [fit $wf $WF(vds)]
+}
+
+proc fitVgs {wf} {
+    global WF
+    return [fit $wf $WF(vgs)]
+}
+
+proc fitId {wf} {
+    global WF
+    return [fit $wf $WF(id)]
+}
+
+set time_data [read_file _time.txt]
+set time_data [split $time_data \n]
+set vds_data [read_file _vds.txt]
+set vds_data [split $vds_data \n]
+set vgs_data [read_file _vgs.txt]
+set vgs_data [split $vgs_data \n]
+set id_data [read_file _id.txt]
+set id_data [split $id_data \n]
+
+global WF
+set WF(vds) [wf create -yname vds -yunit V]
+set WF(vgs) [wf create -yname vgs -yunit V]
+set WF(id) [wf create -yname id -yunit A]
+set time0 [lindex $time_data 0]
+set i 0
+while 1 {
+    set time [calc [lindex $time_data $i]-$time0]
+	 set time [calc $i * 8n]
+    set vds [lindex $vds_data $i]
+    set vgs [lindex $vgs_data $i]
+    set id [lindex $id_data $i]
+    incr i
+    ;if {$time > 190u} break
+	 ;set window 0
+	 ;if {$time > 159u && $time < 162u} { set window 1 }
+	 ;if {$time > 165.5u && $time < 167.5u} { set window 1 }
+	 ;if { $window == 0 } { continue }
+    wf $WF(vds) add -x $time -y $vds
+    wf $WF(vgs) add -x $time -y $vgs
+    wf $WF(id) add -x $time -y $id
+}
+wf $WF(vds) done
+wf $WF(vgs) done
+wf $WF(id) done
+puts vds=$WF(vds)
+puts vgs=$WF(vgs)
+puts id=$WF(id)
+wf:write $WF(vds) vds_pl
+wf:write $WF(vgs) vgs_pl
+wf:write $WF(id) id_pl
+

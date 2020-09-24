@@ -1,0 +1,29 @@
+SABER_PID 15800
+SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
+MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
+
+     Searching for licenses ...
+SABER_SIMULATOR:                 license.
+
+     Thu Sep 24 5:09:31 PM Eastern Daylight Time 2020
+
+Calling MAST compiler...
+./gate_driver_hilow.sin:
+Parsing ./gate_driver_hilow.sin...
+Parsing ./epc2022.sin...
+Parsing DPT.sin...
+TheHDL Compiler
+Syntactic check complete; continuing design analysis....
+	
+WARNING:  There is no ground (node 0) in ":DPT(DPT):". "n_170" is taken
+
+as the reference point.
+SaberHDL
+>
+dc  -progress 500;tr  -terror 5E-09 -order 1 -pins all -siglist :...:* -tniter 15 -progress 500 -tstep 0.1n -tend 200u 
+execution time= 0 sec.
+Progress -   0% : Time: 0 sec
+Progress - 100% : Time: 200e-6 sec
+execution time= 172E-3 sec.
+>
+exit 

@@ -1,1 +1,205 @@
+ScopeSigMgr:LoadSigList .aimSignalsRD C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/vds_pl.ai_pl
+# PF:1
+GrXY:NewGraph
+# Graph0
+ScopeSigMgr:GetWFbyName PF:1 vds 1 1
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+ScopeSigMgr:LoadSigList .aimSignalsRD C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/id_pl.ai_pl
+# PF:2
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph:Select Graph0
+ScopeSigMgr:GetWFbyName PF:2 id 1 1
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -regswap 1
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+SaberRD:SetElementAttribute AxisX(0) rangemin 160.5
+SaberRD:SetElementAttribute AxisX(0) rangemin 160.5u
+SaberRD:SetElementAttribute AxisX(0) rangemax 161.9u
+Graph itemselect AxisX(0) add
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph itemselect AxisY(0,0) add
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+SaberRD:SetElementAttribute AxisY(0,0) rangemax 80
+Graph:DSel
+Graph itemselect AxisY(1,0) add
+# AxisY(1,0)
+SaberRD:SetElementAttribute AxisY(1,0) rangemin -9
+SaberRD:SetElementAttribute AxisY(1,0) rangemax 21
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph axisconfig AxisY(0,0) -gridvis yes
+Graph axisconfig AxisX(0) -gridvis yes
+Graph axisconfig AxisY(1,0) -gridvis yes
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -width 3
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -fill #ea1700
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -fill #ea1700
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -width 3
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+SaberRD:SetColorStyle ColorOnWhite
+SaberRD:SetColorStyle ColorOnWhite
+Graph:DSel
+SaberRD:SetColorStyle ColorOnWhite
+Mdi:WinSel .mdi1
+Mdi:WinSel .mdi2
+SaberRD:SetColorStyle BlackOnWhite
+SaberRD:SetColorStyle ColorOnWhite
+SaberRD:SetColorStyle BlackOnWhite
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph:DSel
+SaberRD:SetColorStyle ColorOnWhite
+SaberRD:SetColorStyle Custom
+sch pan left 0.00001
+sch pan right 0.00001
+sch pan left 0.00001
+sch pan right 0.00001
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph:DSel
+Graph:DSel
+Mdi:WinSel .mdi1
+Mdi:WinSel .mdi2
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -symbol o
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -symbol o
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{12.765903683339 -2.8773228522989} {161.11014u 161.35089u}}
+Graph axisconfig AxisY(0,0) -range {69.8970906451 0.47540870585172}
+Graph axisconfig AxisY(0,0) -range {67.406626719029 -5.4394431185686}
+Graph axisconfig AxisY(0,0) -range {69.706173237068 -0.7272596721476}
+Graph axisconfig AxisY(0,0) -range {59.97779852585 0.051010304749809}
+Graph axisconfig AxisY(1,0) -range {11.298941697201 -3.6438418592297}
+Graph:DSel
+Graph itemselect AxisY(1,0) add
+# AxisY(1,0)
+SaberRD:SetElementAttribute AxisY(1,0) rangemin -5
+SaberRD:SetElementAttribute AxisY(1,0) rangemax 11
+Graph:DSel
+# vds=WF:3:1
+# vgs=WF:4:1
+# id=WF:5:1
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+ScopeSigMgr:LoadSigList .aimSignalsRD C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/vds_pl.ai_pl
+# PF:9
+Graph:DSel 0
+Graph:DSel
+Graph:Select Graph0
+ScopeSigMgr:GetWFbyName PF:9 vds 1 1
+# WF:9:1
+Graph addsignal WF:9:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:WinSel .mdi1
+# vds=WF:13:1
+# vgs=WF:14:1
+# id=WF:15:1
+ScopeSigMgr:LoadSigList .aimSignalsRD C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/vds_pl.ai_pl
+# PF:19
+GrXY:NewGraph
+# Graph1
+ScopeSigMgr:GetWFbyName PF:19 vds 1 1
+# WF:19:1
+Graph addsignal WF:19:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+# vds=WF:20:1
+# vgs=WF:21:1
+# id=WF:22:1
+ScopeSigMgr:LoadSigList .aimSignalsRD C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/vds_pl.ai_pl
+# PF:26
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel
+Graph:Select Graph1
+ScopeSigMgr:GetWFbyName PF:26 vds 1 1
+# WF:26:1
+Graph addsignal WF:26:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+ScopeSigMgr:LoadSigList .aimSignalsRD C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/id_pl.ai_pl
+# PF:27
+Graph:DSel 0
+Graph:DSel
+Graph:Select Graph1
+ScopeSigMgr:GetWFbyName PF:27 id 1 1
+# WF:27:1
+Graph addsignal WF:27:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
 SaberRD:Cmd exitSaberRD

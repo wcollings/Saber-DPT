@@ -47,11 +47,6 @@ while 1 {
     set vgs [lindex $vgs_data $i]
     set id [lindex $id_data $i]
     incr i
-    if {$time > 190u} break
-	 set window 0
-	 if {$time > 159u && $time < 162u} { set window 1 }
-	 if {$time > 165.5u && $time < 167.5u} { set window 1 }
-	 if { $window == 0 } { continue }
     wf $WF(vds) add -x $time -y $vds
     wf $WF(vgs) add -x $time -y $vgs
     wf $WF(id) add -x $time -y $id

@@ -1,0 +1,911 @@
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             526.60914089626p
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113367938557e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.28 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4370972621476n
+* :DPT:l.lg_low:l         4.4297725804304n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.111933818501e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.12 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405587232342n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108935499723e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 922E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.36383599129436
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.107679143783e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 469E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4727097306744n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108935399868e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 531E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             3.4673860216115n
+* :DPT:l.lg_high:l        1.4413264516977n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 78.1E-3 sec.
+messages given: 1 warning, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113312699751e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d1@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d3@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):idfwd is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):vgsi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):cdg is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):idfwd is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
+ERROR "BUG_I_BUFFER": restore
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.8 sec.
+messages given: 2 warnings, 8 errors, 2 internal errors
+For more information on internal errors, please check the .ai_out file
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108772573272e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.09 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999999
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405564669974n
+* :DPT:l.lg_low:l         9.7572675912202n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.109058779368e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 984E-3 sec.
+messages given: 2 warnings, 1 error
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         1n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.104652451164e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 219E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             5.9225110849324n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11331256751e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.75 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108935987492e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 766E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.9097549234427
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113865073238e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 484E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         5.4522862289705n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113327909167e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 266E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74998638330215
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108940732941e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 922E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.86213288146826
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.114738580062e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d1@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d3@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
+ERROR "BUG_I_BUFFER": restore
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 281E-3 sec.
+messages given: 2 warnings, 2 errors, 2 internal errors
+For more information on internal errors, please check the .ai_out file
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         5.5241765208055n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113618021086e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.26 sec.
+messages given: 2 warnings, 1 error
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.8480532180447
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.115507354338e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 875E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.62856035216417
+* :DPT:l.lb:l             3.4670138594091n
+* :DPT:l.lg_high:l        1.4450637949917n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 125E-3 sec.
+messages given: 1 warning, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             1.4672426597653n
+* :DPT:l.lg_high:l        2.8694493770719n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108870974187e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.34 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        7.4565179456796n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113542343306e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.45 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.7497799272535
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108952358251e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 672E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             2.6946303800649n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.626451336261n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113314977261e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 3.01 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74967315299899
+* :DPT:l.lb:l             3.7681476540199n
+* :DPT:l.lg_high:l        1n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.108782034163e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.76 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         3.6823523560759n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.111393098626e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.64 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999893608094
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         5.6251873546727n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11399515955e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.56 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.52125434800237
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 161.1548942688e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 156E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         1.4156333332642n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.10962019245e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 969E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             3.9718276887388n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113313137075e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.75 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.8439316403479n
+* :DPT:l.lg_low:l         5.6979348659048n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.114513986296e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.78 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         2.4517072186578n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11047780615e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 641E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.85386940973363
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.115126070468e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.69 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         10n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.10893619875e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 687E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.91579534741533
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945473n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11419437057e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 891E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.93275696875233
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         6.6316327945453n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113999701506e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 859E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.473098609528n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         3.9001155150435n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.111449889388e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.22 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.5003954597401n
+* :DPT:l.lg_high:l        4.9195205307492n
+* :DPT:l.lg_low:l         2.7038021516638n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.110648195876e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 3.09 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         3.7659853010894n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.111576495507e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 547E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         1.8927795727612n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.110120485011e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.64 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.75000197766703
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         4.9915305941847n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.112547628386e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 594E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         1n
+
+Problem evaluating analysis: execution time= 15.6E-3 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.104652652275e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 391E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.74999999999944
+* :DPT:l.lb:l             3.4674050892877n
+* :DPT:l.lg_high:l        1.4405744818645n
+* :DPT:l.lg_low:l         9.4036420255337n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.109449491242e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 297E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.78531243906315
+* :DPT:l.lb:l             2.5049620581351n
+* :DPT:l.lg_high:l        1.5548521521803n
+* :DPT:l.lg_low:l         6.03261729735n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11454661392e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d1@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d3@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
+ERROR "BUG_I_BUFFER": restore
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.97 sec.
+messages given: 2 warnings, 2 errors, 2 internal errors
+For more information on internal errors, please check the .ai_out file
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.79652212162035
+* :DPT:l.lb:l             4.0383808678975n
+* :DPT:l.lg_high:l        1.4383038682591n
+* :DPT:l.lg_low:l         5.9332233683085n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11384395988e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.86 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.79166126972327
+* :DPT:l.lb:l             4.7045705667527n
+* :DPT:l.lg_high:l        1.4762116889179n
+* :DPT:l.lg_low:l         6.1448920209352n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.115123132583e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2 sec.
+messages given: 2 warnings, 1 error
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.38646162869151
+* :DPT:l.lb:l             609.66304519033p
+* :DPT:l.lg_high:l        1.1870239398966n
+* :DPT:l.lg_low:l         2.5904740804236n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11151109342e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.56 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.8372189439033
+* :DPT:l.lb:l             2.7889339083299n
+* :DPT:l.lg_high:l        1.3238818064412n
+* :DPT:l.lg_low:l         6.5404293993393n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 166.05572261197e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.28 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.38647194976374
+* :DPT:l.lb:l             609.54620958146p
+* :DPT:l.lg_high:l        1.1871065118269n
+* :DPT:l.lg_low:l         2.5905162456218n
+
+Problem evaluating analysis: execution time= 15.6E-3 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.111508671072e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.09 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.83562814134378
+* :DPT:l.lb:l             3.2199338811276n
+* :DPT:l.lg_high:l        1.3450097838n
+* :DPT:l.lg_low:l         5.8742476132573n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.11330625459e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 219E-3 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k1:k             0.84477059291238
+* :DPT:l.lb:l             3.8653795105828n
+* :DPT:l.lg_high:l        1.3990320470074n
+* :DPT:l.lg_low:l         6.0605905387387n
+
+Problem evaluating analysis: execution time= 0 sec.
+
+WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 100 to 500 at time 35.113576736367e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.75 sec.
+messages given: 2 warnings, 2 errors
+
+
+
+

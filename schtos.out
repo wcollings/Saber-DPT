@@ -1,0 +1,28 @@
+Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64\bin\schtos.map'.
+schtos Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
+This program/application is protected under the patent and copyright laws
+of the United States and selected foreign countries.
+For a complete listing of intellectual property protection run the netlister as an operating system command or look in the manual.  
+PARSe mapping file schtos, execution time=0.234 sec.
+Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64\bin\analogy.map'.
+PARSe mapping file analogy, execution time=0.234 sec.
+Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64/bin/user.map'.
+PARSe mapping file user, execution time=0.266 sec.
+EXTract design from database, execution time=0.312 sec.
+Symbol 'r' instantiated as template
+'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/r.sin'.
+Symbol 'lh' instantiated as template
+'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/l.sin'.
+Symbol 'd' instantiated as template
+'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/semiconductor/diodes/d.si
+n'.
+Symbol 'c' instantiated as template
+'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/c.sin'.
+Symbol 'gate_driver_hilow' instantiated as template './gate_driver_hilow.sin'.
+Symbol 'epc2022' instantiated as template './epc2022.sin'.
+Symbol 'k' instantiated as template
+'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/k.sin'.
+INStantiate design, execution time=0.266 sec.
+SPLIT design, execution time=0.234 sec.
+SIMUlator input for the vhdlams simulator done, execution time=0.234 sec.
+BACK annotation and renaming file writing done, execution time=0.234 sec.

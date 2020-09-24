@@ -1,0 +1,94 @@
+class ::PA::Tool
+version 1.6
+eval {
+	parallel 1
+	timeout 300
+}
+simulator saberhdl
+test {
+	1 {
+		class ::PA::Test
+		parameter {
+			1 {
+				name :DPT:l.lg_low:l
+				alias 
+				current 1.5n
+				nominal 1.5n
+				domain range
+				min 1n
+				max 50n
+				fixed 0
+				values 
+			}
+		}
+		analysis {
+			1 {
+				text dc
+			}
+			2 {
+				text tr -tend 200u -tstep 1n -terror 1E-7 -order 1 -tniter 15 -nsdensity 10
+			}
+		}
+		measure {
+			1 {
+				text fitId
+				analysis 2
+				signals :DPT:epc2022.epc2022_1:id
+				wfexpr :DPT:epc2022.epc2022_1:id
+				function procedure
+				procedure fitId
+			}
+			2 {
+				text fitVds
+				analysis 2
+				signals :DPT:epc2022.epc2022_1:vds
+				wfexpr :DPT:epc2022.epc2022_1:vds
+				function procedure
+				procedure fitVds
+			}
+		}
+		objective {
+			1 {
+				text min(fitId)
+				checked 1
+				weight 1
+			}
+			2 {
+				text min(fitVds)
+				checked 1
+				weight 1
+			}
+		}
+		algorithm {
+			1 {
+				text Variable Neighborhood Search
+				checked 1
+				sizes 0.15 0.05
+				max_stalled 200
+				restart 0
+				corner 0
+				max_eval 1000
+			}
+			2 {
+				text Downhill Simplex
+				checked 1
+				sizes 0.15 0.05
+				max_stalled 200
+				restart 0
+				max_eval 1000
+			}
+			3 {
+				text Steepest Descent
+				checked 1
+				perturbation 1u
+				resolution 10u
+				restart 0
+				max_eval 1000
+			}
+		}
+		loops 1
+		text test1
+		checked 1
+	}
+}
+
