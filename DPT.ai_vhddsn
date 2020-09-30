@@ -1,5 +1,5 @@
 [ai_vhddsn0]
 Design Root DPT
-./gate_driver_hilow.sin
 ./epc2022.sin
+./gate_driver_hilow.sin
 DPT.sin

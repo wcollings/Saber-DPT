@@ -26,7 +26,7 @@
         <value>0.1n</value>
       </setting>
       <setting name="tend" serializeAs="String">
-        <value>200u</value>
+        <value>310u</value>
       </setting>
     </sectionInstance>
   </sectionGroupInstance>

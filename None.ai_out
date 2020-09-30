@@ -1,0 +1,12 @@
+SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
+MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
+
+
+     Wed Sep 30 10:19:16 AM Eastern Daylight Time 2020
+
+Calling MAST compiler...
+./gate_driver_hilow.sin:
+Parsing ./gate_driver_hilow.sin...
+TheHDL Compiler
+Syntactic check complete; continuing design analysis....
+	

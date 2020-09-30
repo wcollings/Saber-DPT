@@ -2,14 +2,14 @@
 #                                                                              #
 #  Saber netlist for design DPT                                                #
 #  Created by the Saber Integration Toolkit         0 of Synopsys, Inc.      #
-#  Created on Thu Sep 24 17:09:30 2020.                                        #
+#  Created on Wed Sep 30 10:48:52 2020.                                        #
 #                                                                              #
 ################################################################################
 
-number lg_hi=1.4092218704216n
-number lg_low=6.7107744188311n
+number lg_hi=1.409n
+number lg_low=6.71
 number rshunt=0.5
-number lb=3.7154658161515n
+number lb=3.715n
 
 ################################################################################
 #                                                                              #
@@ -17,20 +17,19 @@ number lb=3.7154658161515n
 #                                                                              #
 ################################################################################
 
-r.r1 p:n_189 m:n_190 = rnom=7.5m
-l.lb p:n_1 m:n_7 = l=lb
-r.r5 p:n_19 m:s = rnom=0.1
-r.rg p:n_153 m:n_208 = rnom=0.1
-l.l4 p:n_190 m:n_19 = l=6.36n
+r.ESR p:n_189 m:n_190 = rnom=0.001031023938142
+r.r5 p:n_19 m:s = rnom=0.025
+r.rg p:n_153 m:n_225 = rnom=0.1
+l.ESL p:n_190 m:n_19 = l=6.36n
 d.d1 n:n_7 p:d 
-d.d3 n:n_207 p:n_162 
+d.d3 n:n_219 p:n_306 
 l.l2 p:n_7 m:d = l=623u
-c.c1 p:n_1 m:n_189 = ic=50, c=1320u
-gate_driver_hilow.gate_driver_hilow3 v_high:n_162 m:s v_low:n_153 = \
-        ton1=126.04u, ton2=5u, ramp_on=10n, toff2=4.9u, toff1=35.1u, von=5.54, \
-        ramp_off=10n
-epc2022.epc2022_1 d:d g:n_170 s:s 
-k.k1 i1:i(l.lg_high) i2:i(l.lg_low) = k=0.77294389952753, l2=l(l.lg_low), \
-        l1=l(l.lg_high)
-l.lg_high p:n_207 m:n_170 = l=lg_hi
-l.lg_low p:n_208 m:n_170 = l=lg_low
+c.c1 p:n_1 m:n_189 = ic=50, c=600u
+k.k2 i1:i(l.lg_high) i2:i(l.lg_low) = k=0.77, l2=l(l.lg_low), l1=l(l.lg_high)
+l.lb p:n_1 m:n_7 = l=782.74006250679p
+l.lg_high p:n_219 m:n_275 = l=9.9974010060087n
+l.lg_low p:n_225 m:n_275 = l=9.8613091685069n
+epc2022.epc2022_1 d:d g:n_275 s:s 
+gate_driver_hilow.gate_driver_hilow3 v_high:n_306 m:s v_low:n_153 = \
+        ton1=289.99u, ton2=5u, ramp_on=5n, toff2=5u, toff1=5u, von=4.5, \
+        voff=-0.1, ramp_off=10n

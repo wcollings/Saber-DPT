@@ -3,8 +3,8 @@
 element template gate_driver_hilow v_high m v_low = ramp_off, ramp_on, toff1, \
     toff2, ton1, ton2, von, voff
 electrical v_high, m, v_low
-number ramp_off=10n, ramp_on=10n, toff1=35.1u, toff2=4.9u, ton1=126.5u, \
-    ton2=5u, von=6, voff=-0.1
+number ramp_off=10n, ramp_on=10n, toff1=5u, toff2=5u, ton1=290u, ton2=5u, \
+    von=6, voff=-0.1
 {
     foreign transition
     state nu current_timeout=0, timeout1=-1, timeout2=-1, timeout3=-1, \

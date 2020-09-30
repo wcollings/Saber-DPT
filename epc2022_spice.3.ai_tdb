@@ -1,0 +1,69 @@
+format_version 3
+template MAST_PKG_epc2022_spice
+
+language mast
+
+design_unit_type package
+
+% Template arguments...
+(0)
+
+% Externals...
+(0)
+
+% Connection points...
+(0)
+
+% Local declarations...
+(0)
+
+% Netlist...
+(0)
+
+format_version 3
+template epc2022_spice
+
+language mast
+
+design_unit_type template
+
+% Template arguments...
+(0)
+
+
+% Externals...
+(1)
+number temp
+
+
+% Connection points...
+(3)
+pin electrical v i gatein
+pin electrical v i drainin
+pin electrical v i sourcein
+
+
+% Local declarations...
+(0)
+
+% Netlist...
+(17)
+pspr.d
+pspr.s
+pspr.g
+pspr.csdconv
+pspr.cgsconv
+pspr.cgdconv
+pspr.vds
+pspr.vgs
+vcvs._gs
+v._ings
+pspc._igs
+vcvs._gd
+v._ingd
+pspc._igd
+vcvs._sd
+v._insd
+pspc._isd
+
+

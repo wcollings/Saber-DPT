@@ -15,9 +15,9 @@
 [dependency]
 [sch_type]
 <properties>
-lg_hi 1.4092218704216n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
-lg_low 6.7107744188311n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
+lg_hi 1.409n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
+lg_low 6.71 SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
 rshunt 0.5 SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
-lb 3.7154658161515n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 0 0 0 {} {} {} 6 l
+lb 3.715n SABER {} simulation_real 0 0 1 0 0 5 -1 -1 {} {} {} {} {} {} 6 {}
 [simulator_type]
 hdl

@@ -216,19 +216,19 @@ quantityEditor {
 		name toff1
 		comment 
 		type argument
-		equation 35.1u
+		equation 5u
 	}
 	Q7 {
 		name toff2
 		comment 
 		type argument
-		equation 4.9u
+		equation 5u
 	}
 	Q8 {
 		name ton1
 		comment 
 		type argument
-		equation 126.5u
+		equation 290u
 	}
 	Q9 {
 		name ton2

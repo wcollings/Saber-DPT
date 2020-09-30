@@ -31,9 +31,9 @@ design_unit_type template
 (8)
 number ramp_off = #1.0e-08
 number ramp_on = #1.0e-08
-number toff1 = #3.51e-05
-number toff2 = #4.9e-06
-number ton1 = #0.0001265
+number toff1 = #5.0e-06
+number toff2 = #5.0e-06
+number ton1 = #0.00029
 number ton2 = #5.0e-06
 number von = #6.0
 number voff = #-0.1

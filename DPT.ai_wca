@@ -42,6 +42,17 @@ test {
 				fixed 0
 				values 
 			}
+			4 {
+				name :DPT:l.esl:l
+				alias 
+				current 6.36n
+				nominal 6.36n
+				domain range
+				min 1n
+				max 20n
+				fixed 0
+				values 
+			}
 		}
 		analysis {
 			1 {
