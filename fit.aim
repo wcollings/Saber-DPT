@@ -47,7 +47,7 @@ while { $i < [llength $time_data] } {
     set vgs [lindex $vgs_data $i]
     set id [lindex $id_data $i]
     incr i
-    if {$time > 297u} {
+    if {$time > 301u} {
         puts "i = $i, time= $time"
         break
     }

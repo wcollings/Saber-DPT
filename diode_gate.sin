@@ -1,0 +1,28 @@
+element template diode_gate p m = model, ratings,
+rth_ja, rth_jc, rth_hs,material, rrm
+
+electrical p,m
+
+export val i i
+export val p pwrd
+external number temp
+
+enum {si,sic} material = si
+enum {_normal,_soft} rrm = _normal
+dp..ratings ratings=(piv=undef, imax=undef, iavg=undef,
+pdmax_ja=undef, pdmax_jc=undef,tjmax=undef, tjmin=undef)
+
+number rth_ja=undef, rth_jc=undef, rth_hs=undef
+
+dp..model model=(rs=0.01,isl=100p,nl=1.0,
+ish=0.001,nh=2.0,cjo=3n,vj=1.0,m=0.5,fc=0.5,
+tt=50n,tm=10n,tsw=0,beta=0,betasw=0,
+trs1=0,trs2=0,xti=3,tnl1=0,tnl2=0,
+xtih=3,tnh1=0,tnh2=0,tnom=25,gamma=0)
+{
+    dp.d p m =model=model,ratings=ratings,
+rth_ja=rth_ja,rth_jc=rth_jc,rth_hs=rth_hs,
+material=material,rrm=rrm
+    pwrd=pwrd(dp.d)
+    i=id(dp.d)
+}

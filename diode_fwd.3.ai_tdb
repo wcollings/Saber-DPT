@@ -1,0 +1,247 @@
+format_version 3
+template MAST_PKG_diode_fwd
+
+language mast
+
+design_unit_type package
+
+% Template arguments...
+(0)
+
+% Externals...
+(0)
+
+% Connection points...
+(0)
+
+% Local declarations...
+(0)
+
+% Netlist...
+(0)
+
+format_version 3
+template diode_fwd
+
+language mast
+
+design_unit_type template
+
+% Template arguments...
+(7)
+strucdefn 1 {(81)
+number isr
+number isl
+number ish
+number ise
+number nr
+number nl
+number nh
+number ne
+number rs
+number rz
+number ikf
+number isz
+number nz
+number nbv
+number bv
+number ibv
+number ikr
+number grev
+number tm
+number tsw
+number tt
+number cjo
+number vj
+number m
+number fc
+number rmod
+number alph0
+number kf
+number af
+number tnom
+number xti
+number xtih
+number xtie
+number xtir
+number xtiz
+number alpha
+number beta
+number betasw
+number tnl1
+number tnl2
+number tnh1
+number tnh2
+number tne1
+number tne2
+number tnr1
+number tnr2
+number tnz1
+number tnz2
+number tnbv1
+number tnbv2
+number trs1
+number trs2
+number trz1
+number trz2
+number tisz1
+number tisz2
+number tgrev
+number tbv1
+number tbv2
+number tikf
+number wb
+number nb
+number eg
+number mun
+number mup
+number rth
+number cth
+number gmin
+number gamma
+number rth_junc
+number tau_junc
+number rth_subs
+number tau_subs
+number rth_case
+number tau_case
+number rth_paste
+number tau_paste
+number rth_sink
+number tau_sink
+number sft1
+number sft2
+}
+strucdefn 2 {(7)
+number piv
+number iavg
+number imax
+number tjmax
+number tjmin
+number pdmax_ja
+number pdmax_jc
+}
+enumdefn 3 {(2)
+si
+sic
+}
+enumdefn 4 {(2)
+_normal
+_soft
+}
+struc ref 1 model = {(81) =rs #0.01
+=isl #1.0e-10
+=nl #1.0
+=ish #0.001
+=nh #2.0
+=cjo #3.0e-09
+=vj #1.0
+=m #0.5
+=fc #0.5
+=tt #5.0e-08
+=tm #1.0e-08
+=tsw #0.0
+=beta #0.0
+=betasw #0.0
+=trs1 #0.0
+=trs2 #0.0
+=xti #3.0
+=tnl1 #0.0
+=tnl2 #0.0
+=xtih #3.0
+=tnh1 #0.0
+=tnh2 #0.0
+=tnom #25.0
+=gamma #0.0
+=isr #undef
+=ise #undef
+=nr #2.0
+=ne #1.0
+=rz #undef
+=ikf #undef
+=isz #undef
+=nz #50.0
+=nbv #0.1
+=bv #undef
+=ibv #0.001
+=ikr #undef
+=grev #1.0e-12
+=rmod #0.0
+=alph0 #0.3
+=kf #0.0
+=af #1.0
+=xtie #3.0
+=xtir #3.0
+=xtiz #undef
+=alpha #2.5
+=tne1 #0.0
+=tne2 #0.0
+=tnr1 #0.0
+=tnr2 #0.0
+=tnz1 #0.0
+=tnz2 #0.0
+=tnbv1 #0.0
+=tnbv2 #0.0
+=trz1 #0.0
+=trz2 #0.0
+=tisz1 #0.0
+=tisz2 #0.0
+=tgrev #0.0
+=tbv1 #0.0
+=tbv2 #0.0
+=tikf #0.0
+=wb #0.001
+=nb #1.0e+15
+=eg #1.11
+=mun #undef
+=mup #undef
+=rth #0.0
+=cth #0.0
+=gmin #1.0e-12
+=rth_junc #undef
+=tau_junc #undef
+=rth_subs #undef
+=tau_subs #undef
+=rth_case #undef
+=tau_case #undef
+=rth_paste #undef
+=tau_paste #undef
+=rth_sink #undef
+=tau_sink #undef
+=sft1 #5.0e-09
+=sft2 #0.8
+}
+struc ref 2 ratings = {(7) =piv #undef
+=imax #undef
+=iavg #undef
+=pdmax_ja #undef
+=pdmax_jc #undef
+=tjmax #undef
+=tjmin #undef
+}
+number rth_ja = #undef
+number rth_jc = #undef
+number rth_hs = #undef
+enum ref 3 material = ?si
+enum ref 4 rrm = ?_normal
+
+
+% Externals...
+(1)
+number temp
+
+
+% Connection points...
+(2)
+pin electrical v i p
+pin electrical v i m
+
+
+% Local declarations...
+(0)
+
+% Netlist...
+(1)
+dp.d
+
+

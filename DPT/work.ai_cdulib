@@ -8,7 +8,7 @@ U_S:
 	d: Entity Declaration
 	f: DPT.sin
 	l: MAST
-	t: Wed, 30 Sep 2020 14:53:59 GMT
+	t: Sun, 04 Oct 2020 19:02:55 GMT
 	d_l: ai_std
 	d_u: header
 	d_l: mast_std
@@ -21,7 +21,17 @@ U_S: DPT
 	d: Architecture declaration mast
 	f: DPT.sin
 	l: MAST
-	t: Wed, 30 Sep 2020 14:53:59 GMT
+	t: Sun, 04 Oct 2020 19:02:55 GMT
+	d_l: ai_electronic
+	d_u: MAST_PKG_r
+	d_l: ai_electronic
+	d_u: MAST_PKG_l
+	d_l: ai_std
+	d_u: MAST_PKG_standard
+	d_l: ai_std
+	d_u: MAST_PKG_mtype
+	d_l: ai_std
+	d_u: MAST_PKG_dtype
 	d_l: mast_std
 	d_u: PREDEF_PKG_MAST
 	d_l: ai_electronic
@@ -29,60 +39,70 @@ U_S: DPT
 	d_l: ai_electronic
 	d_u: MAST_PKG_c
 	d_l: ai_electronic
-	d_u: l
-	d_l: ai_std
-	d_u: MAST_PKG_process
-	d_l: ai_std
-	d_u: MAST_PKG_standard
-	d_l: ai_std
-	d_u: MAST_PKG_mtype
-	d_l: ai_std
-	d_u: MAST_PKG_dtype
-	d_l: ai_electronic
-	d_u: MAST_PKG_r
-	d_l: ai_std
-	d_u: thermpar
-	d_l: ai_electronic
-	d_u: MAST_PKG_d
-	d_l: ai_electronic
-	d_u: c
+	d_u: d
 	d_l: ai_electronic
 	d_u: r
 	d_l: ai_electronic
-	d_u: MAST_PKG_l
+	d_u: c
+	d_l: ai_std
+	d_u: thermpar
+	d_l: ai_std
+	d_u: MAST_PKG_process
 	d_l: ai_electronic
-	d_u: d
-	d_l: work
-	d_u: DPT
+	d_u: l
+	d_l: ai_electronic
+	d_u: dp
 	d_l: std
 	d_u: standard
 	d_l: ai_std
 	d_u: header
+	d_l: ai_std
+	d_u: MAST_PKG_dptype
+	d_l: ai_electronic
+	d_u: MAST_PKG_d
+	d_l: work
+	d_u: DPT
+	d_l: ai_electronic
+	d_u: MAST_PKG_dp
 U: DPT.DPT.epc2022
 U_P: DPT.DPT.epc2022
 U_S: 
 	d: Entity Declaration
 	f: ./epc2022.sin
 	l: MAST
-	t: Wed, 30 Sep 2020 14:53:59 GMT
+	t: Sun, 04 Oct 2020 19:02:55 GMT
 U: DPT.DPT.epc2022.epc2022
 U_P: DPT.DPT.epc2022
 U_S: epc2022
 	d: Architecture declaration mast
 	f: ./epc2022.sin
 	l: MAST
-	t: Wed, 30 Sep 2020 14:53:59 GMT
+	t: Sun, 04 Oct 2020 19:02:55 GMT
 U: DPT.DPT.gate_driver_hilow
 U_P: DPT.DPT.gate_driver_hilow
 U_S: 
 	d: Entity Declaration
 	f: ./gate_driver_hilow.sin
 	l: MAST
-	t: Wed, 30 Sep 2020 14:53:59 GMT
+	t: Sun, 04 Oct 2020 19:02:55 GMT
 U: DPT.DPT.gate_driver_hilow.gate_driver_hilow
 U_P: DPT.DPT.gate_driver_hilow
 U_S: gate_driver_hilow
 	d: Architecture declaration mast
 	f: ./gate_driver_hilow.sin
 	l: MAST
-	t: Wed, 30 Sep 2020 14:53:59 GMT
+	t: Sun, 04 Oct 2020 19:02:55 GMT
+U: DPT.DPT.v35pwm
+U_P: DPT.DPT.v35pwm
+U_S: 
+	d: Entity Declaration
+	f: ./v35pwm.sin
+	l: MAST
+	t: Sun, 04 Oct 2020 19:02:55 GMT
+U: DPT.DPT.v35pwm.v35pwm
+U_P: DPT.DPT.v35pwm
+U_S: v35pwm
+	d: Architecture declaration mast
+	f: ./v35pwm.sin
+	l: MAST
+	t: Sun, 04 Oct 2020 19:02:55 GMT

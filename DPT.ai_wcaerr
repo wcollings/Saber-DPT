@@ -1,523 +1,1396 @@
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             8.3n
-* :DPT:l.lg_high:l        1.8270293353842n
-* :DPT:l.lg_low:l         9.0808522183556n
-* :DPT:r.esr:rnom         0.0057059218297342
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010001988378917
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 295.0072585698e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 516E-3 sec.
-messages given: 2 warnings, 1 error
-
-
-
+Simulation timed out. Consider raising timeout setting.
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             8.3n
-* :DPT:l.lg_high:l        9.955n
-* :DPT:l.lg_low:l         3.9965810901068n
-* :DPT:r.esr:rnom         0.0075000000000001
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.008396308532e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 2.83 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             6.9261811304518n
-* :DPT:l.lg_high:l        9.9550000008012n
-* :DPT:l.lg_low:l         1.6916098064603n
-* :DPT:r.esr:rnom         0.0078680326188008
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0064061402023e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 406E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             6.9261811304518n
-* :DPT:l.lg_high:l        5.0482313911451n
-* :DPT:l.lg_low:l         9.0330114629423n
-* :DPT:r.esr:rnom         0.0074925777504061
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 295.00824695106e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 328E-3 sec.
-messages given: 2 warnings, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             115.30876083826p
-* :DPT:l.lg_high:l        10n
-* :DPT:l.lg_low:l         1.2690937772474n
-* :DPT:r.esr:rnom         0.0070666574915056
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.006079619255e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 1.42 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             363.07643972363p
-* :DPT:l.lg_high:l        10n
-* :DPT:l.lg_low:l         5.0638328853209n
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5578117395364n
+* :DPT:l.lg_low:l         1n
 * :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0098024481895e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d1@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 93.7E-3 sec.
-messages given: 2 warnings, 1 error, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             548.89374073776p
-* :DPT:l.lg_high:l        9.9013527489802n
-* :DPT:l.lg_low:l         2.7707825024713n
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.8168452340841n
 * :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 15.6E-3 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0072508964653e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 187E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             676.39997754435p
-* :DPT:l.lg_high:l        9.9995360063856n
-* :DPT:l.lg_low:l         3.1113679139879n
-* :DPT:r.esr:rnom         0.0026176582176748
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0075632099455e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 328E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             676.39997754435p
-* :DPT:l.lg_high:l        9.9995360063856n
-* :DPT:l.lg_low:l         5.3339285931701n
+* :DPT:k.k2:k             0.59615502014648
+* :DPT:l.lb:l             5.7427036612329n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
 * :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0103858564867e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 109E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             748.09500385399p
-* :DPT:l.lg_high:l        5.5333653546563n
-* :DPT:l.lg_low:l         9.8579480043887n
-* :DPT:r.esr:rnom         0.0010313255535525
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.7323667821581n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0012265089655627
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 295.00659697167e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 422E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             748.09500385399p
-* :DPT:l.lg_high:l        2.7125448269228n
-* :DPT:l.lg_low:l         9.8579480043887n
-* :DPT:r.esr:rnom         0.0010313225587695
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566817089n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010006513617493
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0032295127343e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 1 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             751.79957618745p
-* :DPT:l.lg_high:l        1.025903637564n
-* :DPT:l.lg_low:l         9.8579480043887n
-* :DPT:r.esr:rnom         0.0010313255535525
-
-Problem evaluating analysis: execution time= 15.6E-3 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0032747143914e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 641E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.71869590474p
-* :DPT:l.lg_high:l        5.2362140240713n
-* :DPT:l.lg_low:l         9.8613091685069n
-* :DPT:r.esr:rnom         0.0010313255535525
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0039848874466e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 156E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.997453612752n
-* :DPT:l.lg_low:l         4.0985820026745n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0084535254425e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 1.06 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.8386374964795n
-* :DPT:l.lg_low:l         5.4781633160949n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0110373030262e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 109E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.997453612752n
-* :DPT:l.lg_low:l         1.5894261561418n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0063339055674e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 328E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        1.5902954270251n
-* :DPT:l.lg_low:l         9.8613091685069n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0032611671081e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 469E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.9974010060087n
-* :DPT:l.lg_low:l         3.7280210052992n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.008059207117e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 672E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        3.7178921442153n
-* :DPT:l.lg_low:l         9.8613091685069n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0037743894245e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 328E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.9974010060087n
-* :DPT:l.lg_low:l         4.2308522051937n
-* :DPT:r.esr:rnom         0.001031023938142
-
-Problem evaluating analysis: execution time= 15.6E-3 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.008589248418e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 875E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        1.1930734150333n
-* :DPT:l.lg_low:l         9.8613091685069n
+* :DPT:k.k2:k             0.61016209221371
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
 * :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0032726818538e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d1@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):d.d3@d(d):idi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):idfwd is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):vgsi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):vdgi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):cdg is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):idfwd is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_1@epc2022(epc2022):vdgi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 141E-3 sec.
-messages given: 2 warnings, 8 errors, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        2.3479308060084n
-* :DPT:l.lg_low:l         9.8613091685069n
-* :DPT:r.esr:rnom         0.001031023938142
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        2n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0032410109093e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 2.45 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.9974010060087n
-* :DPT:l.lg_low:l         2.9195991735129n
-* :DPT:r.esr:rnom         0.001031023938142
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.560756679317n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0074123345282e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 516E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        10n
-* :DPT:l.lg_low:l         4.2840431667552n
-* :DPT:r.esr:rnom         0.001031023938142
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8513806903246n
+* :DPT:l.lg_high:l        2n
+* :DPT:l.lg_low:l         1.0012501256516n
+* :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.008803565243e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 453E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        1.1377543506544n
-* :DPT:l.lg_low:l         9.8613091685069n
-* :DPT:r.esr:rnom         0.001031023938142
+* :DPT:k.k2:k             0.50221431417177
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0032749284508e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 312E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        5.2215305903772n
-* :DPT:l.lg_low:l         9.8613091685069n
-* :DPT:r.esr:rnom         0.001031023938142
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             4.9348806182314n
+* :DPT:l.lg_high:l        1.5604822615142n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0040607607283e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 187E-3 sec.
-messages given: 2 warnings, 2 errors
-
-
-
+Problem evaluating analysis: Simulator is not running
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:l.esl:l            6.36n
-* :DPT:l.lb:l             782.74006250679p
-* :DPT:l.lg_high:l        9.9974010060087n
-* :DPT:l.lg_low:l         1.3283792519974n
-* :DPT:r.esr:rnom         0.001031023938142
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8272493530792n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
-Problem evaluating analysis: execution time= 0 sec.
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566795697n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 100 at time 5.0061481581682e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 344E-3 sec.
-messages given: 2 warnings, 2 errors
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59227812770604
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0020519377479n
+* :DPT:r.esr:rnom         0.001
 
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8250372477113n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.54660853034288
+* :DPT:l.lb:l             5.8252956038604n
+* :DPT:l.lg_high:l        1.560756979045n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
 
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59652702404456
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.78498153908686
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607567392819n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8257903197794n
+* :DPT:l.lg_high:l        1.9024755562903n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.1035393346293n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010000293705881
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59512365761196
+* :DPT:l.lb:l             6n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8293350747272n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0019102553799872
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             4.4177255218155n
+* :DPT:l.lg_high:l        1.5607814581714n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59548275156428
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.6351621520258n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59626471184163
+* :DPT:l.lb:l             5.8252956038501n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816389n
+* :DPT:l.lg_low:l         1.8373316895112n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.50486203739164
+* :DPT:l.lb:l             6n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059474027n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59866204127788
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607567322344n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010001870502441
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010358214708525
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8322455920018n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5617098349933n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.3965095876736n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.91800618428552
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001357170738242
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956333706n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0019449025175n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.5
+* :DPT:l.lb:l             5.8268389819135n
+* :DPT:l.lg_high:l        1.5722456535338n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8262891130801n
+* :DPT:l.lg_high:l        1.9553111652281n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010136252953535
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252941769138n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000122690104n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.56410361010504
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8253079708782n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0002836051672n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607563814682n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630146471895
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0005421938765n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             1.0
+* :DPT:l.lb:l             5.8770695659634n
+* :DPT:l.lg_high:l        1.5521623410467n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010062965663029
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59628906455356
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.825295560063n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8694156151728n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000057282641n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156970028
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010000397106945
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252955099751n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630533328639
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        2n
+* :DPT:l.lg_low:l         1.256231539857n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8183331456826n
+* :DPT:l.lg_high:l        1.5607884199941n
+* :DPT:l.lg_low:l         1.0013686300578n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             1.0
+* :DPT:l.lb:l             5.8593546825147n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59927004684353
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010066658905058
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.2331839013447n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.7179436446326n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0079051392439n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.5
+* :DPT:l.lb:l             5.7503994588797n
+* :DPT:l.lg_high:l        2n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8243315526837n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010642444716936
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8866559107133n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0012037935168012
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5419987802392n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.000011426211n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.772120968099
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8256101323348n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8567262666118n
+* :DPT:l.lg_high:l        1.7296985052103n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000938620448n
+* :DPT:r.esr:rnom         0.0024639049145338
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.79974867122278
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5616118654035n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010125344238918
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8476086904422n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607570600837n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60863491694245
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             4.3640870525041n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0042536733634971
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.7555962231857n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.1105673752526n
+* :DPT:l.lg_low:l         1.000007015758n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0237701562676n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.55810664688042
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5608634365942n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010000000000553
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.57655531044757
+* :DPT:l.lb:l             5.8240290578843n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.1082934367659n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.3877872305031n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0179489684778n
+* :DPT:r.esr:rnom         0.0010000346548852
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.56765698415634
+* :DPT:l.lb:l             5.5858042251125n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252585478035n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5107130648203n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59872985870092
+* :DPT:l.lb:l             5.8253042037244n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8246112695802n
+* :DPT:l.lg_high:l        1.5607536034814n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0014401283903973
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252839854628n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0039583846037237
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630375151174
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5588445054405n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0030534926879n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.63039868559243
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5351467721382n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010011599549513
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.58636558084187
+* :DPT:l.lb:l             5.8413984913772n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816576n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956035564n
+* :DPT:l.lg_high:l        1.9470231783123n
+* :DPT:l.lg_low:l         1.0000059507997n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.55835375229273
+* :DPT:l.lb:l             5.8252860398073n
+* :DPT:l.lg_high:l        1.5609270501701n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59761711831092
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.9439442753072n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5383105198527n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.4384466695534n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.5963015697289
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.2889842372378n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010003159137449
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8247685923067n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        2n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0111863665136n
+* :DPT:r.esr:rnom         0.0010000080718065
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59595681951947
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010132737594174
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60977703059261
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010014327417756
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             4.9972683081749n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.7503973399272n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.6456235653192n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630157630063
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5533904912976n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.3946184369667n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.0010000169665361
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.9082998637056n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59630156972694
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.4580870074954n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.55019729390586
+* :DPT:l.lb:l             5.8252956038502n
+* :DPT:l.lg_high:l        1.5607566816597n
+* :DPT:l.lg_low:l         1.0000059507984n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.58053571179599
+* :DPT:l.lb:l             5.8653617997291n
+* :DPT:l.lg_high:l        1.586696664314n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.62558071376834
+* :DPT:l.lb:l             5.827013862366n
+* :DPT:l.lg_high:l        1.6438586764463n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.0011185705381988
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60054368631222
+* :DPT:l.lb:l             5.7768906047951n
+* :DPT:l.lg_high:l        1.5876520089209n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.61766092627098
+* :DPT:l.lb:l             5.8153838583143n
+* :DPT:l.lg_high:l        1.6278706474554n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60373039273514
+* :DPT:l.lb:l             5.8921007175658n
+* :DPT:l.lg_high:l        1.572978494731n
+* :DPT:l.lg_low:l         1n
+* :DPT:r.esr:rnom         0.0011042363175024
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.6381545796353
+* :DPT:l.lb:l             5.7893243040051n
+* :DPT:l.lg_high:l        1.609997351494n
+* :DPT:l.lg_low:l         1.0000023803151n
+* :DPT:r.esr:rnom         0.0010881534947814
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59443336505949
+* :DPT:l.lb:l             5.8462593078721n
+* :DPT:l.lg_high:l        1.5924900296013n
+* :DPT:l.lg_low:l         1.0000005950782n
+* :DPT:r.esr:rnom         0.0010213451720352
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.58836583536648
+* :DPT:l.lb:l             5.8452943729938n
+* :DPT:l.lg_high:l        1.5736732254808n
+* :DPT:l.lg_low:l         1.0000029753948n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.61076571744898
+* :DPT:l.lb:l             5.8261546697642n
+* :DPT:l.lg_high:l        1.6017688388054n
+* :DPT:l.lg_low:l         1.0000029753948n
+* :DPT:r.esr:rnom         0.0010576249515773
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59841886905209
+* :DPT:l.lb:l             5.8010426169816n
+* :DPT:l.lg_high:l        1.5741469058108n
+* :DPT:l.lg_low:l         1.0000029753948n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60688728763616
+* :DPT:l.lb:l             5.8203376211814n
+* :DPT:l.lg_high:l        1.5939604731278n
+* :DPT:l.lg_low:l         1.0000029753948n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60000448404977
+* :DPT:l.lb:l             5.8586029399063n
+* :DPT:l.lg_high:l        1.5668556716426n
+* :DPT:l.lg_low:l         1.0000029753948n
+* :DPT:r.esr:rnom         0.0010508264925774
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.61687322649388
+* :DPT:l.lb:l             5.8072821024454n
+* :DPT:l.lg_high:l        1.5851858325757n
+* :DPT:l.lg_low:l         1.0000041655552n
+* :DPT:r.esr:rnom         0.0010431459604396
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59536673461241
+* :DPT:l.lb:l             5.8357680424359n
+* :DPT:l.lg_high:l        1.5765435148376n
+* :DPT:l.lg_low:l         1.0000032729347n
+* :DPT:r.esr:rnom         0.0010106162338075
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59232041261697
+* :DPT:l.lb:l             5.8352864209232n
+* :DPT:l.lg_high:l        1.5672016466997n
+* :DPT:l.lg_low:l         1.0000044630955n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60349031148
+* :DPT:l.lb:l             5.8257251209724n
+* :DPT:l.lg_high:l        1.5811297915224n
+* :DPT:l.lg_low:l         1.0000044630955n
+* :DPT:r.esr:rnom         0.0010284089418015
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59735928131233
+* :DPT:l.lb:l             5.8131564622372n
+* :DPT:l.lg_high:l        1.567437495136n
+* :DPT:l.lg_low:l         1.0000044630955n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.6015711448073
+* :DPT:l.lb:l             5.822816084816n
+* :DPT:l.lg_high:l        1.5772712064625n
+* :DPT:l.lg_low:l         1.0000044630955n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59815016148295
+* :DPT:l.lb:l             5.8419255344912n
+* :DPT:l.lg_high:l        1.5638032033196n
+* :DPT:l.lg_low:l         1.0000044630955n
+* :DPT:r.esr:rnom         0.00102509828435
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60650018407319
+* :DPT:l.lb:l             5.8162818794909n
+* :DPT:l.lg_high:l        1.5729238315522n
+* :DPT:l.lg_low:l         1.0000050581764n
+* :DPT:r.esr:rnom         0.0010213451720352
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59583396883073
+* :DPT:l.lb:l             5.8305294718997n
+* :DPT:l.lg_high:l        1.5686302383641n
+* :DPT:l.lg_low:l         1.0000046118657n
+* :DPT:r.esr:rnom         0.0010052941031397
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59430765755188
+* :DPT:l.lb:l             5.8302888723468n
+* :DPT:l.lg_high:l        1.563975844313n
+* :DPT:l.lg_low:l         1.0000052069467n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59988517238762
+* :DPT:l.lb:l             5.8255103584527n
+* :DPT:l.lg_high:l        1.5709102096205n
+* :DPT:l.lg_low:l         1.0000052069467n
+* :DPT:r.esr:rnom         0.0010141049954524
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.5968301912081
+* :DPT:l.lb:l             5.8192228677001n
+* :DPT:l.lg_high:l        1.5640935213783n
+* :DPT:l.lg_low:l         1.0000052069467n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59893056187761
+* :DPT:l.lb:l             5.8240557123801n
+* :DPT:l.lg_high:l        1.5689922161298n
+* :DPT:l.lg_low:l         1.0000052069467n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59722515036183
+* :DPT:l.lb:l             5.8336046432795n
+* :DPT:l.lg_high:l        1.5622791998813n
+* :DPT:l.lg_low:l         1.0000052069467n
+* :DPT:r.esr:rnom         0.001012471374583
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.60137925787519
+* :DPT:l.lb:l             5.8207869969063n
+* :DPT:l.lg_high:l        1.566828446205n
+* :DPT:l.lg_low:l         1.0000055044873n
+* :DPT:r.esr:rnom         0.0010106162338075
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59606772342612
+* :DPT:l.lb:l             5.8279119503281n
+* :DPT:l.lg_high:l        1.5646885075248n
+* :DPT:l.lg_low:l         1.0000052813318n
+* :DPT:r.esr:rnom         0.0010026435573721
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59530377883811
+* :DPT:l.lb:l             5.8277917033177n
+* :DPT:l.lg_high:l        1.5623654338745n
+* :DPT:l.lg_low:l         1.0000055788725n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.5980906870623
+* :DPT:l.lb:l             5.8254029801619n
+* :DPT:l.lg_high:l        1.5658252156459n
+* :DPT:l.lg_low:l         1.0000055788725n
+* :DPT:r.esr:rnom         0.0010070278027207
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59656582191559
+* :DPT:l.lb:l             5.8222584440265n
+* :DPT:l.lg_high:l        1.5624242107161n
+* :DPT:l.lg_low:l         1.0000055788725n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59761462013998
+* :DPT:l.lb:l             5.8246756251234n
+* :DPT:l.lg_high:l        1.5648690311961n
+* :DPT:l.lg_low:l         1.0000055788725n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59676318137194
+* :DPT:l.lb:l             5.8294486431476n
+* :DPT:l.lg_high:l        1.5615177552089n
+* :DPT:l.lg_low:l         1.0000055788725n
+* :DPT:r.esr:rnom         0.0010062163656903
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59883503193467
+* :DPT:l.lb:l             5.8230408640183n
+* :DPT:l.lg_high:l        1.5637896170613n
+* :DPT:l.lg_low:l         1.0000057276428n
+* :DPT:r.esr:rnom         0.0010052941031397
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59618463511111
+* :DPT:l.lb:l             5.8266036302354n
+* :DPT:l.lg_high:l        1.5627213580275n
+* :DPT:l.lg_low:l         1.0000056160651n
+* :DPT:r.esr:rnom         0.0010013209062893
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.5958024654074
+* :DPT:l.lb:l             5.8265435199174n
+* :DPT:l.lg_high:l        1.5615608505959n
+* :DPT:l.lg_low:l         1.0000057648354n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59719545840061
+* :DPT:l.lb:l             5.8253492917586n
+* :DPT:l.lg_high:l        1.5632888944884n
+* :DPT:l.lg_low:l         1.0000057648354n
+* :DPT:r.esr:rnom         0.0010035077492081
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59643368118653
+* :DPT:l.lb:l             5.8237768259496n
+* :DPT:l.lg_high:l        1.5615902236061n
+* :DPT:l.lg_low:l         1.0000057648354n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59695773391526
+* :DPT:l.lb:l             5.8249856062384n
+* :DPT:l.lg_high:l        1.5628115037847n
+* :DPT:l.lg_low:l         1.0000057648354n
+* :DPT:r.esr:rnom         0.001
+
+Problem evaluating analysis: Simulator is not running
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:k.k2:k             0.59653233089861
+* :DPT:l.lb:l             5.8273717535265n
+* :DPT:l.lg_high:l        1.5611371720552n
+* :DPT:l.lg_low:l         1.0000057648354n
+* :DPT:r.esr:rnom         0.0010031033674005
+
+Problem evaluating analysis: Simulator is not running
 

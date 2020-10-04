@@ -1,0 +1,296 @@
+class ::MA::Diode_DP
+version 1.2
+ratings {
+	tjmax undef
+	tjmin undef
+	pdmax_ja undef
+	pdmax_jc undef
+	vrrm undef
+	imaxavg undef
+	imax undef
+}
+DiodeParams {
+	rs 0.01
+	isl 100p
+	nl 1.0
+	ish 0.001
+	nh 2.0
+	cjo 3n
+	vj 1.0
+	m 0.5
+	fc 0.5
+	tt 50n
+	tm 10n
+	tsw 0
+	beta 0
+	betasw 0
+	trs1 0
+	trs2 0
+	xti 3
+	tnl1 0
+	tnl2 0
+	xtih 3
+	tnh1 0
+	tnh2 0
+	tnom 25
+	gamma 0
+	sft1 5n
+	sft2 0.8
+	rrm _normal
+}
+rtherms {
+	rth_ja undef
+	rth_jc undef
+	rth_hs undef
+}
+dc {
+	class ::MA::Diode_DP_DC
+	settings {
+		sweep {
+			values 
+			from 0.1
+			constant 0.1
+			to 1.0
+			steps 100
+			type Linear Steps
+			by 0.1
+		}
+		Temp 25
+		XPos2 1.5
+	}
+	optimTemp 25
+	data 25 10m 0.1n 1.0 1m 2
+	rs {
+		value 10m
+		min 1u
+		max 1
+	}
+	isl {
+		value 0.1n
+		min 1f
+		max 2m
+		fixed 0
+	}
+	nl {
+		value 1.0
+		min 0.9
+		max 2
+	}
+	ish {
+		value 1m
+		min 0.5n
+		max 1
+		fixed 0
+	}
+	nh {
+		value 2
+		min 1
+		max 10
+	}
+	viewMgr {
+		class ::MA::ViewMgr
+		view {
+			class ::MA::GraphView
+			update replace
+			xscale undef
+			yscale undef
+			scanTool {
+				class ::MA::ScanTool
+				version 2.4
+				image 
+				zoom 1.0
+				curveCount 0
+				axis {
+					x {
+						name Vd
+						start 1
+						end 10
+						scale linear
+					}
+					y {
+						name Id
+						start 1
+						end 10
+						scale linear
+					}
+				}
+				paramDef fixed
+				frame {
+					class ::MA::ScanFrame
+					x0 30
+					y0 275
+					x1 360
+					y1 275
+					x2 30
+					y2 30
+					color blue
+					type rectangle
+				}
+				curves {
+					class ::MA::ScanCurveMgr
+				}
+				parameters {
+					temp {
+						type string
+					}
+				}
+			}
+		}
+	}
+}
+cj {
+	class ::MA::Diode_DP_Cj
+	cjo 3n
+	vj 1.0
+	m 0.5
+	fc 0.5
+	optimcjo {
+		value 3n
+		min 5p
+		max 100n
+	}
+	optimvj {
+		value 1.0
+		min 0.2
+		max 2.0
+	}
+	optimm {
+		value 0.5
+		min 0.25
+		max 1.0
+	}
+	settings {
+		sweep {
+			values 
+			from 0
+			constant 0
+			to 100
+			steps 200
+			type Linear Steps
+			by 0.1
+		}
+	}
+	viewMgr {
+		class ::MA::ViewMgr
+		view {
+			class ::MA::GraphView
+			update replace
+			xscale undef
+			yscale undef
+			scanTool {
+				class ::MA::ScanTool
+				version 2.4
+				image 
+				zoom 1.0
+				curveCount 0
+				axis {
+					x {
+						name x
+						start 1
+						end 10
+						scale linear
+					}
+					y {
+						name y
+						start 1
+						end 10
+						scale linear
+					}
+				}
+				paramDef none
+				frame {
+					class ::MA::ScanFrame
+					x0 30
+					y0 275
+					x1 360
+					y1 275
+					x2 30
+					y2 30
+					color blue
+					type rectangle
+				}
+				curves {
+					class ::MA::ScanCurveMgr
+				}
+			}
+		}
+	}
+}
+rev {
+	class ::MA::Diode_DP_Rev
+	settings {
+		sweep {
+			values 
+			from 0
+			constant 0
+			to 600n
+			steps 100
+			type Linear Steps
+			by 0.1
+		}
+		Temp 25
+		if0 10
+		dirdt 1e8
+		delay 0
+		rrm normal
+		tm 10n
+		tsw 0
+		sft1 5n
+		sft2 0.8
+	}
+	data 25 50n 10n 0
+	moveP 0
+	viewMgr {
+		class ::MA::ViewMgr
+		view {
+			class ::MA::GraphView
+			update replace
+			xscale undef
+			yscale undef
+			scanTool {
+				class ::MA::ScanTool
+				version 2.4
+				image 
+				zoom 1.0
+				curveCount 0
+				axis {
+					x {
+						name x
+						start 1
+						end 10
+						scale linear
+					}
+					y {
+						name y
+						start 1
+						end 10
+						scale linear
+					}
+				}
+				paramDef fixed
+				frame {
+					class ::MA::ScanFrame
+					x0 30
+					y0 275
+					x1 360
+					y1 275
+					x2 30
+					y2 30
+					color blue
+					type rectangle
+				}
+				curves {
+					class ::MA::ScanCurveMgr
+				}
+				parameters {
+					temp {
+						type string
+					}
+				}
+			}
+		}
+	}
+}
+thermal static
+material si
+

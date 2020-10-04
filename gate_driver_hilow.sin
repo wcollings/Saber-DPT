@@ -3,7 +3,7 @@
 element template gate_driver_hilow v_high m v_low = ramp_off, ramp_on, toff1, \
     toff2, ton1, ton2, von, voff
 electrical v_high, m, v_low
-number ramp_off=10n, ramp_on=10n, toff1=5u, toff2=5u, ton1=290u, ton2=5u, \
+number ramp_off=10n, ramp_on=10n, toff1=5u, toff2=5u, ton1=290.05u, ton2=5u, \
     von=6, voff=-0.1
 {
     foreign transition

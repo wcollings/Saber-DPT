@@ -1,0 +1,16 @@
+parameter	value
+esl		4n
+esr		2m
+lb		5.825n
+lg_high		1.506n
+lg_low		1n
+rg		0.001
+ramp_off	10n
+ramp_on		10n
+toff1		5u
+toff2		5u
+ton1		289.995u
+ton2		5u
+Von		4.6
+Voff		-0.1
+k		0.7906985

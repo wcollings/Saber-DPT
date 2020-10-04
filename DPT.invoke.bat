@@ -1,1 +1,1 @@
-saberhdl -root DPT -source  ./epc2022.sin ./gate_driver_hilow.sin DPT.sin
+saberhdl -root DPT -source  ./gate_driver_hilow.sin ./epc2022.sin ./v35pwm.sin DPT.sin

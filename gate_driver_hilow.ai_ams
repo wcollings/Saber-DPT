@@ -228,7 +228,7 @@ quantityEditor {
 		name ton1
 		comment 
 		type argument
-		equation 290u
+		equation 290.05u
 	}
 	Q9 {
 		name ton2

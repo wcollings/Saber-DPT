@@ -8,7 +8,7 @@
   <sectionGroupInstance name="DesignSettings">
     <sectionInstance name="Tran">
       <setting name="terror" serializeAs="String">
-        <value>5E-09</value>
+        <value>5E-11</value>
       </setting>
       <setting name="order" serializeAs="String">
         <value>1</value>

@@ -25,7 +25,7 @@ ramp_off 10n SABER string {} 320 -360 0 0 0 5 2 {} {} 1 {ramp_off} {} {} 6 l
 ramp_on 10n SABER string {} 320 -480 0 0 0 5 2 {} {} 1 {ramp_on} {} {} 6 l
 toff1 5u SABER string {} 320 -600 0 0 0 5 2 {} {} 1 {toff1} {} {} 6 l
 toff2 5u SABER string {} 320 -720 0 0 0 5 2 {} {} 1 {toff2} {} {} 6 l
-ton1 290u SABER string {} 320 -840 0 0 0 5 2 {} {} 1 {ton1} {} {} 6 l
+ton1 290.05u SABER string {} 320 -840 0 0 0 5 2 {} {} 1 {ton1} {} {} 6 l
 ton2 5u SABER string {} 320 -960 0 0 0 5 2 {} {} 1 {ton2} {} {} 6 l
 von 6 SABER string {} 320 -1080 0 0 0 5 2 {} {} 1 {von} {} {} 6 l
 voff -0.1 SABER string {} 320 -1200 0 0 0 5 2 {} {} 1 {voff} {} {} 6 l

@@ -1,18 +1,18 @@
 program       aim
 command       calculator
 data_file     vgs_pl.p2
-created       9/30/2020 (10:50:22 AM)
+created       10/4/2020 (3:03:04 PM)
 machine_id    1002
 byte_order    little_endian
 fp_format     ieee
 xname         t
 xunits        s
-xrange        I 293.13032u 296.99976u
+xrange        I 293.13032u 300.99976u
 ynames
    vgs
 yunits
    V
 ytype         real
 ncolumns      2
-npoints       12093
+npoints       24593
 format        binary

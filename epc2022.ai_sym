@@ -1,12 +1,10 @@
-[symbol19]
+[symbol20]
 desc {}
-uniq 42
+uniq 39
 [resources]
 <font>
 {-family helvetica -size 4 -weight normal -slant roman -underline 0 -overstrike 0}
 {-family {OF Helvetica} -size 12}
-{-family {OF Helvetica} -size 4}
-{-family {OF Helvetica} -size 8}
 <color>
 {} {#90ee90}
 <linestyle>
@@ -24,19 +22,6 @@ default
 primitive epc2022 SABER {} String 160 240 2 0 0 4 -1 {} {} {} 1 {Saber template} {} {} 6 l
 ref *opt* {} {} String 800 80 0 0 0 5 -1 {} {} {} 1 {Reference Designator} {} {} 6 l
 tool PowerMOSFET {} {} ma_tool 800 -120 0 0 0 3 -1 {} {} {} 1 {Click value to invoke MOSFET Tool} {} {} 6 l
-mosfet *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-cap *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-diode *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-tol *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-mc *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-ratings *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-rth_ja *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-rth_jc *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-rth_hs *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-part_type *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-part_class *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-temp *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
-include_stress *opt* SABER 1 {} 800 -240 0 0 0 {} -1 -1 0 0 3 {} {} {} 6 l
 <ports>
 d 640 320 1 0 680 680 300 0 7 0 1 -1 0 1 0 {{pin_fault {(open;short=e)} SABER {} PinFault 640 320 0 0 0 7 1 {} {} {} 1 {} {} {} 6 l}} 6
 g 160 0 1 0 40 200 0 0 5 0 1 -1 0 1 0 {{pin_fault {(open;short=c,e)} SABER {} PinFault 160 0 0 0 0 1 1 {} {} {} 1 {} {} {} 6 l}} 6
