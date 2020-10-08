@@ -47,12 +47,22 @@ while { $i < [llength $time_data] } {
     set vgs [lindex $vgs_data $i]
     set id [lindex $id_data $i]
     incr i
+	 set window 0
+	 if { $time > 294.9u && $time < 295.35u } {
+	 	set window 1
+	 }
+	 if { $time > 299.9u && $time < 300.1u } {
+	 	set window 1
+	 }
+	 if { $window == 0} {
+	 	continue
+	 }
     if {$time > 301u} {
         puts "i = $i, time= $time"
         break
     }
     set test [catch { wf $WF(vds) add -x $time -y $vds } "time not valid" ]
-	 if { $test != "0"} {
+	 if { $test != 0} {
 	 	puts "Past the last result: $i"
 		break
 	}

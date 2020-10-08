@@ -12,18 +12,18 @@ test {
 			1 {
 				name :DPT:l.lb:l
 				alias l_bus
-				current 6.2012857919341n
+				current 8.3n
 				nominal 8.3n
 				domain range
-				min 100p
-				max 20n
+				min 8.1n
+				max 8.5n
 				fixed 0
 				values 
 			}
 			2 {
 				name :DPT:l.lg_high:l
 				alias lg_high
-				current 10n
+				current 1.1940004834885n
 				nominal 1.4n
 				domain range
 				min 1n
@@ -34,7 +34,7 @@ test {
 			3 {
 				name :DPT:l.lg_low:l
 				alias lg_low
-				current 10n
+				current 5.4752846955716n
 				nominal 1.5n
 				domain range
 				min 1n
@@ -45,7 +45,7 @@ test {
 			4 {
 				name :DPT:k.k2:k
 				alias K_lgh_lgl
-				current 0.81069176551636
+				current 1.0
 				nominal 0.636193
 				domain range
 				min 0.5
@@ -56,18 +56,18 @@ test {
 			5 {
 				name :DPT:r.esr:rnom
 				alias ESR
-				current 0.00103102
-				nominal 0.00103102
+				current 0.0075
+				nominal 0.0075
 				domain range
-				min 100u
-				max 1.0
+				min 0.001
+				max 0.015
 				fixed 0
 				values 
 			}
 			6 {
 				name :DPT:l.ld:l
 				alias l_d
-				current 100p
+				current 124p
 				nominal 100p
 				domain range
 				min 10p
@@ -78,7 +78,7 @@ test {
 			7 {
 				name :DPT:l.ls:l
 				alias l_s
-				current 100p
+				current 124p
 				nominal 100p
 				domain range
 				min 10p
@@ -87,13 +87,46 @@ test {
 				values 
 			}
 			8 {
-				name :DPT:c.cpara:c
+				name :DPT:c.c1:ic
 				alias 
-				current 500p
-				nominal 500p
+				current 55.0
+				nominal 55.0
 				domain range
-				min 450p
-				max 550p
+				min 50.0
+				max 60.0
+				fixed 0
+				values 
+			}
+			9 {
+				name :DPT:cj.cj2:c1
+				alias 
+				current 1n
+				nominal 1n
+				domain range
+				min 500p
+				max 2n
+				fixed 0
+				values 
+			}
+			10 {
+				name :DPT:cj.cj2:c2
+				alias 
+				current 200p
+				nominal 200p
+				domain range
+				min 50p
+				max 200p
+				fixed 0
+				values 
+			}
+			11 {
+				name :DPT:r.rb:rnom
+				alias 
+				current 1meg
+				nominal 1meg
+				domain range
+				min 10000.0
+				max 10meg
 				fixed 0
 				values 
 			}

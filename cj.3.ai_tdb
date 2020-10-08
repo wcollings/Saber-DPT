@@ -1,0 +1,51 @@
+format_version 3
+template MAST_PKG_cj
+
+language mast
+
+design_unit_type package
+
+% Template arguments...
+(0)
+
+% Externals...
+(0)
+
+% Connection points...
+(0)
+
+% Local declarations...
+(0)
+
+% Netlist...
+(0)
+
+format_version 3
+template cj
+
+language mast
+
+design_unit_type template
+
+!crypt_start
+0088bdc4f08054288a6
+024ecf213ad58fc48ea4d5e0b0d967b5342fc9752327f4fb00d
+008abb310479f3c1210
+016a7fa95c46613a146f9b9c0c490c1b1a5
+01657501b580c1e5a0108134e58963c1210
+016f7d4493c636b7a3eab971c3c2cac0da7
+016b5e87b6c2b64a1e3eabe2e6c2cac0da7
+016a171536cdd93f3e0fd27066c2b41e303
+008a16a536cdd93f3e0
+016ecfd13b349e955f3e2b34a471242164a
+008e1b303e125ac0da7
+024bcd41c794d777735bb6e4f23d96c5c10b5be7a6c7fa203a9
+00811135c58484c1844
+024bf644f29de8db1e0bde541e1df705151ef274f6c963c4210
+024f3f04f02d8701255bdef92c465e04ee6a3b34f472cac43a7
+024ecb313ad40ed42e4bfea6b2d2564afe750130156decfe2ab
+008abb316479f3c1210
+016eceac08d450da657afbe206c2039367b
+008e1b9d0c42241e303
+016b8d25f437c6d612bedb34247414c1844
+
