@@ -1,18 +1,18 @@
 program       aim
 command       calculator
 data_file     id_pl.p2
-created       10/8/2020 (8:54:09 AM)
+created       10/13/2020 (09:24:21)
 machine_id    1002
 byte_order    little_endian
 fp_format     ieee
 xname         t
 xunits        s
-xrange        I 294.90024u 300.09992u
+xrange        I 294.90024u 295.34984u
 ynames
    id
 yunits
    A
 ytype         real
 ncolumns      2
-npoints       2031
+npoints       1406
 format        binary

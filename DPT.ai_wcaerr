@@ -1,827 +1,189 @@
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            55.0
-* :DPT:cj.cj2:c1          1n
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             1.0
-* :DPT:l.lb:l             8.2798451903682n
-* :DPT:l.ld:l             10p
-* :DPT:l.lg_high:l        1.1939823918144n
-* :DPT:l.lg_low:l         5.4752846955716n
-* :DPT:l.ls:l             124p
-* :DPT:r.esr:rnom         0.0074999999999999
-* :DPT:r.rb:rnom          1meg
-
-Simulation timed out. Consider raising timeout setting.
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.860166482341
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             1.0
-* :DPT:l.lb:l             8.2798451903682n
-* :DPT:l.ld:l             123.32677130951p
-* :DPT:l.lg_high:l        1.1940004834885n
-* :DPT:l.lg_low:l         5.5646428762208n
-* :DPT:l.ls:l             1n
-* :DPT:r.esr:rnom         0.0075000901956143
-* :DPT:r.rb:rnom          1meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.862442421153
-* :DPT:cj.cj2:c1          1n
-* :DPT:cj.cj2:c2          61.738529724701p
-* :DPT:k.k2:k             1.0
-* :DPT:l.lb:l             8.2798451903682n
-* :DPT:l.ld:l             123.99863736721p
-* :DPT:l.lg_high:l        1.1940004834885n
-* :DPT:l.lg_low:l         1.7968888808652n
-* :DPT:l.ls:l             124p
-* :DPT:r.esr:rnom         0.0075000901956143
-* :DPT:r.rb:rnom          999999.36218556
-
-Simulation timed out. Consider raising timeout setting.
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.860166482341
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.93523021664365
-* :DPT:l.lb:l             8.2797177754625n
-* :DPT:l.ld:l             123.99863736721p
-* :DPT:l.lg_high:l        1.4836025597067n
-* :DPT:l.lg_low:l         5.5646428762208n
-* :DPT:l.ls:l             124p
-* :DPT:r.esr:rnom         0.0075000901956143
-* :DPT:r.rb:rnom          1meg
-
-Problem evaluating analysis: execution time= 15.6E-3 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 24.2 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.860166482341
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.93523021664365
-* :DPT:l.lb:l             8.2797177754625n
-* :DPT:l.ld:l             123.99863736721p
-* :DPT:l.lg_high:l        1.1940004834885n
-* :DPT:l.lg_low:l         1.3211475710116n
-* :DPT:l.ls:l             124p
-* :DPT:r.esr:rnom         0.0075000901956143
-* :DPT:r.rb:rnom          1meg
-
-Simulation timed out. Consider raising timeout setting.
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.859962052849
-* :DPT:cj.cj2:c1          530.04457795064p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.88952099554983
-* :DPT:l.lb:l             8.2797177754625n
-* :DPT:l.ld:l             123.99863736721p
-* :DPT:l.lg_high:l        1.1836839335958n
-* :DPT:l.lg_low:l         1n
-* :DPT:l.ls:l             282.14516520899p
-* :DPT:r.esr:rnom         0.0073059100916644
-* :DPT:r.rb:rnom          1.2772625214819meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.859962052849
-* :DPT:cj.cj2:c1          530.04457795064p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.88952099554983
-* :DPT:l.lb:l             8.2797177754625n
-* :DPT:l.ld:l             123.99863736721p
-* :DPT:l.lg_high:l        1.1869672327415n
-* :DPT:l.lg_low:l         5.5016396555702n
-* :DPT:l.ls:l             1n
-* :DPT:r.esr:rnom         0.0073059100916644
-* :DPT:r.rb:rnom          1.2772625214819meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vgsi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):cdg is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):cj.cj2@cj(cj):q is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld1@pwld(pwld):v(p,0) is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld2@pwld(pwld):v(p,0) is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 3.48 sec.
-messages given: 1 warning, 9 errors, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.905287583897
-* :DPT:cj.cj2:c1          530.04457795064p
-* :DPT:cj.cj2:c2          70.044530733627p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        1.1869672327415n
-* :DPT:l.lg_low:l         10n
-* :DPT:l.ls:l             283.54279956689p
-* :DPT:r.esr:rnom         0.0089237525991158
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vgsi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):cdg is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):cj.cj2@cj(cj):q is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld1@pwld(pwld):v(p,0) is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld2@pwld(pwld):v(p,0) is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 5.01 sec.
-messages given: 1 warning, 9 errors, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.904212340804
-* :DPT:cj.cj2:c1          530.04457795064p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.3334483424746n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.8386306614579n
-* :DPT:l.lg_low:l         5.4879349940587n
-* :DPT:l.ls:l             283.54548642299p
-* :DPT:r.esr:rnom         0.015
-* :DPT:r.rb:rnom          1.2749944670981meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vgsi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):cdg is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):cj.cj2@cj(cj):q is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld1@pwld(pwld):v(p,0) is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld2@pwld(pwld):v(p,0) is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.98 sec.
-messages given: 1 warning, 9 errors, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.904212340804
-* :DPT:cj.cj2:c1          590.15769059021p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70149877373048
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4879349940587n
-* :DPT:l.ls:l             283.54548642299p
-* :DPT:r.esr:rnom         0.0089237525991158
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            53.904212340804
-* :DPT:cj.cj2:c1          590.15769059021p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4879349940587n
-* :DPT:l.ls:l             283.54548642299p
-* :DPT:r.esr:rnom         0.0089237528592752
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Simulation timed out. Consider raising timeout setting.
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70125864785812
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0819221826686n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Simulation timed out. Consider raising timeout setting.
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500.00196214288p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 15.8 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447754075n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2271041616943meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 10.4 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0516964231623n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.7015561327919
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 500 at time 295.00961138437e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 9.2 sec.
-messages given: 2 warnings, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.191968578013
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          199.99998835667p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0810474082199n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.94 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          773.56055416985p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2694629463813meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447762836n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886404meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 7.2 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.081744839845n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 7.22 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         10n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 7.5 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70142019195998
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             1n
-* :DPT:r.esr:rnom         0.0089336781835402
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vgsi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):cdg is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):cj.cj2@cj(cj):q is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld1@pwld(pwld):v(p,0) is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld2@pwld(pwld):v(p,0) is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 328E-3 sec.
-messages given: 1 warning, 9 errors, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.281146969869n
-* :DPT:l.ld:l             124.00201447901p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 5.03 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811302578969n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.7126595132784n
-* :DPT:l.ls:l             383.62062299839p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.91 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            60.0
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0786294019523n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.84 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            59.527168865085
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4561986305113n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 7.08 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2812084518288n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864641983109n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652890102meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 5.33 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          612.85940415289p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4833261006279n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733644243326meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141078277196
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         3.6227471526096n
-* :DPT:l.ls:l             291.18100397362p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-WARNING "ALG_INCR_TNITER": The target maximum number of Newton iterations is increased from 15 to 500 at time 295.00874263513e-6 and for the rest of the simulation in order to overcome difficult convergence. You may wish to increase tniter in subsequent simulations. For example if the input value of tniter is 3 (default), try 10 or 20.
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.97 sec.
-messages given: 2 warnings, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          199.99999909952p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             66.019226004827p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.37 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084492941
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 5.39 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.75397823240464
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 5.69 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          199.99857625744p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.5137009223127n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 7.22 sec.
-messages given: 1 warning, 1 error
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2811446668457n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        3.3382885454447n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15630058356p
-* :DPT:r.esr:rnom         0.0076085787135344
-* :DPT:r.rb:rnom          1.296145766767meg
-
-Problem evaluating analysis: execution time= 0 sec.
-
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vgsi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):cdg is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):idfwd is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):epc2022.epc2022_5@epc2022(epc2022):vdgi is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):cj.cj2@cj(cj):q is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld1@pwld(pwld):v(p,0) is out of defined sample points on the high end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "ALG_OUT_OF_REGIONS": :DPT(DPT):pwld.pwld2@pwld(pwld):v(p,0) is out of defined sample points on the low end. This error generally means that the voltages and/or the currents applied to the model are outside the defined operating range. Check your design to make sure the models are connected and biased correctly. For more information, please consult the documentation (User Guide > Simulator Error Messages).
-ERROR "BUG_S_ASSERT_FAILED": Program failure at line 806 in file caa_tran.r. Please notify Synopsys, Inc.
-ERROR "BUG_I_BUFFER": restore
-WARNING:  The endpoint Initial Point file, tr, has NOT been written.
-execution time= 4.26 sec.
-messages given: 1 warning, 9 errors, 2 internal errors
-For more information on internal errors, please check the .ai_out file
-
-
-
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2825313369902n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811157045987n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             535.17759668713p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.64665355667872
-* :DPT:l.lb:l             8.2811447757132n
-* :DPT:l.ld:l             123.99860733028p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15323064371p
-* :DPT:r.esr:rnom         0.0089326906274114
-* :DPT:r.rb:rnom          1.2733652886051meg
-
-Wrong value "NaN" for measure "fitId"
---------------------------------------------------------------------------------
-Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.234947068433
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          200p
-* :DPT:k.k2:k             0.82002904117248
-* :DPT:l.lb:l             8.2811445494197n
-* :DPT:l.ld:l             41.057776531345p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864639813923n
-* :DPT:l.ls:l             290.15615040116p
-* :DPT:r.esr:rnom         0.0089326906274114
+* :DPT:c.c1:ic            55.530529510421
+* :DPT:cj.cj1:c1          1n
+* :DPT:cj.cj1:c2          200p
+* :DPT:cj.cj1:m           0.5000049309663
+* :DPT:k.k1:k             0.49723021151608
+* :DPT:l.lb:l             14.65937569787n
+* :DPT:l.ld:l             87.066650548201p
+* :DPT:l.lg_high:l        1.46n
+* :DPT:l.lg_low:l         1.4859865579313n
+* :DPT:l.ls:l             100p
+* :DPT:r.esr:rnom         0.15
 * :DPT:r.rb:rnom          10meg
 
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 10.3 sec.
+messages given: 1 warning, 1 error
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            54.999997602867
+* :DPT:cj.cj1:c1          1n
+* :DPT:cj.cj1:c2          200p
+* :DPT:cj.cj1:m           0.7
+* :DPT:k.k1:k             0.49723021151458
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             87.066650548201p
+* :DPT:l.lg_high:l        1.46n
+* :DPT:l.lg_low:l         1.1720945201075n
+* :DPT:l.ls:l             100p
+* :DPT:r.esr:rnom         0.15
+* :DPT:r.rb:rnom          1meg
+
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OSCILLATION": This error occurs when an oscillation cycle is detected in the search for the non-linear solution. This is often caused by improper Newton step limiting in a model. Changing the time step, or changing sample point density might resolve this problem. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 9.58 sec.
+messages given: 1 warning, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            56.598873073272
+* :DPT:cj.cj1:c1          500p
+* :DPT:cj.cj1:c2          200p
+* :DPT:cj.cj1:m           0.7
+* :DPT:k.k1:k             1.0
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             83.146356719488p
+* :DPT:l.lg_high:l        1.7028954169696n
+* :DPT:l.lg_low:l         2n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.26789729236528
+* :DPT:r.rb:rnom          24496.283007557
+
+Simulation timed out. Consider raising timeout setting.
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            56.598873073272
+* :DPT:cj.cj1:c1          500p
+* :DPT:cj.cj1:c2          199.9963148534p
+* :DPT:cj.cj1:m           0.7
+* :DPT:k.k1:k             0.50592746532351
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             39.497579919138p
+* :DPT:l.lg_high:l        1.7028954169696n
+* :DPT:l.lg_low:l         1.6468007606779n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.2679751218335
+* :DPT:r.rb:rnom          24496.283007557
+
+Simulation timed out. Consider raising timeout setting.
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            56.613979114455
+* :DPT:cj.cj1:c1          500.00000026454p
+* :DPT:cj.cj1:c2          199.9963148534p
+* :DPT:cj.cj1:m           0.7
+* :DPT:k.k1:k             0.50592746532351
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             83.146356719488p
+* :DPT:l.lg_high:l        1.7028954169696n
+* :DPT:l.lg_low:l         1.6425779236003n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.26787727734792
+* :DPT:r.rb:rnom          24496.283007557
+
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_OSCILLATION": This error occurs when an oscillation cycle is detected in the search for the non-linear solution. This is often caused by improper Newton step limiting in a model. Changing the time step, or changing sample point density might resolve this problem. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 328E-3 sec.
+messages given: 1 warning, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            56.598873073272
+* :DPT:cj.cj1:c1          500p
+* :DPT:cj.cj1:c2          199.9963148534p
+* :DPT:cj.cj1:m           0.7
+* :DPT:k.k1:k             0.50592746532351
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             83.307263438431p
+* :DPT:l.lg_high:l        1.7028954169696n
+* :DPT:l.lg_low:l         1.6468007606779n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.26787727734792
+* :DPT:r.rb:rnom          19559.737826257
+
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 891E-3 sec.
+messages given: 1 warning, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            56.598873073272
+* :DPT:cj.cj1:c1          507.06269827056p
+* :DPT:cj.cj1:c2          199.9963148534p
+* :DPT:cj.cj1:m           0.7
+* :DPT:k.k1:k             0.50592746532351
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             83.146356719488p
+* :DPT:l.lg_high:l        1.7284295702812n
+* :DPT:l.lg_low:l         1.6468007606779n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.26787727734792
+* :DPT:r.rb:rnom          24496.283007557
+
+Problem evaluating analysis: execution time= 0 sec.
+
+ERROR "ALG_NO_SOLUTION": Cannot find nonlinear system solution. Increasing Sample Point Density (density) and Target Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+ERROR "ALG_ITERATIONS": Unable to find a solution with the specified number of iterations. Increasing Newton Iterations (tniter) may help. For more information, please consult the documentation (User Guide > Simulator Error Messages).
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 672E-3 sec.
+messages given: 1 warning, 2 errors
+
+
+
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:c.c1:ic            56.598873073272
+* :DPT:cj.cj1:c1          500p
+* :DPT:cj.cj1:c2          198.53907622662p
+* :DPT:cj.cj1:m           0.45498451552046
+* :DPT:k.k1:k             0.50592746532351
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             83.146356719488p
+* :DPT:l.lg_high:l        1.7028954169696n
+* :DPT:l.lg_low:l         1.6468007606779n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.26787727734792
+* :DPT:r.rb:rnom          2.8350531327539meg
+
 Wrong value "NaN" for measure "fitId"
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            57.237084554119
-* :DPT:cj.cj2:c1          500p
-* :DPT:cj.cj2:c2          193.0575964817p
-* :DPT:k.k2:k             0.70141066229976
-* :DPT:l.lb:l             8.2773980174373n
-* :DPT:l.ld:l             123.99864892339p
-* :DPT:l.lg_high:l        2.0811166002583n
-* :DPT:l.lg_low:l         5.4864598413826n
-* :DPT:l.ls:l             292.30756893727p
-* :DPT:r.esr:rnom         0.0089328105259594
-* :DPT:r.rb:rnom          1.2733652886051meg
+* :DPT:c.c1:ic            56.598873073272
+* :DPT:cj.cj1:c1          500p
+* :DPT:cj.cj1:c2          199.9963148534p
+* :DPT:cj.cj1:m           0.55845678436119
+* :DPT:k.k1:k             0.50592746532351
+* :DPT:l.lb:l             14.66n
+* :DPT:l.ld:l             83.146356719488p
+* :DPT:l.lg_high:l        1.7028954169696n
+* :DPT:l.lg_low:l         1.6468007602178n
+* :DPT:l.ls:l             73.375274287859p
+* :DPT:r.esr:rnom         0.26787727734792
+* :DPT:r.rb:rnom          945276.85171841
 
-Simulation timed out. Consider raising timeout setting.
+Wrong value "NaN" for measure "fitId"
 

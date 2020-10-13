@@ -1,11 +1,11 @@
-SABER_PID 6852
+SABER_PID 10496
 SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 
      Searching for licenses ...
 SABER_SIMULATOR:                 license.
 
-     Thu Oct 08 10:52:39 AM Eastern Daylight Time 2020
+     Tue Oct 13 09:25:35 Eastern Daylight Time 2020
 
 Calling MAST compiler...
 ./gate_driver_hilow.sin:
@@ -15,7 +15,7 @@ Parsing DPT.sin...
 TheHDL Compiler
 Syntactic check complete; continuing design analysis....
 	
-WARNING:  There is no ground (node 0) in ":DPT(DPT):". "n_453" is taken
+WARNING:  There is no ground (node 0) in ":DPT(DPT):". "n_555" is taken
 
 as the reference point.
 SaberHDL
@@ -23,255 +23,28 @@ SaberHDL
 dc  -progress 500;tr  -terror 5E-11 -order 1 -pins all -siglist :...:* -tniter 15 -progress 500 -tstep 0.1n -tend 310u 
 execution time= 31.2E-3 sec.
 Progress -   0% : Time: 0 sec
-Progress -   1% : Time: 5.1287439191931e-6 sec
-Progress -   1% : Time: 5.3618043274202e-6 sec
-Progress -   1% : Time: 5.6916003526674e-6 sec
-Progress -   2% : Time: 6.2913985053031e-6 sec
-Progress -   6% : Time: 21.077352163162e-6 sec
-Progress -  10% : Time: 33.615645611701e-6 sec
-Progress -  15% : Time: 47.986839932422e-6 sec
-Progress -  21% : Time: 65.452846963345e-6 sec
-Progress -  25% : Time: 79.821434028165e-6 sec
-Progress -  31% : Time: 97.868859116658e-6 sec
-Progress -  40% : Time: 125.93857574521e-6 sec
-Progress -  48% : Time: 150.11305211351e-6 sec
-Progress -  54% : Time: 169.32070606145e-6 sec
-Progress -  61% : Time: 189.3757181651e-6 sec
-Progress -  65% : Time: 203.95549295495e-6 sec
-Progress -  72% : Time: 223.85406970677e-6 sec
-Progress -  78% : Time: 242.39165889773e-6 sec
-Progress -  84% : Time: 261.54456047235e-6 sec
-Progress -  91% : Time: 284.3763000706e-6 sec
-Progress -  95% : Time: 295.05482743985e-6 sec
-Progress -  95% : Time: 295.12555168805e-6 sec
-Progress -  95% : Time: 295.19382633863e-6 sec
-Progress -  95% : Time: 295.28865356938e-6 sec
-Progress -  95% : Time: 295.40597738592e-6 sec
-Progress -  95% : Time: 295.50485303316e-6 sec
-Progress -  95% : Time: 295.61262099446e-6 sec
-Progress -  95% : Time: 295.72464185675e-6 sec
-Progress -  95% : Time: 295.80997409444e-6 sec
-Progress -  95% : Time: 295.94096565891e-6 sec
-Progress -  95% : Time: 296.05232705341e-6 sec
-Progress -  95% : Time: 296.15887265126e-6 sec
-Progress -  95% : Time: 296.26112340871e-6 sec
-Progress -  95% : Time: 296.3612631486e-6 sec
-Progress -  95% : Time: 296.45726610046e-6 sec
-Progress -  95% : Time: 296.54550501791e-6 sec
-Progress -  95% : Time: 296.65586225988e-6 sec
-Progress -  95% : Time: 296.72916476988e-6 sec
-Progress -  95% : Time: 296.80349191923e-6 sec
-Progress -  95% : Time: 296.8768855358e-6 sec
-Progress -  95% : Time: 296.97409081256e-6 sec
-Progress -  95% : Time: 297.04663473437e-6 sec
-Progress -  95% : Time: 297.12069272308e-6 sec
-Progress -  95% : Time: 297.208389265e-6 sec
-Progress -  95% : Time: 297.30839549501e-6 sec
-Progress -  95% : Time: 297.39271321067e-6 sec
-Progress -  95% : Time: 297.48752966445e-6 sec
-Progress -  95% : Time: 297.56178026147e-6 sec
-Progress -  96% : Time: 297.65079391813e-6 sec
-Progress -  96% : Time: 297.7194408734e-6 sec
-Progress -  96% : Time: 297.7983470384e-6 sec
-Progress -  96% : Time: 297.87673945656e-6 sec
-Progress -  96% : Time: 297.93658549541e-6 sec
-Progress -  96% : Time: 298.00502444712e-6 sec
-Progress -  96% : Time: 298.09028577034e-6 sec
-Progress -  96% : Time: 298.1520672704e-6 sec
-Progress -  96% : Time: 298.22531785505e-6 sec
-Progress -  96% : Time: 298.29901333675e-6 sec
-Progress -  96% : Time: 298.38470080914e-6 sec
-Progress -  96% : Time: 298.47225953066e-6 sec
-Progress -  96% : Time: 298.57084738317e-6 sec
-Progress -  96% : Time: 298.64817114171e-6 sec
-Progress -  96% : Time: 298.73849547015e-6 sec
-Progress -  96% : Time: 298.7989144804e-6 sec
-Progress -  96% : Time: 298.8682947787e-6 sec
-Progress -  96% : Time: 298.94941305146e-6 sec
-Progress -  96% : Time: 299.05117506555e-6 sec
-Progress -  96% : Time: 299.14871463952e-6 sec
-Progress -  96% : Time: 299.23734549823e-6 sec
-Progress -  96% : Time: 299.346252314e-6 sec
-Progress -  96% : Time: 299.44552420608e-6 sec
-Progress -  96% : Time: 299.49379018863e-6 sec
-Progress -  96% : Time: 299.54665552953e-6 sec
-Progress -  96% : Time: 299.59593318387e-6 sec
-Progress -  96% : Time: 299.65001334e-6 sec
-Progress -  96% : Time: 299.70408040212e-6 sec
-Progress -  96% : Time: 299.7389263561e-6 sec
-Progress -  96% : Time: 299.78896459905e-6 sec
-Progress -  96% : Time: 299.8246497034e-6 sec
-Progress -  96% : Time: 299.8626325135e-6 sec
-Progress -  96% : Time: 299.8999782998e-6 sec
-Progress -  96% : Time: 299.95600660068e-6 sec
-Progress -  96% : Time: 300.00696912483e-6 sec
-Progress -  96% : Time: 300.04453897457e-6 sec
-Progress -  96% : Time: 300.08588098825e-6 sec
-Progress -  96% : Time: 300.1305085469e-6 sec
-Progress -  96% : Time: 300.16976382878e-6 sec
-Progress -  96% : Time: 300.20117874127e-6 sec
-Progress -  96% : Time: 300.25214033068e-6 sec
-Progress -  96% : Time: 300.28757021112e-6 sec
-Progress -  96% : Time: 300.32253274904e-6 sec
-Progress -  96% : Time: 300.35436608513e-6 sec
-Progress -  96% : Time: 300.40319218776e-6 sec
-Progress -  96% : Time: 300.43807273253e-6 sec
-Progress -  96% : Time: 300.470325828e-6 sec
-Progress -  96% : Time: 300.49905419918e-6 sec
-Progress -  96% : Time: 300.53188050624e-6 sec
-Progress -  96% : Time: 300.56803086794e-6 sec
-Progress -  96% : Time: 300.60097740487e-6 sec
-Progress -  96% : Time: 300.6485860938e-6 sec
-Progress -  96% : Time: 300.6840556747e-6 sec
-Progress -  97% : Time: 300.72065696724e-6 sec
-Progress -  97% : Time: 300.7520180946e-6 sec
-Progress -  97% : Time: 300.78432843447e-6 sec
-Progress -  97% : Time: 300.82398067596e-6 sec
-Progress -  97% : Time: 300.86561843735e-6 sec
-Progress -  97% : Time: 300.89766888942e-6 sec
-Progress -  97% : Time: 300.93466443502e-6 sec
-Progress -  97% : Time: 300.96702699573e-6 sec
-Progress -  97% : Time: 300.99713492053e-6 sec
-Progress -  97% : Time: 301.02819735547e-6 sec
-Progress -  97% : Time: 301.06119372973e-6 sec
-Progress -  97% : Time: 301.09033036162e-6 sec
-Progress -  97% : Time: 301.12961273945e-6 sec
-Progress -  97% : Time: 301.17137111752e-6 sec
-Progress -  97% : Time: 301.20594717434e-6 sec
-Progress -  97% : Time: 301.24232544201e-6 sec
-Progress -  97% : Time: 301.27384901244e-6 sec
-Progress -  97% : Time: 301.31384985405e-6 sec
-Progress -  97% : Time: 301.35650238851e-6 sec
-Progress -  97% : Time: 301.39165219873e-6 sec
-Progress -  97% : Time: 301.42674941297e-6 sec
-Progress -  97% : Time: 301.45905868286e-6 sec
-Progress -  97% : Time: 301.49970570728e-6 sec
-Progress -  97% : Time: 301.5410597574e-6 sec
-Progress -  97% : Time: 301.5755189743e-6 sec
-Progress -  97% : Time: 301.61069914603e-6 sec
-Progress -  97% : Time: 301.6458625375e-6 sec
-Progress -  97% : Time: 301.69145076722e-6 sec
-Progress -  97% : Time: 301.72681630575e-6 sec
-Progress -  97% : Time: 301.76362296723e-6 sec
-Progress -  97% : Time: 301.800532243e-6 sec
-Progress -  97% : Time: 301.82989960673e-6 sec
-Progress -  97% : Time: 301.87090136348e-6 sec
-Progress -  97% : Time: 301.88750312791e-6 sec
-Progress -  97% : Time: 301.92052343122e-6 sec
-Progress -  97% : Time: 301.96336680853e-6 sec
-Progress -  97% : Time: 302.0002795065e-6 sec
-Progress -  97% : Time: 302.0392799906e-6 sec
-Progress -  97% : Time: 302.0700163548e-6 sec
-Progress -  97% : Time: 302.10139556357e-6 sec
-Progress -  97% : Time: 302.13309201966e-6 sec
-Progress -  97% : Time: 302.16871244508e-6 sec
-Progress -  97% : Time: 302.21117324472e-6 sec
-Progress -  97% : Time: 302.24575624848e-6 sec
-Progress -  97% : Time: 302.28542823913e-6 sec
-Progress -  97% : Time: 302.34649704891e-6 sec
-Progress -  97% : Time: 302.38676354441e-6 sec
-Progress -  97% : Time: 302.43792190668e-6 sec
-Progress -  97% : Time: 302.4896684062e-6 sec
-Progress -  97% : Time: 302.52922627555e-6 sec
-Progress -  97% : Time: 302.56257626316e-6 sec
-Progress -  97% : Time: 302.62569351723e-6 sec
-Progress -  97% : Time: 302.67259661758e-6 sec
-Progress -  97% : Time: 302.71768699002e-6 sec
-Progress -  97% : Time: 302.76999203198e-6 sec
-Progress -  97% : Time: 302.82667294758e-6 sec
-Progress -  97% : Time: 302.8874821638e-6 sec
-Progress -  97% : Time: 302.92884303672e-6 sec
-Progress -  97% : Time: 302.99233531195e-6 sec
-Progress -  97% : Time: 303.06220776795e-6 sec
-Progress -  97% : Time: 303.10723151567e-6 sec
-Progress -  97% : Time: 303.1644574262e-6 sec
-Progress -  97% : Time: 303.20592470097e-6 sec
-Progress -  97% : Time: 303.26744295996e-6 sec
-Progress -  97% : Time: 303.33023448066e-6 sec
-Progress -  97% : Time: 303.39642103e-6 sec
-Progress -  97% : Time: 303.46716477937e-6 sec
-Progress -  97% : Time: 303.5391875145e-6 sec
-Progress -  97% : Time: 303.5747920889e-6 sec
-Progress -  97% : Time: 303.6514590823e-6 sec
-Progress -  97% : Time: 303.71245715404e-6 sec
-Progress -  97% : Time: 303.78015944505e-6 sec
-Progress -  98% : Time: 303.86938114225e-6 sec
-Progress -  98% : Time: 303.93308920836e-6 sec
-Progress -  98% : Time: 303.99582568145e-6 sec
-Progress -  98% : Time: 304.06278857968e-6 sec
-Progress -  98% : Time: 304.13752326036e-6 sec
-Progress -  98% : Time: 304.20411321985e-6 sec
-Progress -  98% : Time: 304.26773336223e-6 sec
-Progress -  98% : Time: 304.32864448954e-6 sec
-Progress -  98% : Time: 304.37425611851e-6 sec
-Progress -  98% : Time: 304.43093191815e-6 sec
-Progress -  98% : Time: 304.48536257941e-6 sec
-Progress -  98% : Time: 304.54356190338e-6 sec
-Progress -  98% : Time: 304.58529142848e-6 sec
-Progress -  98% : Time: 304.64500597096e-6 sec
-Progress -  98% : Time: 304.71149925124e-6 sec
-Progress -  98% : Time: 304.77110919306e-6 sec
-Progress -  98% : Time: 304.82877964635e-6 sec
-Progress -  98% : Time: 304.89059024676e-6 sec
-Progress -  98% : Time: 304.94869216127e-6 sec
-Progress -  98% : Time: 305.00310386282e-6 sec
-Progress -  98% : Time: 305.06549222778e-6 sec
-Progress -  98% : Time: 305.12985382432e-6 sec
-Progress -  98% : Time: 305.20311901518e-6 sec
-Progress -  98% : Time: 305.2765918067e-6 sec
-Progress -  98% : Time: 305.34854420198e-6 sec
-Progress -  98% : Time: 305.43188473004e-6 sec
-Progress -  98% : Time: 305.50852485434e-6 sec
-Progress -  98% : Time: 305.6027574841e-6 sec
-Progress -  98% : Time: 305.6783422129e-6 sec
-Progress -  98% : Time: 305.77178613788e-6 sec
-Progress -  98% : Time: 305.86251598265e-6 sec
-Progress -  98% : Time: 305.9516307892e-6 sec
-Progress -  98% : Time: 306.04478233783e-6 sec
-Progress -  98% : Time: 306.13734611034e-6 sec
-Progress -  98% : Time: 306.22896445311e-6 sec
-Progress -  98% : Time: 306.32035759805e-6 sec
-Progress -  98% : Time: 306.40083548752e-6 sec
-Progress -  98% : Time: 306.50452902161e-6 sec
-Progress -  98% : Time: 306.57351733416e-6 sec
-Progress -  98% : Time: 306.66563165434e-6 sec
-Progress -  98% : Time: 306.75986988581e-6 sec
-Progress -  98% : Time: 306.84233686892e-6 sec
-Progress -  99% : Time: 306.93455588466e-6 sec
-Progress -  99% : Time: 307.01922609072e-6 sec
-Progress -  99% : Time: 307.11664396757e-6 sec
-Progress -  99% : Time: 307.20905626898e-6 sec
-Progress -  99% : Time: 307.28459792898e-6 sec
-Progress -  99% : Time: 307.38047103227e-6 sec
-Progress -  99% : Time: 307.48298431734e-6 sec
-Progress -  99% : Time: 307.5690598789e-6 sec
-Progress -  99% : Time: 307.69061477172e-6 sec
-Progress -  99% : Time: 307.765841232e-6 sec
-Progress -  99% : Time: 307.84992944951e-6 sec
-Progress -  99% : Time: 307.9316363268e-6 sec
-Progress -  99% : Time: 308.01024754231e-6 sec
-Progress -  99% : Time: 308.11810467088e-6 sec
-Progress -  99% : Time: 308.18910532005e-6 sec
-Progress -  99% : Time: 308.28349302523e-6 sec
-Progress -  99% : Time: 308.38525879564e-6 sec
-Progress -  99% : Time: 308.46674055194e-6 sec
-Progress -  99% : Time: 308.54610282923e-6 sec
-Progress -  99% : Time: 308.63906096997e-6 sec
-Progress -  99% : Time: 308.74561793582e-6 sec
-Progress -  99% : Time: 308.8391608475e-6 sec
-Progress -  99% : Time: 308.93647517726e-6 sec
-Progress -  99% : Time: 309.03993371428e-6 sec
-Progress -  99% : Time: 309.15987825136e-6 sec
-Progress -  99% : Time: 309.2712075142e-6 sec
-Progress -  99% : Time: 309.35873983564e-6 sec
-Progress -  99% : Time: 309.44431890948e-6 sec
-Progress -  99% : Time: 309.54317409313e-6 sec
-Progress -  99% : Time: 309.64172698194e-6 sec
-Progress -  99% : Time: 309.72963224337e-6 sec
-Progress -  99% : Time: 309.80986763933e-6 sec
-Progress -  99% : Time: 309.8967502442e-6 sec
-Progress -  99% : Time: 309.98913241018e-6 sec
+Progress -   1% : Time: 5.0734198086785e-6 sec
+Progress -   1% : Time: 5.2050903748193e-6 sec
+Progress -   1% : Time: 5.4073850423043e-6 sec
+Progress -   9% : Time: 28.903297825161e-6 sec
+Progress -  18% : Time: 56.727387993451e-6 sec
+Progress -  25% : Time: 79.38244305298e-6 sec
+Progress -  33% : Time: 103.37410659921e-6 sec
+Progress -  44% : Time: 136.48345870113e-6 sec
+Progress -  50% : Time: 155.746525633e-6 sec
+Progress -  57% : Time: 179.392567305e-6 sec
+Progress -  65% : Time: 202.7235731094e-6 sec
+Progress -  75% : Time: 235.16920886888e-6 sec
+Progress -  87% : Time: 271.55432227335e-6 sec
+Progress -  95% : Time: 295.03530314325e-6 sec
+Progress -  95% : Time: 295.13189049608e-6 sec
+Progress -  95% : Time: 295.29123973431e-6 sec
+Progress -  96% : Time: 299.97098747871e-6 sec
+Progress -  96% : Time: 300.07489810861e-6 sec
+Progress -  96% : Time: 300.24317055052e-6 sec
+Progress -  98% : Time: 304.9848823964e-6 sec
+Progress -  98% : Time: 305.1672491596e-6 sec
 Progress - 100% : Time: 310e-6 sec
-execution time= 122 sec.
+execution time= 10.7 sec.
 >
 exit 

@@ -2,11 +2,11 @@ SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, In
 MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 
 
-     Tue Oct 06 3:41:42 PM Eastern Daylight Time 2020
+     Thu Oct 08 21:17:17 Eastern Daylight Time 2020
 
 Calling MAST compiler...
-./cj.sin:
-Parsing ./cj.sin...
+./epc2022.sin:
+Parsing ./epc2022.sin...
 TheHDL Compiler
 Syntactic check complete; continuing design analysis....
 	

@@ -25,34 +25,47 @@ proc fitId {wf} {
     return [fit $wf $WF(id)]
 }
 
-set time_data [read_file time.txt]
+set time_data [read_file _time.txt]
 set time_data [split $time_data \n]
-set vds_data [read_file Vds.txt]
+set vds_data [read_file _vds.txt]
 set vds_data [split $vds_data \n]
-set vgs_data [read_file Vgs.txt]
+set vgs_data [read_file _vgs.txt]
 set vgs_data [split $vgs_data \n]
-set id_data [read_file Id.txt]
+set id_data [read_file _id.txt]
 set id_data [split $id_data \n]
 
 global WF
 set WF(vds) [wf create -yname vds -yunit V]
 set WF(vgs) [wf create -yname vgs -yunit V]
 set WF(id) [wf create -yname id -yunit A]
-set time0 [lindex $time_data 0]
-set i 0
-while 1 {
-    set time [calc [lindex $time_data $i]-$time0]
+set time0 [calc [lindex $time_data 0] + 295u]
+puts "time starts at $time0 "
+set i 1
+while { $i < [llength $time_data] } {
+	 set time [calc [calc $i * 320p ] + $time0 ]
     set vds [lindex $vds_data $i]
     set vgs [lindex $vgs_data $i]
     set id [lindex $id_data $i]
     incr i
-    if {$i > 18699} { break }
-	 ;set window 0
-	 ;if {$time > 159u && $time < 162u} { set window 1 }
-	 ;if {$time > 165.5u && $time < 167.5u} { set window 1 }
-	 ;if { $window == 0 } { continue }
-	 puts "index = $i"
-    wf $WF(vds) add -x $time -y $vds
+	 set window 0
+	 if { $time > 294.9u && $time < 295.35u } {
+	 	set window 0
+	 }
+	 if { $time > 299.9u && $time < 300.3u } {
+	 	set window 1
+	 }
+	 if { $window == 0} {
+	 	continue
+	 }
+    if {$time > 300.3u} {
+        puts "i = $i, time= $time"
+        break
+    }
+    set test [catch { wf $WF(vds) add -x $time -y $vds } "time not valid" ]
+	 if { $test != 0} {
+	 	puts "Past the last result: $i"
+		break
+	}
     wf $WF(vgs) add -x $time -y $vgs
     wf $WF(id) add -x $time -y $id
 }
@@ -65,3 +78,4 @@ puts id=$WF(id)
 wf:write $WF(vds) vds_pl
 wf:write $WF(vgs) vgs_pl
 wf:write $WF(id) id_pl
+

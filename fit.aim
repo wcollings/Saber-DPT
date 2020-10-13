@@ -51,13 +51,13 @@ while { $i < [llength $time_data] } {
 	 if { $time > 294.9u && $time < 295.35u } {
 	 	set window 1
 	 }
-	 if { $time > 299.9u && $time < 300.1u } {
-	 	set window 1
+	 if { $time > 299.9u && $time < 300.3u } {
+	 	set window 0
 	 }
 	 if { $window == 0} {
 	 	continue
 	 }
-    if {$time > 301u} {
+    if {$time > 300.3u} {
         puts "i = $i, time= $time"
         break
     }
