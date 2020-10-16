@@ -1,11 +1,11 @@
-SABER_PID 10496
+SABER_PID 13900
 SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 
      Searching for licenses ...
 SABER_SIMULATOR:                 license.
 
-     Tue Oct 13 09:25:35 Eastern Daylight Time 2020
+     Fri Oct 16 10:23:09 Eastern Daylight Time 2020
 
 Calling MAST compiler...
 ./gate_driver_hilow.sin:
@@ -15,36 +15,1353 @@ Parsing DPT.sin...
 TheHDL Compiler
 Syntactic check complete; continuing design analysis....
 	
-WARNING:  There is no ground (node 0) in ":DPT(DPT):". "n_555" is taken
+WARNING:  There is no ground (node 0) in ":DPT(DPT):". "n_739" is taken
 
 as the reference point.
 SaberHDL
 >
 dc  -progress 500;tr  -terror 5E-11 -order 1 -pins all -siglist :...:* -tniter 15 -progress 500 -tstep 0.1n -tend 310u 
-execution time= 31.2E-3 sec.
+execution time= 46.9E-3 sec.
 Progress -   0% : Time: 0 sec
-Progress -   1% : Time: 5.0734198086785e-6 sec
-Progress -   1% : Time: 5.2050903748193e-6 sec
-Progress -   1% : Time: 5.4073850423043e-6 sec
-Progress -   9% : Time: 28.903297825161e-6 sec
-Progress -  18% : Time: 56.727387993451e-6 sec
-Progress -  25% : Time: 79.38244305298e-6 sec
-Progress -  33% : Time: 103.37410659921e-6 sec
-Progress -  44% : Time: 136.48345870113e-6 sec
-Progress -  50% : Time: 155.746525633e-6 sec
-Progress -  57% : Time: 179.392567305e-6 sec
-Progress -  65% : Time: 202.7235731094e-6 sec
-Progress -  75% : Time: 235.16920886888e-6 sec
-Progress -  87% : Time: 271.55432227335e-6 sec
-Progress -  95% : Time: 295.03530314325e-6 sec
-Progress -  95% : Time: 295.13189049608e-6 sec
-Progress -  95% : Time: 295.29123973431e-6 sec
-Progress -  96% : Time: 299.97098747871e-6 sec
-Progress -  96% : Time: 300.07489810861e-6 sec
-Progress -  96% : Time: 300.24317055052e-6 sec
-Progress -  98% : Time: 304.9848823964e-6 sec
-Progress -  98% : Time: 305.1672491596e-6 sec
+Progress -   1% : Time: 5.0965872316448e-6 sec
+Progress -   1% : Time: 5.8853416544438e-6 sec
+Progress -   7% : Time: 24.139512842725e-6 sec
+Progress -  13% : Time: 41.80046002441e-6 sec
+Progress -  18% : Time: 58.857880950952e-6 sec
+Progress -  28% : Time: 88.173128231906e-6 sec
+Progress -  38% : Time: 118.20116083143e-6 sec
+Progress -  45% : Time: 141.54357931161e-6 sec
+Progress -  53% : Time: 167.18824234268e-6 sec
+Progress -  61% : Time: 189.3886434694e-6 sec
+Progress -  70% : Time: 217.3875791768e-6 sec
+Progress -  76% : Time: 237.07762325086e-6 sec
+Progress -  82% : Time: 257.16568248443e-6 sec
+Progress -  92% : Time: 287.58912883717e-6 sec
+Progress -  95% : Time: 295.05542715685e-6 sec
+Progress -  95% : Time: 295.21062978418e-6 sec
+Progress -  96% : Time: 300.01623255111e-6 sec
+Progress -  96% : Time: 300.38827070878e-6 sec
+Progress -  98% : Time: 305.00269656151e-6 sec
+Progress -  98% : Time: 305.10460880776e-6 sec
 Progress - 100% : Time: 310e-6 sec
-execution time= 10.7 sec.
+execution time= 10.1 sec.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :*:* -analysis internalalter 
+:DPT:ccoeff	1.00000
+:DPT:lb	3.71500e-09
+:DPT:lg_hi	1.40900e-09
+:DPT:lg_low	6.71000
+:DPT:rshunt	0.500000
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+:DPT:c.c1
+:DPT:c.c3
+:DPT:epc2022.epc2022_4
+:DPT:gate_driver_hilow.gate_driver_hilow7
+:DPT:l.l2
+:DPT:l.lb
+:DPT:l.lb_para
+:DPT:l.lg_high
+:DPT:l.lg_low
+:DPT:pwld.pwld1
+:DPT:pwld.pwld2
+:DPT:r.esr
+:DPT:r.esr_para
+:DPT:r.r5
+:DPT:r.rg
+>
+browse -global :*:*:*  -analysis internalalter 
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -global :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -instance :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+browse -global :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :*:* -analysis internalalter 
+:DPT:ccoeff	1.00000
+:DPT:lb	3.71500e-09
+:DPT:lg_hi	1.40900e-09
+:DPT:lg_low	6.71000
+:DPT:rshunt	0.500000
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+:DPT:c.c1
+:DPT:c.c3
+:DPT:epc2022.epc2022_4
+:DPT:gate_driver_hilow.gate_driver_hilow7
+:DPT:l.l2
+:DPT:l.lb
+:DPT:l.lb_para
+:DPT:l.lg_high
+:DPT:l.lg_low
+:DPT:pwld.pwld1
+:DPT:pwld.pwld2
+:DPT:r.esr
+:DPT:r.esr_para
+:DPT:r.r5
+:DPT:r.rg
+>
+browse -global :*:*:*  -analysis internalalter 
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -global :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -instance :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+browse -global :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	7.50000e-09
+--------------
+>
+alter -force :DPT:l.lb:l 13.00010744919n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.30001e-08 , Old value := 7.5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.30001e-08
+--------------
+>
+alter -force :DPT:l.lb:l 13n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.3e-08 , Old value := 1.30001e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.30000e-08
+--------------
+>
+alter -force :DPT:l.lb:l 15.5n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.55e-08 , Old value := 1.3e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.55000e-08
+--------------
+>
+alter -force :DPT:l.lb:l 14.66n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.466e-08 , Old value := 1.55e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.46600e-08
+--------------
+>
+alter -force :DPT:l.lb:l 7.50000e-09
+NOTE: Confirming alter: :DPT:l.lb:l := 7.5e-09 , Old value := 1.466e-08
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.005
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.005 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00500000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.01
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.01 , Old value := 0.005
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.0100000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.01
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.00750000
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	56.2799
+--------------
+>
+alter -force :DPT:c.c1:ic 59.999999999436
+NOTE: Confirming alter: :DPT:c.c1:ic := 60 , Old value := 56.2799
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	60.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 50.0
+NOTE: Confirming alter: :DPT:c.c1:ic := 50 , Old value := 60
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	50.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 60.0
+NOTE: Confirming alter: :DPT:c.c1:ic := 60 , Old value := 50
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	60.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 55.0
+NOTE: Confirming alter: :DPT:c.c1:ic := 55 , Old value := 60
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	55.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 56.2799
+NOTE: Confirming alter: :DPT:c.c1:ic := 56.2799 , Old value := 55
+>
+browse -analysis internalalter -global :DPT:r.rb:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.rb:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.rb:rnom -internal 
+SEVERE ERROR:  The siglist ":DPT:r.rb:rnom" does not match anything in the current design.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :DPT:* -analysis internalalter 
+:DPT:ccoeff	1.00000
+:DPT:lb	3.71500e-09
+:DPT:lg_hi	1.40900e-09
+:DPT:lg_low	6.71000
+:DPT:rshunt	0.500000
+--------------
+:DPT:c.c1
+:DPT:c.c3
+:DPT:epc2022.epc2022_4
+:DPT:gate_driver_hilow.gate_driver_hilow7
+:DPT:l.l2
+:DPT:l.lb
+:DPT:l.lb_para
+:DPT:l.lg_high
+:DPT:l.lg_low
+:DPT:pwld.pwld1
+:DPT:pwld.pwld2
+:DPT:r.esr
+:DPT:r.esr_para
+:DPT:r.r5
+:DPT:r.rg
+>
+browse -global :DPT:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:*" does not match anything in the current design.
+>
+browse -global :DPT.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT.*" does not match anything in the current design.
+>
+browse -global :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :DPT:r.esr_para:* -analysis internalalter 
+:DPT:r.esr_para:dl	undef
+:DPT:r.esr_para:g	6.66667
+:DPT:r.esr_para:include_stress	1.00000
+:DPT:r.esr_para:l	0.00000
+:DPT:r.esr_para:math_boltz	1.38066e-23
+:DPT:r.esr_para:math_c	2.99792e+08
+:DPT:r.esr_para:math_cgs2mks	1.00000e-07
+:DPT:r.esr_para:math_charge	1.60218e-19
+:DPT:r.esr_para:math_ctok	273.150
+:DPT:r.esr_para:math_e	2.71828
+:DPT:r.esr_para:math_episi	1.04430e-12
+:DPT:r.esr_para:math_fps2mks	1.35582
+:DPT:r.esr_para:math_ios2mks	0.00706155
+:DPT:r.esr_para:math_ni	1.45000e+10
+:DPT:r.esr_para:math_pi	3.14159
+:DPT:r.esr_para:math_planck	6.62608e-34
+:DPT:r.esr_para:math_rad2deg	57.2958
+:DPT:r.esr_para:math_rps2rpm	9.54930
+:DPT:r.esr_para:math_sqrt2	1.41421
+:DPT:r.esr_para:math_w2hp	745.700
+:DPT:r.esr_para:model	(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000) \
+:DPT:r.esr_para:nons	0.00000
+:DPT:r.esr_para:nx	1.00000
+:DPT:r.esr_para:part_class	"generic"
+:DPT:r.esr_para:part_type	"resistor"
+:DPT:r.esr_para:pdist	_normal
+:DPT:r.esr_para:pdmax	undef
+:DPT:r.esr_para:r	0.150000
+:DPT:r.esr_para:r_pdmax	undef
+:DPT:r.esr_para:r_tol	0.00000
+:DPT:r.esr_para:ratings	(undef, undef, undef, undef, undef) \
+:DPT:r.esr_para:rnom	0.150000
+:DPT:r.esr_para:rth_eff	0.00000
+:DPT:r.esr_para:rth_hs	undef
+:DPT:r.esr_para:rth_ja	undef
+:DPT:r.esr_para:rth_jc	undef
+:DPT:r.esr_para:tc	[0.00000, 0.00000]
+:DPT:r.esr_para:temp	27.0000
+:DPT:r.esr_para:tempj_tnom	25.0000
+:DPT:r.esr_para:tnom	27.0000
+:DPT:r.esr_para:w	0.00000
+:DPT:r.esr_para:wtc	[0.00000, 0.00000]
+:DPT:r.esr_para:wtce	0.00000
+:DPT:r.esr_para:xl	undef
+:DPT:r.esr_para:xr	0.150000
+:DPT:r.esr_para:xtjmax	undef
+:DPT:r.esr_para:xtjmin	undef
+:DPT:r.esr_para:xvmax	undef
+:DPT:r.esr_para:xw	undef
+--------------
+>
+browse -global :DPT:r.esr_para:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:*" does not match anything in the current design.
+>
+browse -global :DPT:r.esr_para.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para.*" does not match anything in the current design.
+>
+browse -analysis alter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis alter -instance :DPT:r.esr_para:rnom 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	7.50000e-09
+--------------
+>
+alter -force :DPT:l.lb:l 13.00010744919n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.30001e-08 , Old value := 7.5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.30001e-08
+--------------
+>
+alter -force :DPT:l.lb:l 13n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.3e-08 , Old value := 1.30001e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.30000e-08
+--------------
+>
+alter -force :DPT:l.lb:l 15.5n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.55e-08 , Old value := 1.3e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.55000e-08
+--------------
+>
+alter -force :DPT:l.lb:l 14.66n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.466e-08 , Old value := 1.55e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.46600e-08
+--------------
+>
+alter -force :DPT:l.lb:l 7.50000e-09
+NOTE: Confirming alter: :DPT:l.lb:l := 7.5e-09 , Old value := 1.466e-08
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.005
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.005 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00500000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.01
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.01 , Old value := 0.005
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.0100000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.01
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.00750000
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	56.2799
+--------------
+>
+alter -force :DPT:c.c1:ic 59.999999999436
+NOTE: Confirming alter: :DPT:c.c1:ic := 60 , Old value := 56.2799
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	60.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 50.0
+NOTE: Confirming alter: :DPT:c.c1:ic := 50 , Old value := 60
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	50.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 60.0
+NOTE: Confirming alter: :DPT:c.c1:ic := 60 , Old value := 50
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	60.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 55.0
+NOTE: Confirming alter: :DPT:c.c1:ic := 55 , Old value := 60
+>
+browse -analysis internalalter -global :DPT:c.c1:ic 
+SEVERE ERROR:  The siglist ":DPT:c.c1:ic" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:c.c1:ic -internal 
+:DPT:c.c1:ic	55.0000
+--------------
+>
+alter -force :DPT:c.c1:ic 56.2799
+NOTE: Confirming alter: :DPT:c.c1:ic := 56.2799 , Old value := 55
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.15
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.15
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.1
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.1 , Old value := 0.15
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.100000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.2
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.2 , Old value := 0.1
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.200000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.15
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.2
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.150000
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.15
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :*:* -analysis internalalter 
+:DPT:ccoeff	1.00000
+:DPT:lb	3.71500e-09
+:DPT:lg_hi	1.40900e-09
+:DPT:lg_low	6.71000
+:DPT:rshunt	0.500000
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+:DPT:c.c1
+:DPT:c.c3
+:DPT:epc2022.epc2022_4
+:DPT:gate_driver_hilow.gate_driver_hilow7
+:DPT:l.l2
+:DPT:l.lb
+:DPT:l.lb_para
+:DPT:l.lg_high
+:DPT:l.lg_low
+:DPT:pwld.pwld1
+:DPT:pwld.pwld2
+:DPT:r.esr
+:DPT:r.esr_para
+:DPT:r.r5
+:DPT:r.rg
+>
+browse -global :*:*:*  -analysis internalalter 
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -global :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -instance :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+browse -global :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :DPT:* -analysis internalalter 
+:DPT:ccoeff	1.00000
+:DPT:lb	3.71500e-09
+:DPT:lg_hi	1.40900e-09
+:DPT:lg_low	6.71000
+:DPT:rshunt	0.500000
+--------------
+:DPT:c.c1
+:DPT:c.c3
+:DPT:epc2022.epc2022_4
+:DPT:gate_driver_hilow.gate_driver_hilow7
+:DPT:l.l2
+:DPT:l.lb
+:DPT:l.lb_para
+:DPT:l.lg_high
+:DPT:l.lg_low
+:DPT:pwld.pwld1
+:DPT:pwld.pwld2
+:DPT:r.esr
+:DPT:r.esr_para
+:DPT:r.r5
+:DPT:r.rg
+>
+browse -global :DPT:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:*" does not match anything in the current design.
+>
+browse -global :DPT.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT.*" does not match anything in the current design.
+>
+browse -global :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :DPT:gate_driver_hilow.gate_driver_hilow7:* -analysis internalalter 
+:DPT:gate_driver_hilow.gate_driver_hilow7:ramp_off	1.00000e-08
+:DPT:gate_driver_hilow.gate_driver_hilow7:ramp_on	1.00000e-08
+:DPT:gate_driver_hilow.gate_driver_hilow7:toff1	5.00000e-06
+:DPT:gate_driver_hilow.gate_driver_hilow7:toff2	4.96450e-06
+:DPT:gate_driver_hilow.gate_driver_hilow7:ton1	0.000289995
+:DPT:gate_driver_hilow.gate_driver_hilow7:ton2	5.00000e-06
+:DPT:gate_driver_hilow.gate_driver_hilow7:voff	-0.100000
+:DPT:gate_driver_hilow.gate_driver_hilow7:von	4.60000
+--------------
+>
+browse -global :DPT:gate_driver_hilow.gate_driver_hilow7:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:gate_driver_hilow.gate_driver_hilow7:*" does not match anything in the current design.
+>
+browse -global :DPT:gate_driver_hilow.gate_driver_hilow7.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:gate_driver_hilow.gate_driver_hilow7.*" does not match anything in the current design.
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :DPT:l.lb_para:* -analysis internalalter 
+:DPT:l.lb_para:area	undef
+:DPT:l.lb_para:ic	undef
+:DPT:l.lb_para:include_stress	1.00000
+:DPT:l.lb_para:l	6.50000e-09
+:DPT:l.lb_para:l_tol	0.00000
+:DPT:l.lb_para:lcal	6.50000e-09
+:DPT:l.lb_para:lcalc	6.50000e-09
+:DPT:l.lb_para:len	undef
+:DPT:l.lb_para:math_boltz	1.38066e-23
+:DPT:l.lb_para:math_c	2.99792e+08
+:DPT:l.lb_para:math_cgs2mks	1.00000e-07
+:DPT:l.lb_para:math_charge	1.60218e-19
+:DPT:l.lb_para:math_ctok	273.150
+:DPT:l.lb_para:math_e	2.71828
+:DPT:l.lb_para:math_episi	1.04430e-12
+:DPT:l.lb_para:math_fps2mks	1.35582
+:DPT:l.lb_para:math_ios2mks	0.00706155
+:DPT:l.lb_para:math_ni	1.45000e+10
+:DPT:l.lb_para:math_pi	3.14159
+:DPT:l.lb_para:math_planck	6.62608e-34
+:DPT:l.lb_para:math_rad2deg	57.2958
+:DPT:l.lb_para:math_rps2rpm	9.54930
+:DPT:l.lb_para:math_sqrt2	1.41421
+:DPT:l.lb_para:math_w2hp	745.700
+:DPT:l.lb_para:model	(0.00000, 0.00000) \
+:DPT:l.lb_para:n	undef
+:DPT:l.lb_para:part_class	"generic"
+:DPT:l.lb_para:part_type	"inductor"
+:DPT:l.lb_para:pdist	_normal
+:DPT:l.lb_para:pdmax	undef
+:DPT:l.lb_para:r	0.00000
+:DPT:l.lb_para:ratings	(undef, undef, undef, undef, undef, undef) \
+:DPT:l.lb_para:rth_eff	0.00000
+:DPT:l.lb_para:rth_hs	undef
+:DPT:l.lb_para:rth_ja	undef
+:DPT:l.lb_para:rth_jc	undef
+:DPT:l.lb_para:temp	27.0000
+:DPT:l.lb_para:tnom	25.0000
+:DPT:l.lb_para:u0	1.25664e-06
+:DPT:l.lb_para:ur	1.00000
+:DPT:l.lb_para:ximax	undef
+:DPT:l.lb_para:xl	6.50000e-09
+:DPT:l.lb_para:xtjmax	undef
+:DPT:l.lb_para:xtjmin	undef
+:DPT:l.lb_para:xvmax	undef
+--------------
+>
+browse -global :DPT:l.lb_para:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:*" does not match anything in the current design.
+>
+browse -global :DPT:l.lb_para.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para.*" does not match anything in the current design.
+>
+browse -analysis alter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis alter -instance :DPT:l.lb_para:l 
+:DPT:l.lb_para:l	6.50000e-09
+--------------
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	7.50000e-09
+--------------
+>
+alter -force :DPT:l.lb:l 13.00010744919n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.30001e-08 , Old value := 7.5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.30001e-08
+--------------
+>
+alter -force :DPT:l.lb:l 13n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.3e-08 , Old value := 1.30001e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.30000e-08
+--------------
+>
+alter -force :DPT:l.lb:l 15.5n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.55e-08 , Old value := 1.3e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.55000e-08
+--------------
+>
+alter -force :DPT:l.lb:l 14.66n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.466e-08 , Old value := 1.55e-08
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	1.46600e-08
+--------------
+>
+alter -force :DPT:l.lb:l 7.50000e-09
+NOTE: Confirming alter: :DPT:l.lb:l := 7.5e-09 , Old value := 1.466e-08
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.005
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.005 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00500000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.01
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.01 , Old value := 0.005
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.0100000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.01
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+alter -force :DPT:r.esr:rnom 0.00750000
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.15
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.15
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.1
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.1 , Old value := 0.15
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.100000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.2
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.2 , Old value := 0.1
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.200000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.15
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.2
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+alter -force :DPT:r.esr_para:rnom 0.150000
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.15
+>
+browse -analysis internalalter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb_para:l -internal 
+:DPT:l.lb_para:l	6.50000e-09
+--------------
+>
+alter -force :DPT:l.lb_para:l 6.5n
+NOTE: Confirming alter: :DPT:l.lb_para:l := 6.5e-09 , Old value := 6.5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb_para:l -internal 
+:DPT:l.lb_para:l	6.50000e-09
+--------------
+>
+alter -force :DPT:l.lb_para:l 5n
+NOTE: Confirming alter: :DPT:l.lb_para:l := 5e-09 , Old value := 6.5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb_para:l -internal 
+:DPT:l.lb_para:l	5.00000e-09
+--------------
+>
+alter -force :DPT:l.lb_para:l 15n
+NOTE: Confirming alter: :DPT:l.lb_para:l := 1.5e-08 , Old value := 5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb_para:l -internal 
+:DPT:l.lb_para:l	1.50000e-08
+--------------
+>
+alter -force :DPT:l.lb_para:l 6.5n
+NOTE: Confirming alter: :DPT:l.lb_para:l := 6.5e-09 , Old value := 1.5e-08
+>
+browse -analysis internalalter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb_para:l -internal 
+:DPT:l.lb_para:l	6.50000e-09
+--------------
+>
+alter -force :DPT:l.lb_para:l 6.50000e-09
+NOTE: Confirming alter: :DPT:l.lb_para:l := 6.5e-09 , Old value := 6.5e-09
+>
+browse -analysis internalalter -global :DPT:l.lb:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb:l -internal 
+:DPT:l.lb:l	7.50000e-09
+--------------
+>
+browse -analysis internalalter -global :DPT:r.esr:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr:rnom -internal 
+:DPT:r.esr:rnom	0.00750000
+--------------
+>
+browse -analysis internalalter -global :DPT:r.esr_para:rnom 
+SEVERE ERROR:  The siglist ":DPT:r.esr_para:rnom" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:r.esr_para:rnom -internal 
+:DPT:r.esr_para:rnom	0.150000
+--------------
+>
+browse -analysis internalalter -global :DPT:l.lb_para:l 
+SEVERE ERROR:  The siglist ":DPT:l.lb_para:l" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:l.lb_para:l -internal 
+:DPT:l.lb_para:l	6.50000e-09
+--------------
+>
+browse -analysis tranalysis -global :DPT:epc2022.epc2022_4:id -browse_type siglist 
+SEVERE ERROR:  The siglist ":DPT:epc2022.epc2022_4:id" does not match anything in the current design.
+>
+browse -analysis tranalysis -instance :DPT:epc2022.epc2022_4:id -browse_type siglist 
+:DPT:epc2022.epc2022_4:id
+--------------
+>
+browse -analysis tranalysis -global :DPT:epc2022.epc2022_4:vds -browse_type siglist 
+SEVERE ERROR:  The siglist ":DPT:epc2022.epc2022_4:vds" does not match anything in the current design.
+>
+browse -analysis tranalysis -instance :DPT:epc2022.epc2022_4:vds -browse_type siglist 
+:DPT:epc2022.epc2022_4:vds
+--------------
+>
+AimLicense:GetFeaturesInUse 
+SABER_SIMULATOR OPT_TEMPLATE_LIB
+>
+alter -force :DPT:l.lb:l 13.00010744919n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.30001e-08 , Old value := 7.5e-09
+>
+alter -force :DPT:l.lb_para:l 6.5n
+NOTE: Confirming alter: :DPT:l.lb_para:l := 6.5e-09 , Old value := 6.5e-09
+>
+alter -force :DPT:r.esr:rnom 0.0075
+NOTE: Confirming alter: :DPT:r.esr:rnom := 0.0075 , Old value := 0.0075
+>
+alter -force :DPT:r.esr_para:rnom 0.15
+NOTE: Confirming alter: :DPT:r.esr_para:rnom := 0.15 , Old value := 0.15
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.45 sec.
+>
+ 
+>
+alter -force :DPT:l.lb:l 13.477812858142n
+NOTE: Confirming alter: :DPT:l.lb:l := 1.34778e-08 , Old value := 1.30001e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+User-interrupt signal received. Analysis stopped.
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 2.87 sec.
+messages given: 1 warning
+>
+ 
+>
+set test 1 
 >
 exit 

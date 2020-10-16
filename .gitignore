@@ -2,7 +2,7 @@ DPT.dc_ba
 DPT.pa1_awd
 DPT.tr_awd
 DPT.tr_ba
-DPT.dc_ba/*
-DPT.pa1_awd/*
-DPT.tr_awd/*
-DPT.tr_ba/*
+DPT.dc_ba\*
+DPT.pa1_awd\*
+DPT.tr_awd\*
+DPT.tr_ba\*

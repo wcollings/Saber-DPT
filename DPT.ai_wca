@@ -12,7 +12,7 @@ test {
 			1 {
 				name :DPT:l.lb:l
 				alias l_bus
-				current 14.66n
+				current 13.00010744919n
 				nominal 14.66n
 				domain range
 				min 13n
@@ -21,123 +21,35 @@ test {
 				values 
 			}
 			2 {
-				name :DPT:l.lg_high:l
-				alias lg_high
-				current 1.7028954169696n
-				nominal 1.4n
+				name :DPT:r.esr:rnom
+				alias ESR
+				current 0.0075
+				nominal 0.0075
 				domain range
-				min 1n
-				max 2n
+				min 0.005
+				max 0.01
 				fixed 0
 				values 
 			}
 			3 {
-				name :DPT:l.lg_low:l
-				alias lg_low
-				current 2n
-				nominal 1.5n
+				name :DPT:r.esr_para:rnom
+				alias 
+				current 0.15
+				nominal 0.15
 				domain range
-				min 1n
-				max 2n
+				min 0.1
+				max 0.2
 				fixed 0
 				values 
 			}
 			4 {
-				name :DPT:r.esr:rnom
-				alias ESR
-				current 0.26787727734792
-				nominal 0.15
-				domain range
-				min 0.1
-				max 0.3
-				fixed 0
-				values 
-			}
-			5 {
-				name :DPT:l.ld:l
-				alias l_d
-				current 83.146356719488p
-				nominal 100p
-				domain range
-				min 10p
-				max 1n
-				fixed 0
-				values 
-			}
-			6 {
-				name :DPT:l.ls:l
-				alias l_s
-				current 73.375274287859p
-				nominal 100p
-				domain range
-				min 10p
-				max 1n
-				fixed 0
-				values 
-			}
-			7 {
-				name :DPT:c.c1:ic
+				name :DPT:l.lb_para:l
 				alias 
-				current 56.598873073272
-				nominal 55.0
+				current 6.5n
+				nominal 6.5n
 				domain range
-				min 50.0
-				max 60.0
-				fixed 0
-				values 
-			}
-			8 {
-				name :DPT:r.rb:rnom
-				alias 
-				current 24496.283007557
-				nominal 1meg
-				domain range
-				min 10000.0
-				max 10meg
-				fixed 0
-				values 
-			}
-			9 {
-				name :DPT:cj.cj1:c1
-				alias 
-				current 500p
-				nominal 1n
-				domain range
-				min 500p
-				max 2n
-				fixed 0
-				values 
-			}
-			10 {
-				name :DPT:cj.cj1:c2
-				alias 
-				current 199.9963148534p
-				nominal 200p
-				domain range
-				min 50p
-				max 200p
-				fixed 0
-				values 
-			}
-			11 {
-				name :DPT:cj.cj1:m
-				alias 
-				current 0.7
-				nominal 0.5
-				domain range
-				min 0.3
-				max 0.7
-				fixed 0
-				values 
-			}
-			12 {
-				name :DPT:k.k1:k
-				alias 
-				current 0.04108799704225
-				nominal 0.93133
-				domain range
-				min 0.0
-				max 1.0
+				min 5n
+				max 15n
 				fixed 0
 				values 
 			}
@@ -186,25 +98,25 @@ test {
 				checked 1
 				sizes 0.15 0.05
 				max_stalled 200
-				restart 0
+				restart 1
 				corner 0
-				max_eval 1000
+				max_eval 100
 			}
 			2 {
 				text Downhill Simplex
 				checked 1
 				sizes 0.15 0.05
 				max_stalled 200
-				restart 0
-				max_eval 1000
+				restart 1
+				max_eval 100
 			}
 			3 {
 				text Steepest Descent
 				checked 1
 				perturbation 1u
 				resolution 10u
-				restart 0
-				max_eval 1000
+				restart 1
+				max_eval 100
 			}
 		}
 		loops 1
