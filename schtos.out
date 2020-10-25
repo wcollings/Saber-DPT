@@ -5,10 +5,10 @@ of the United States and selected foreign countries.
 For a complete listing of intellectual property protection run the netlister as an operating system command or look in the manual.  
 PARSe mapping file schtos, execution time=0.437 sec.
 Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64\bin\analogy.map'.
-PARSe mapping file analogy, execution time=0.422 sec.
+PARSe mapping file analogy, execution time=0.453 sec.
 Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64/bin/user.map'.
-PARSe mapping file user, execution time=0.484 sec.
-EXTract design from database, execution time=0.578 sec.
+PARSe mapping file user, execution time=0.562 sec.
+EXTract design from database, execution time=0.562 sec.
 Symbol 'rh' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/r.sin'.
 Symbol 'l' instantiated as template
@@ -20,7 +20,10 @@ Symbol 'pwld' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/semiconductor/diodes/pwld
 .sin'.
 Symbol 'epc2022' instantiated as template './epc2022.sin'.
-INStantiate design, execution time=0.453 sec.
-SPLIT design, execution time=0.422 sec.
-SIMUlator input for the vhdlams simulator done, execution time=0.422 sec.
-BACK annotation and renaming file writing done, execution time=0.422 sec.
+Symbol 'freq_dep' instantiated as template
+'C:/Users/usr/saber_libs/ai_User_Library/freq_dep.sin'.
+Symbol 'cj' instantiated as template './cj.sin'.
+INStantiate design, execution time=0.437 sec.
+SPLIT design, execution time=0.437 sec.
+SIMUlator input for the vhdlams simulator done, execution time=0.469 sec.
+BACK annotation and renaming file writing done, execution time=0.437 sec.

@@ -1,13 +1,13 @@
 parameter	alias	current	nominal	minimum	maximum	set
-:DPT:l.lb:l	l_bus	1.3e-08	1.466e-08	1.3e-08	1.5e-08	
+:DPT:l.lb:l	l0	1.3e-08	1.466e-08	1.3e-08	1.5e-08	
 :DPT:l.lg_high:l	lg_high	1.3901e-09	1.4e-09	1e-09	2e-09	
 :DPT:l.lg_low:l	lg_low	1.84959e-09	1.5e-09	1e-09	2e-09	
-:DPT:r.esr:rnom	ESR	0.29998	0.15	0.1	0.3	
+:DPT:r.esr:rnom	r0	0.29998	0.15	0.1	0.3	
 :DPT:l.ld:l	l_d	1.07566e-11	1e-10	1e-11	1e-09	
 :DPT:l.ls:l	l_s	1e-11	1e-10	1e-11	1e-09	
-:DPT:c.c1:ic		56.5108	55	50	60	
+:DPT:c.c1:ic	c1ic	56.5108	55	50	60	
 :DPT:r.rb:rnom		10000	1e+06	10000	1e+07	
-:DPT:cj.cj1:c1		5.06991e-10	1e-09	5e-10	2e-09	
-:DPT:cj.cj1:c2		1.78647e-10	2e-10	5e-11	2e-10	
-:DPT:cj.cj1:m		0.38491	0.5	0.3	0.7	
+:DPT:cj.cj1:c1	cj11	5.06991e-10	1e-09	5e-10	2e-09	
+:DPT:cj.cj1:c2	cj12	1.78647e-10	2e-10	5e-11	2e-10	
+:DPT:cj.cj1:m	cj1m	0.38491	0.5	0.3	0.7	
 :DPT:k.k1:k		0.215711	0.93133	0	1	

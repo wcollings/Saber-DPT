@@ -1,0 +1,13 @@
+parameter	alias	current	nominal	minimum	maximum	set
+:DPT:l.lb:l	l0	1.2e-08	1.466e-08	1.2e-08	1.7e-08	
+:DPT:l.lg_high:l	lg_high	1.90956e-09	1.4e-09	1e-09	1e-08	
+:DPT:l.lg_low:l	lg_low	3.44116e-09	1.5e-09	1e-09	1e-08	
+:DPT:r.esr:rnom	r0	0.0148123	0.0075	0.001	0.015	
+:DPT:l.ls:l	l_s	4.3215e-10	1e-10	1e-11	1e-09	
+:DPT:l.ld:l	l_d	1.17773e-10	1e-10	1e-11	1e-09	
+:DPT:c.c1:ic	c1ic	56.2799	55	50	60	
+:DPT:r.rb:rnom		19395.4	1e+06	10000	1e+07	
+:DPT:cj.cj1:c1	cj11	5.00062e-10	1e-09	5e-10	2e-09	
+:DPT:cj.cj1:c2	cj12	1.99635e-10	2e-10	5e-11	2e-10	
+:DPT:cj.cj1:m	cjm	0.69829	0.5	0.3	0.7	
+:DPT:k.k1:k		0.996052	0.93133	0	1	

@@ -107,7 +107,7 @@ diagramEditor {
 			start S2
 			end S3
 			time ramp_on
-			profile linear
+			profile cubic
 		}
 		T3 {
 			class ::MA::SttTransition
@@ -158,7 +158,7 @@ diagramEditor {
 			start S6
 			end S2
 			time ramp_off
-			profile linear
+			profile cubic
 		}
 	}
 }

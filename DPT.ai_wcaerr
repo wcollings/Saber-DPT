@@ -1,11 +1,23 @@
 --------------------------------------------------------------------------------
 Number of error occurrences at the point specified below: 1
-* :DPT:c.c1:ic            59.930047301246
-* :DPT:l.lb:l             13n
-* :DPT:l.lg_high:l        1.6596777349495n
-* :DPT:l.lg_low:l         1n
-* :DPT:r.esr:rnom         0.29820290014056
-* :DPT:r.rb:rnom          9.9737985257293meg
+* :DPT:cj.cj1:c1              505.20770013941p
+* :DPT:cj.cj1:c2              198.64224349573p
+* :DPT:cj.cj1:m               0.69633953478691
+* :DPT:l.lb:l                 5n
+* :DPT:l.lb_para:l            19.968667212917n
+* :DPT:r.esr:rnom             0.0098891897222189
+* :DPT:r.esr_para:rnom        0.19978915280787
+
+Simulation timed out. Consider raising timeout setting.
+--------------------------------------------------------------------------------
+Number of error occurrences at the point specified below: 1
+* :DPT:cj.cj1:c1              500p
+* :DPT:cj.cj1:c2              200p
+* :DPT:cj.cj1:m               0.69996448653647
+* :DPT:l.lb:l                 5.00263182314n
+* :DPT:l.lb_para:l            19.733225880157n
+* :DPT:r.esr:rnom             0.0099784220343049
+* :DPT:r.esr_para:rnom        0.2
 
 Simulation timed out. Consider raising timeout setting.
 

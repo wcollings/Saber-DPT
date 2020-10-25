@@ -2,7 +2,7 @@
 #                                                                              #
 #  Saber netlist for design DPT                                                #
 #  Created by the Saber Integration Toolkit         0 of Synopsys, Inc.      #
-#  Created on Fri Oct 16 10:23:07 2020.                                        #
+#  Created on Sun Oct 25 15:47:41 2020.                                        #
 #                                                                              #
 ################################################################################
 
@@ -11,6 +11,8 @@ number lg_low=6.71
 number rshunt=0.5
 number lb=3.715n
 number ccoeff=1
+number ton=0
+number toff=0
 
 ################################################################################
 #                                                                              #
@@ -19,19 +21,15 @@ number ccoeff=1
 ################################################################################
 
 r.r5 p:n_189 m:s = rnom=0.025
-r.rg p:n_153 m:n_730 = rnom=100.88084308179u
 l.l2 p:n_1 m:d = l=623u
-c.c1 p:n_743 m:n_189 = ic=56.2799, c=600u
+c.c1 p:n_812 m:n_189 = ic=56.2799, c=600u
 gate_driver_hilow.gate_driver_hilow7 v_high:n_550 m:s v_low:n_153 = \
-        ton1=289.995u, ton2=5u, ramp_on=10n, toff2=4.9645u, toff1=5u, von=4.6, \
+        ton1=289.994u, ton2=5u, ramp_on=20n, toff2=4.955u, toff1=5u, von=4.6, \
         voff=-0.1, ramp_off=10n
-pwld.pwld1 p:d m:n_1 = cap=25n, von=0.41
+pwld.pwld1 p:d m:n_1 = cap=0, von=0.41
 pwld.pwld2 p:n_550 m:n_333 
 epc2022.epc2022_4 d:d g:n_555 s:s 
-c.c3 p:n_1 m:d = c=400p
 l.lg_high p:n_333 m:n_555 = l=1.4n
-l.lg_low p:n_730 m:n_555 = l=1.6n
-l.lb p:n_744 m:n_739 = l=7.5n
-r.esr_para p:n_739 m:n_1 = rnom=150m
-r.esr p:n_743 m:n_744 = rnom=7.5m
-l.lb_para p:n_739 m:n_1 = l=6.5n
+freq_dep.freq_dep4 in:n_153 out:n_555 = r0=100.88u, l1=15n, l0=1.6n, r1=10u
+freq_dep.freq_dep3 in:n_812 out:n_1 = r0=7.5m, l1=15n, l0=6.919n, r1=0.048
+cj.cj2 p:d n:n_1 = m=0.699985, v2=100, c2=80p, v1=10, c1=0.24n, c0=4n

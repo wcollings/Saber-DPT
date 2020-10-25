@@ -3,6 +3,7 @@
   <configSections>
     <sectionGroup name="DesignSettings" type="Version=2.0">
       <section name="Tran" type="Version=2.0" />
+      <section name="AC" type="Version=2.0" />
     </sectionGroup>
   </configSections>
   <sectionGroupInstance name="DesignSettings">
@@ -27,6 +28,17 @@
       </setting>
       <setting name="tend" serializeAs="String">
         <value>310u</value>
+      </setting>
+    </sectionInstance>
+    <sectionInstance name="AC">
+      <setting name="siglist" serializeAs="String">
+        <value>:...:*</value>
+      </setting>
+      <setting name="fend" serializeAs="String">
+        <value>1e8</value>
+      </setting>
+      <setting name="fbegin" serializeAs="String">
+        <value>1e4</value>
       </setting>
     </sectionInstance>
   </sectionGroupInstance>

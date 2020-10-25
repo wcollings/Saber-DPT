@@ -1,7 +1,7 @@
 parameter	value
 esl		4n
-esr		2m
-lb		5.825n
+r0		2m
+l0		5.825n
 lg_high		1.506n
 lg_low		1n
 rg		0.001

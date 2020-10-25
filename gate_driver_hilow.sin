@@ -27,7 +27,7 @@ number ramp_off=10n, ramp_on=10n, toff1=5u, toff2=5u, ton1=290.05u, ton2=5u, \
                 eq=2
                 tbegin=time
                 tend=time+ramp_on
-                profile=1
+                profile=2
                 svector=[s1, s2, s3, s4, s5]
                 schedule_next_time(time)
                 schedule_next_time(tend)
@@ -70,7 +70,7 @@ number ramp_off=10n, ramp_on=10n, toff1=5u, toff2=5u, ton1=290.05u, ton2=5u, \
                 eq=1
                 tbegin=time
                 tend=time+ramp_off
-                profile=1
+                profile=2
                 svector=[s1, s2, s3, s4, s5]
                 schedule_next_time(time)
                 schedule_next_time(tend)

@@ -1,6 +1,6 @@
 parameter	value
-esr		132m
-lb		13.817n
+r0		132m
+l0		13.817n
 lg_high		1.117n
 lg_low		5.435n
 ld		10.576p
