@@ -10,6 +10,6 @@ DPT.pa1_awd\*
 DPT.tr_awd\*
 DPT.tr_ba\*
 DPT.ai_wcaerr
-DPT.paw_awd\*
-DPT.tr_ai_ip
-DPT\*
+DPT.pa1_awd\*
+DPT.tr.ai_ip
+DPT/work*
