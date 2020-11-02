@@ -2,7 +2,7 @@
 #                                                                              #
 #  Saber netlist for design DPT                                                #
 #  Created by the Saber Integration Toolkit         0 of Synopsys, Inc.      #
-#  Created on Sun Oct 25 15:47:41 2020.                                        #
+#  Created on Fri Oct 30 14:18:49 2020.                                        #
 #                                                                              #
 ################################################################################
 
@@ -31,5 +31,5 @@ pwld.pwld2 p:n_550 m:n_333
 epc2022.epc2022_4 d:d g:n_555 s:s 
 l.lg_high p:n_333 m:n_555 = l=1.4n
 freq_dep.freq_dep4 in:n_153 out:n_555 = r0=100.88u, l1=15n, l0=1.6n, r1=10u
-freq_dep.freq_dep3 in:n_812 out:n_1 = r0=7.5m, l1=15n, l0=6.919n, r1=0.048
-cj.cj2 p:d n:n_1 = m=0.699985, v2=100, c2=80p, v1=10, c1=0.24n, c0=4n
+freq_dep.freq_dep7 in:n_812 out:n_1 = r0=7.5m, l1=14n, l0=10.5n, r1=0.1
+cj.cj2 p:d n:n_1 = m=0.65898278366178, v2=100, c2=200p, v1=10, c1=300p, c0=4n

@@ -1,11 +1,11 @@
-SABER_PID 17544
+SABER_PID 5480
 SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 
      Searching for licenses ...
 SABER_SIMULATOR:                 license.
 
-     Sun Oct 25 15:47:43 Eastern Daylight Time 2020
+     Fri Oct 30 14:18:52 Eastern Daylight Time 2020
 
 Calling MAST compiler...
 ./gate_driver_hilow.sin:
@@ -19,46 +19,2127 @@ Syntactic check complete; continuing design analysis....
 SaberHDL
 >
 dc  -progress 500;tr  -terror 5E-11 -order 1 -pins all -siglist :...:* -tniter 15 -progress 500 -tstep 0.1n -tend 310u 
-execution time= 15.6E-3 sec.
+execution time= 31.2E-3 sec.
 Progress -   0% : Time: 0 sec
-Progress -   1% : Time: 5.0509975590014e-6 sec
-Progress -   1% : Time: 5.1170426801835e-6 sec
-Progress -   1% : Time: 5.207201082164e-6 sec
-Progress -   1% : Time: 5.3404774239961e-6 sec
-Progress -   1% : Time: 5.5069577466482e-6 sec
-Progress -   5% : Time: 18.253257979824e-6 sec
-Progress -  11% : Time: 35.26675067452e-6 sec
-Progress -  16% : Time: 51.337787039626e-6 sec
-Progress -  22% : Time: 70.396348371033e-6 sec
-Progress -  28% : Time: 89.307431683718e-6 sec
-Progress -  36% : Time: 114.24390527517e-6 sec
-Progress -  42% : Time: 130.47749429164e-6 sec
-Progress -  47% : Time: 147.65380365117e-6 sec
-Progress -  54% : Time: 170.010928034e-6 sec
-Progress -  59% : Time: 185.41237973878e-6 sec
-Progress -  65% : Time: 201.70678942252e-6 sec
-Progress -  70% : Time: 217.3736404028e-6 sec
-Progress -  77% : Time: 238.90968577712e-6 sec
-Progress -  84% : Time: 263.37894606058e-6 sec
-Progress -  91% : Time: 283.20371902326e-6 sec
-Progress -  95% : Time: 295.01306956051e-6 sec
-Progress -  95% : Time: 295.10200648192e-6 sec
-Progress -  95% : Time: 295.1776926803e-6 sec
-Progress -  95% : Time: 295.29066515513e-6 sec
-Progress -  95% : Time: 295.53171206778e-6 sec
-Progress -  96% : Time: 299.98809354584e-6 sec
-Progress -  96% : Time: 300.05837210084e-6 sec
-Progress -  96% : Time: 300.16299779693e-6 sec
-Progress -  96% : Time: 300.31397341235e-6 sec
-Progress -  98% : Time: 304.9781134786e-6 sec
-Progress -  98% : Time: 305.03778736506e-6 sec
-Progress -  98% : Time: 305.13085340233e-6 sec
-Progress -  98% : Time: 305.26524566031e-6 sec
-Progress -  98% : Time: 305.55753308458e-6 sec
+Progress -   1% : Time: 5.070253932023e-6 sec
+Progress -   1% : Time: 5.1751243599632e-6 sec
+Progress -   1% : Time: 5.2776972880133e-6 sec
+Progress -   1% : Time: 5.4993642828085e-6 sec
+Progress -   9% : Time: 29.876692822131e-6 sec
+Progress -  18% : Time: 56.993275307633e-6 sec
+Progress -  26% : Time: 83.091381500975e-6 sec
+Progress -  35% : Time: 110.32515851873e-6 sec
+Progress -  45% : Time: 139.78563164911e-6 sec
+Progress -  53% : Time: 165.07453750062e-6 sec
+Progress -  63% : Time: 196.64730255741e-6 sec
+Progress -  74% : Time: 229.8635814117e-6 sec
+Progress -  81% : Time: 251.63665129576e-6 sec
+Progress -  89% : Time: 278.55790956071e-6 sec
+Progress -  95% : Time: 295.01945888331e-6 sec
+Progress -  95% : Time: 295.13061597026e-6 sec
+Progress -  95% : Time: 295.38917597662e-6 sec
+Progress -  96% : Time: 299.98601648296e-6 sec
+Progress -  96% : Time: 300.06186503864e-6 sec
+Progress -  96% : Time: 300.20357602941e-6 sec
+Progress -  97% : Time: 303.3313830243e-6 sec
+Progress -  98% : Time: 305.01379024831e-6 sec
+Progress -  98% : Time: 305.12073167326e-6 sec
+Progress -  98% : Time: 305.34155255466e-6 sec
 Progress - 100% : Time: 310e-6 sec
-execution time= 17 sec.
+execution time= 12.1 sec.
 >
-alter DPT:freq_dep.freq_dep3:l1 4n
-NOTE: Confirming alter: :DPT:freq_dep.freq_dep3:l1 := 4e-09 , Old value := 1.5e-08
+browse / alter 
+Error: leading unmatched words "/ alter"
+>
+cb / 
+Error: unknown command "cb"
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :*:* -analysis internalalter 
+:DPT:ccoeff	1.00000
+:DPT:lb	3.71500e-09
+:DPT:lg_hi	1.40900e-09
+:DPT:lg_low	6.71000
+:DPT:rshunt	0.500000
+:DPT:toff	0.00000
+:DPT:ton	0.00000
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+:DPT:c.c1
+:DPT:cj.cj2
+:DPT:epc2022.epc2022_4
+:DPT:freq_dep.freq_dep4
+:DPT:freq_dep.freq_dep7
+:DPT:gate_driver_hilow.gate_driver_hilow7
+:DPT:l.l2
+:DPT:l.lg_high
+:DPT:pwld.pwld1
+:DPT:pwld.pwld2
+:DPT:r.r5
+>
+browse -global :*:*:*  -analysis internalalter 
+:ai_std:header:acc_fac	1.00000
+:ai_std:header:ad_index	1.40000
+:ai_std:header:aspec	0.00000
+:ai_std:header:bulk	6.89500e+08
+:ai_std:header:c_p	1002.70
+:ai_std:header:c_tol	0.00000
+:ai_std:header:c_vmax	undef
+:ai_std:header:c_vrmax	undef
+:ai_std:header:dc_hold	0.00000
+:ai_std:header:dc_print	0.00000
+:ai_std:header:dcap	2.00000
+:ai_std:header:encmode	0.00000
+:ai_std:header:fluid_temp	40.0000
+:ai_std:header:gas_ambient_temp	20.0000
+:ai_std:header:gas_const	286.800
+:ai_std:header:gas_density	1.21000
+:ai_std:header:hydraulic_fluid	1.00000
+:ai_std:header:include_stress	1.00000
+:ai_std:header:k2lim	0.00000
+:ai_std:header:l_tol	0.00000
+:ai_std:header:mos_scale	1.00000
+:ai_std:header:mos_scalm	1.00000
+:ai_std:header:mu	0.0143000
+:ai_std:header:nomtemp	27.0000
+:ai_std:header:openr	1.00000e+08
+:ai_std:header:patm	-101325.
+:ai_std:header:pcav	-95000.0
+:ai_std:header:pdist	_normal
+:ai_std:header:pres_atm_abs	101325.
+:ai_std:header:print_failures	"false"
+:ai_std:header:pvac	-101325.
+:ai_std:header:r_pdmax	undef
+:ai_std:header:r_tol	0.00000
+:ai_std:header:rel_gas_cont	0.00000
+:ai_std:header:resmin	1.00000e-05
+:ai_std:header:rho	1000.00
+:ai_std:header:scale	1.00000
+:ai_std:header:scalm	1.00000
+:ai_std:header:shortr	0.000100000
+:ai_std:header:shrinkc	0.00000
+:ai_std:header:shrinkm	0.00000
+:ai_std:header:spice	0.00000
+:ai_std:header:spice_type	0.00000
+:ai_std:header:temp	27.0000
+:ai_std:header:use_2g6	0.00000
+:ai_std:header:valid_pres	2.14748e+09
+:ai_std:header:vbfwdmod	-1.00000
+:ai_std:header:visc_der_factor	1.00000
+:ai_std:header:vntol	1.00000e-05
+:ai_std:header:vsim_simulator	"vpa"
+:ai_std:header:vsim_startup_file	""
+:ai_std:header:vsim_wdir	""
+:ai_std:header:warnlimit	1000.00
+--------------
+>
+set saberhdl(language) 
+Error: can't read "saberhdl(language)": no such element in array
+>
+browse -instance :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -global :work:design_pkg:* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg:*" does not match anything in the current design.
+>
+browse -instance :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+browse -global :work:design_pkg.* -analysis internalalter 
+SEVERE ERROR:  The siglist ":work:design_pkg.*" does not match anything in the current design.
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal 
+:DPT:freq_dep.freq_dep7:r0	0.00750000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r0 7.5m
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r0 := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal 
+:DPT:freq_dep.freq_dep7:r0	0.00750000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r0 := 0.0075 , Old value := 0.0075
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.100000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.125
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.125 , Old value := 0.1
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.125000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.075
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.075 , Old value := 0.125
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.0750000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.125
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.125 , Old value := 0.075
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.125000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.1
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.1 , Old value := 0.125
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.100000
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.100000
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.1 , Old value := 0.1
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	1.05000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.05e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	1.10000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 8n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 8e-09 , Old value := 1.1e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	8.00000e-09
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 8e-09
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	1.10000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 8.5n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 8.5e-09 , Old value := 1.1e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	8.50000e-09
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 1.05000e-08
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.05e-08 , Old value := 8.5e-09
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	1.40000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.4e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	1.00043e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.00043e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	1.00000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 20n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 2e-08 , Old value := 1e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	2.00000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 14n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.4e-08 , Old value := 2e-08
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	1.40000e-08
+--------------
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 1.40000e-08
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.4e-08 , Old value := 1.4e-08
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	3.00000e-10
+--------------
+>
+alter -force :DPT:cj.cj2:c1 500p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 5e-10 , Old value := 3e-10
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	5.00000e-10
+--------------
+>
+alter -force :DPT:cj.cj2:c1 350p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.5e-10 , Old value := 5e-10
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	3.50000e-10
+--------------
+>
+alter -force :DPT:cj.cj2:c1 2n
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 2e-09 , Old value := 3.5e-10
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	2.00000e-09
+--------------
+>
+alter -force :DPT:cj.cj2:c1 1n
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 1e-09 , Old value := 2e-09
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	1.00000e-09
+--------------
+>
+alter -force :DPT:cj.cj2:c1 3.00000e-10
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3e-10 , Old value := 1e-09
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	2.00000e-10
+--------------
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2e-10
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	2.00000e-10
+--------------
+>
+alter -force :DPT:cj.cj2:c2 50p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 5e-11 , Old value := 2e-10
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	5.00000e-11
+--------------
+>
+alter -force :DPT:cj.cj2:c2 349p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 3.49e-10 , Old value := 5e-11
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	3.49000e-10
+--------------
+>
+alter -force :DPT:cj.cj2:c2 80p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 8e-11 , Old value := 3.49e-10
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	8.00000e-11
+--------------
+>
+alter -force :DPT:cj.cj2:c2 2.00000e-10
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 8e-11
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.658983
+--------------
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.658983
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.699986
+--------------
+>
+alter -force :DPT:cj.cj2:m 0.3
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.3 , Old value := 0.699986
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.300000
+--------------
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.3
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.700000
+--------------
+>
+alter -force :DPT:cj.cj2:m 0.699985
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699985 , Old value := 0.7
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.699985
+--------------
+>
+alter -force :DPT:cj.cj2:m 0.658983
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.658983 , Old value := 0.699985
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal 
+:DPT:freq_dep.freq_dep7:r0	0.00750000
+--------------
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.100000
+--------------
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	1.05000e-08
+--------------
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	1.40000e-08
+--------------
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	3.00000e-10
+--------------
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	2.00000e-10
+--------------
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.658983
+--------------
+>
+browse -analysis tranalysis -global :DPT:epc2022.epc2022_4:id -browse_type siglist 
+SEVERE ERROR:  The siglist ":DPT:epc2022.epc2022_4:id" does not match anything in the current design.
+>
+browse -analysis tranalysis -instance :DPT:epc2022.epc2022_4:id -browse_type siglist 
+:DPT:epc2022.epc2022_4:id
+--------------
+>
+browse -analysis tranalysis -global :DPT:epc2022.epc2022_4:vds -browse_type siglist 
+SEVERE ERROR:  The siglist ":DPT:epc2022.epc2022_4:vds" does not match anything in the current design.
+>
+browse -analysis tranalysis -instance :DPT:epc2022.epc2022_4:vds -browse_type siglist 
+:DPT:epc2022.epc2022_4:vds
+--------------
+>
+AimLicense:GetFeaturesInUse 
+SABER_SIMULATOR OPT_TEMPLATE_LIB
+>
+alter -force :DPT:cj.cj2:c1 500p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 5e-10 , Old value := 3e-10
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.658983
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.05e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.4e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r0 := 0.0075 , Old value := 0.0075
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.125
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.125 , Old value := 0.1
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+User-interrupt signal received. Analysis stopped.
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 1.67 sec.
+messages given: 1 warning
+>
+ 
+>
+set test 1 
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal 
+:DPT:freq_dep.freq_dep7:r0	0.00750000
+--------------
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:r1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal 
+:DPT:freq_dep.freq_dep7:r1	0.125000
+--------------
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l0" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal 
+:DPT:freq_dep.freq_dep7:l0	1.10000e-08
+--------------
+>
+browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1 
+SEVERE ERROR:  The siglist ":DPT:freq_dep.freq_dep7:l1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal 
+:DPT:freq_dep.freq_dep7:l1	1.00043e-08
+--------------
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c1 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c1" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c1 -internal 
+:DPT:cj.cj2:c1	5.00000e-10
+--------------
+>
+browse -analysis internalalter -global :DPT:cj.cj2:c2 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:c2" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:c2 -internal 
+:DPT:cj.cj2:c2	2.00000e-10
+--------------
+>
+browse -analysis internalalter -global :DPT:cj.cj2:m 
+SEVERE ERROR:  The siglist ":DPT:cj.cj2:m" does not match anything in the current design.
+>
+browse -analysis internalalter -instance :DPT:cj.cj2:m -internal 
+:DPT:cj.cj2:m	0.699986
+--------------
+>
+browse -analysis tranalysis -global :DPT:epc2022.epc2022_4:id -browse_type siglist 
+SEVERE ERROR:  The siglist ":DPT:epc2022.epc2022_4:id" does not match anything in the current design.
+>
+browse -analysis tranalysis -instance :DPT:epc2022.epc2022_4:id -browse_type siglist 
+:DPT:epc2022.epc2022_4:id
+--------------
+>
+browse -analysis tranalysis -global :DPT:epc2022.epc2022_4:vds -browse_type siglist 
+SEVERE ERROR:  The siglist ":DPT:epc2022.epc2022_4:vds" does not match anything in the current design.
+>
+browse -analysis tranalysis -instance :DPT:epc2022.epc2022_4:vds -browse_type siglist 
+:DPT:epc2022.epc2022_4:vds
+--------------
+>
+AimLicense:GetFeaturesInUse 
+SABER_SIMULATOR OPT_TEMPLATE_LIB
+>
+alter -force :DPT:cj.cj2:c1 500p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 5e-10 , Old value := 5e-10
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.1e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.00043e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r0 := 0.0075 , Old value := 0.0075
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.125
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.125 , Old value := 0.125
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 8.89 sec.
+>
+ 
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.990314774405n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09903e-08 , Old value := 1.1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.1 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69268142732411
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.692681 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.09903e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004342782585n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.44 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 498.18341980124p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.98183e-10 , Old value := 5e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.692681
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.84 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99708157227p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.99997e-10 , Old value := 2e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.01 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.99997e-10
+>
+alter -force :DPT:cj.cj2:m 0.65935469662984
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.659355 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.25 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.659355
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.97719285363n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09772e-08 , Old value := 1.1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.1 sec.
+>
+ 
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.09772e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.405793238202n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.04058e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.89 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 542.52078551496p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 5.42521e-10 , Old value := 4.98183e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.04058e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.5 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 498.18341980124p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.98183e-10 , Old value := 5.42521e-10
+>
+alter -force :DPT:cj.cj2:c2 197.61598037813p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.97616e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.699986
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.81 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 200.00015936847p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.97616e-10
+>
+alter -force :DPT:cj.cj2:m 0.67771767041218
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.677718 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.267221133331n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.02672e-08 , Old value := 1.1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.39 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.677718
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.999941036858n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09999e-08 , Old value := 1.02672e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.78 sec.
+>
+ 
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.6 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 505.70293828922p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 5.05703e-10 , Old value := 4.98183e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.699986
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 498.18341980124p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.98183e-10 , Old value := 5.05703e-10
+>
+alter -force :DPT:cj.cj2:c2 201.09267260453p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.01093e-10 , Old value := 2e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.452723641885n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.04527e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.1 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2.01093e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.04527e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.997221493084n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09972e-08 , Old value := 1.09999e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.64 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998572256164
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.999941036858n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09999e-08 , Old value := 1.09972e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.7 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 1.407186549773n
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 1.40719e-09 , Old value := 4.98183e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.6 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 498.18341980124p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.98183e-10 , Old value := 1.40719e-09
+>
+alter -force :DPT:cj.cj2:c2 190.80359576416p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.90804e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.699986
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.5 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 961.32809945737p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 9.61328e-10 , Old value := 4.98183e-10
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.90804e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593436855
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.7
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.3 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 498.18341980124p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.98183e-10 , Old value := 9.61328e-10
+>
+alter -force :DPT:cj.cj2:m 0.63761194826392
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.637612 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.003122181035n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00031e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 4.73 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 350p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.5e-10 , Old value := 4.98183e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.637612
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.00031e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 5.23 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 55.445052768561p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 5.54451e-11 , Old value := 2e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.071725221626n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00717e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 5.25 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99999750713p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 5.54451e-11
+>
+alter -force :DPT:cj.cj2:m 0.69761728508374
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.697617 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.004341485303n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00043e-08 , Old value := 1.00717e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.14 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.697617
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.09999e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.51 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617061096517n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.00043e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.03 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842495543p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.5e-10
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 5.06 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 120.30799103547p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.20308e-10 , Old value := 2e-10
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 5.12 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.20308e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998600288623
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699986
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 5.98 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.09877e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 11.4 sec.
+>
+ 
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.1e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 11.878347443994n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.18783e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.5 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 383.68730903806p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.83687e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617061096517n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.18783e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.1 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842495543p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.83687e-10
+>
+alter -force :DPT:cj.cj2:c2 349p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 3.49e-10 , Old value := 2e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.973687361964n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09737e-08 , Old value := 1.09877e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 11 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 3.49e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.09737e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.87 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.989906469989n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09899e-08 , Old value := 1.09877e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 11.3 sec.
+>
+ 
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.09899e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.8 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 392.81203158682p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.92812e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617061096517n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.1 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842495543p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.92812e-10
+>
+alter -force :DPT:cj.cj2:c2 199.73368298864p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.99734e-10 , Old value := 2e-10
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 8.61 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.99734e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998076728041
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699981 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.527775885329n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.05278e-08 , Old value := 1.09877e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.33 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699981
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.997729074349n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09977e-08 , Old value := 1.05278e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617063845066n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.73 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 215.53623297769p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.15536e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.65019723264759
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.650197 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.09977e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.618718938688n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06187e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.98 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68936560475p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80689e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2.15536e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.650197
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.1e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617061096517n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.06187e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.55 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842495543p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.80689e-10
+>
+alter -force :DPT:cj.cj2:c2 199.58645342605p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.99586e-10 , Old value := 2e-10
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.31 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.99586e-10
+>
+alter -force :DPT:cj.cj2:m 0.69990646984724
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699906 , Old value := 0.699986
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.4 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699906
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.005996593384n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.0006e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 11.4 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 676.70259468842p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 6.76703e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617061096517n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.0006e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.67 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 381.90223847051p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.81902e-10 , Old value := 6.76703e-10
+>
+alter -force :DPT:cj.cj2:c2 151.0138595856p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.51014e-10 , Old value := 2e-10
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.47 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842495543p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.81902e-10
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 1.51014e-10
+>
+alter -force :DPT:cj.cj2:m 0.692791998697
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.692792 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.994020747072n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.0994e-08 , Old value := 1.09877e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10.2 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 381.70320629584p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.81703e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.692792
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.0994e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.61706261821n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.8 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842477943p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.81703e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.617061096517n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06171e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.48 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 200.00262108091p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.00003e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.64629855098688
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.646299 , Old value := 0.699986
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 9.25 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2.00003e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.646299
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 8.22 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691667476n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.09877e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 11.692020529739n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.1692e-08 , Old value := 1.06171e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 7.42 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 415.98039093574p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.1598e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:cj.cj2:c2 218.31635847935p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.18316e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 11n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.1e-08 , Old value := 1.09877e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.699633734841n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06996e-08 , Old value := 1.1692e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.36 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 397.06467125793p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.97065e-10 , Old value := 4.1598e-10
+>
+alter -force :DPT:cj.cj2:c2 175.26429605029p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.75264e-10 , Old value := 2.18316e-10
+>
+alter -force :DPT:cj.cj2:m 0.6936799337286
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.69368 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.331658988799n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.03317e-08 , Old value := 1.06996e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.19 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 390.20974887845p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.9021e-10 , Old value := 3.97065e-10
+>
+alter -force :DPT:cj.cj2:c2 202.38328459461p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.02383e-10 , Old value := 1.75264e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.69368
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.991590699269n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.09916e-08 , Old value := 1.03317e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.62 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 396.01182093822p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.96012e-10 , Old value := 3.9021e-10
+>
+alter -force :DPT:cj.cj2:c2 192.21261462048p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.92213e-10 , Old value := 2.02383e-10
+>
+alter -force :DPT:cj.cj2:m 0.68670815412436
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.686708 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 11.146484032614n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.11465e-08 , Old value := 1.09916e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 7.51 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 408.46954845773p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.0847e-10 , Old value := 3.96012e-10
+>
+alter -force :DPT:cj.cj2:c2 198.87275131715p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.98873e-10 , Old value := 1.92213e-10
+>
+alter -force :DPT:cj.cj2:m 0.7
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.7 , Old value := 0.686708
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.144515458237n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.01445e-08 , Old value := 1.11465e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.2 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 399.08200450406p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.99082e-10 , Old value := 4.0847e-10
+>
+alter -force :DPT:cj.cj2:c2 233.21992313991p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.3322e-10 , Old value := 1.98873e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.995074999819n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09951e-08 , Old value := 1.1e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 11.110948374257n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.11109e-08 , Old value := 1.01445e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 7.39 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 401.38102779867p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.01381e-10 , Old value := 3.99082e-10
+>
+alter -force :DPT:cj.cj2:c2 229.75804066641p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.29758e-10 , Old value := 2.3322e-10
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.993105617218n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09931e-08 , Old value := 1.09951e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.285575283576n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.02856e-08 , Old value := 1.11109e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 5.44 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 386.42406733459p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.86424e-10 , Old value := 4.01381e-10
+>
+alter -force :DPT:cj.cj2:c2 235.26401157919p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.35264e-10 , Old value := 2.29758e-10
+>
+alter -force :DPT:cj.cj2:m 0.6999943737151
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699994 , Old value := 0.7
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.990349074175n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09903e-08 , Old value := 1.09931e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 11.364074936322n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.13641e-08 , Old value := 1.02856e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.51 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 368.42366406449p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.68424e-10 , Old value := 3.86424e-10
+>
+alter -force :DPT:cj.cj2:c2 220.81683927928p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.20817e-10 , Old value := 2.35264e-10
+>
+alter -force :DPT:cj.cj2:m 0.69999212321381
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699992 , Old value := 0.699994
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.986491075107n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09865e-08 , Old value := 1.09903e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 11.03729262169n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.10373e-08 , Old value := 1.13641e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 7.42 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 383.83274459068p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.83833e-10 , Old value := 3.68424e-10
+>
+alter -force :DPT:cj.cj2:c2 246.65325296902p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.46653e-10 , Old value := 2.20817e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998897252413
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699989 , Old value := 0.699992
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.981092151519n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09811e-08 , Old value := 1.09865e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.761968678134n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.0762e-08 , Old value := 1.10373e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.95 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 413.24767716822p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 4.13248e-10 , Old value := 3.83833e-10
+>
+alter -force :DPT:cj.cj2:c2 236.29316620929p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.36293e-10 , Old value := 2.46653e-10
+>
+alter -force :DPT:cj.cj2:m 0.69999558898882
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699996 , Old value := 0.699989
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.992432956955n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09924e-08 , Old value := 1.09811e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.609657925406n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.06097e-08 , Old value := 1.0762e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.59 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 386.86113716908p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.86861e-10 , Old value := 4.13248e-10
+>
+alter -force :DPT:cj.cj2:c2 224.90127031819p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.24901e-10 , Old value := 2.36293e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998594787541
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699996
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.982795280453n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09828e-08 , Old value := 1.09924e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.346486836266n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.03465e-08 , Old value := 1.06097e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 7.19 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.89176542121p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80892e-10 , Old value := 3.86861e-10
+>
+alter -force :DPT:cj.cj2:c2 220.8538827249p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.20854e-10 , Old value := 2.24901e-10
+>
+alter -force :DPT:cj.cj2:m 0.6999789219189
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699979 , Old value := 0.699986
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.976660564649n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09767e-08 , Old value := 1.09828e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.03465e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.91 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 397.23549513421p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.97235e-10 , Old value := 3.80892e-10
+>
+alter -force :DPT:cj.cj2:c2 217.38114631304p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.17381e-10 , Old value := 2.20854e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998539335791
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699985 , Old value := 0.699979
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.982041917846n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.0982e-08 , Old value := 1.09767e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.66 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 365.62580969164p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.65626e-10 , Old value := 3.97235e-10
+>
+alter -force :DPT:cj.cj2:c2 209.33145695403p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.09331e-10 , Old value := 2.17381e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998009989818
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.69998 , Old value := 0.699985
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.975807127559n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09758e-08 , Old value := 1.0982e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.054221976706n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00542e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.47 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 350p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.5e-10 , Old value := 3.65626e-10
+>
+alter -force :DPT:cj.cj2:c2 197.02718996642p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.97027e-10 , Old value := 2.09331e-10
+>
+alter -force :DPT:cj.cj2:m 0.69997235548139
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699972 , Old value := 0.69998
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.967503645074n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09675e-08 , Old value := 1.09758e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.00542e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.23 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 362.64561242781p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.62646e-10 , Old value := 3.5e-10
+>
+alter -force :DPT:cj.cj2:c2 207.41513795571p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.07415e-10 , Old value := 1.97027e-10
+>
+alter -force :DPT:cj.cj2:m 0.69996772918025
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699968 , Old value := 0.699972
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.968224176979n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09682e-08 , Old value := 1.09675e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.277067679122n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.02771e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 7 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 370.70923829561p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.70709e-10 , Old value := 3.62646e-10
+>
+alter -force :DPT:cj.cj2:c2 180.27095608789p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 1.80271e-10 , Old value := 2.07415e-10
+>
+alter -force :DPT:cj.cj2:m 0.69997025903056
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.69997 , Old value := 0.699968
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.975074971777n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09751e-08 , Old value := 1.09682e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.02771e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.23 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.50894300446p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80509e-10 , Old value := 3.70709e-10
+>
+alter -force :DPT:cj.cj2:c2 228.05866416045p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.28059e-10 , Old value := 1.80271e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998429410383
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699984 , Old value := 0.69997
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.979587547375n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09796e-08 , Old value := 1.09751e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.470515453521n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.04705e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 6.91 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 352.090340478p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.5209e-10 , Old value := 3.80509e-10
+>
+alter -force :DPT:cj.cj2:c2 208.50698843558p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.08507e-10 , Old value := 2.28059e-10
+>
+alter -force :DPT:cj.cj2:m 0.6999733984248
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699973 , Old value := 0.699984
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.973144701671n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09731e-08 , Old value := 1.09796e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.570025275624n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.057e-08 , Old value := 1.04705e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 8.64 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 385.43359316944p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.85434e-10 , Old value := 3.5209e-10
+>
+alter -force :DPT:cj.cj2:c2 215.12781183835p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.15128e-10 , Old value := 2.08507e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998239460536
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699982 , Old value := 0.699973
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.979816937717n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09798e-08 , Old value := 1.09731e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.139557595037n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.01396e-08 , Old value := 1.057e-08
+>
+dc -backan none 
+execution time= 15.6E-3 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 11.4 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 369.21934155285p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.69219e-10 , Old value := 3.85434e-10
+>
+alter -force :DPT:cj.cj2:c2 233.33483675413p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.33335e-10 , Old value := 2.15128e-10
+>
+alter -force :DPT:cj.cj2:m 0.6999714415373
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699971 , Old value := 0.699982
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.964357698664n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09644e-08 , Old value := 1.09798e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1e-08 , Old value := 1.01396e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+execution time= 10 sec.
+>
+ 
+>
+alter -force :DPT:cj.cj2:c1 380.68842477943p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.80688e-10 , Old value := 3.69219e-10
+>
+alter -force :DPT:cj.cj2:c2 199.99984758595p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2e-10 , Old value := 2.33335e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998593437252
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.699986 , Old value := 0.699971
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.987691633721n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09877e-08 , Old value := 1.09644e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.377240974229n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.03772e-08 , Old value := 1e-08
+>
+dc -backan none 
+execution time= 0 sec.
+>
+tr -tend 310u -tstep 0.1n -terror 5E-11 -order 1 -tniter 15 -fniter 500 -pfile pa1 -siglist :DPT:epc2022.epc2022_4:id :DPT:epc2022.epc2022_4:vds -backan none 
+User-interrupt signal received. Analysis stopped.
+WARNING:  The endpoint Initial Point file, tr, has NOT been written.
+execution time= 3.48 sec.
+messages given: 1 warning
+>
+ 
+>
+set test 1 
+>
+alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r0 := 0.0075 , Old value := 0.0075
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.125
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.125 , Old value := 0.125
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.975807127559n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09758e-08 , Old value := 1.09877e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.054221976706n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00542e-08 , Old value := 1.03772e-08
+>
+alter -force :DPT:cj.cj2:c1 365.62580969164p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.65626e-10 , Old value := 3.80688e-10
+>
+alter -force :DPT:cj.cj2:c2 209.33145695403p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.09331e-10 , Old value := 2e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998009989818
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.69998 , Old value := 0.699986
+>
+ 
+>
+alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r0 := 0.0075 , Old value := 0.0075
+>
+alter -force :DPT:freq_dep.freq_dep7:r1 0.125
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:r1 := 0.125 , Old value := 0.125
+>
+alter -force :DPT:freq_dep.freq_dep7:l0 10.975807127559n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l0 := 1.09758e-08 , Old value := 1.09758e-08
+>
+alter -force :DPT:freq_dep.freq_dep7:l1 10.054221976706n
+NOTE: Confirming alter: :DPT:freq_dep.freq_dep7:l1 := 1.00542e-08 , Old value := 1.00542e-08
+>
+alter -force :DPT:cj.cj2:c1 365.62580969164p
+NOTE: Confirming alter: :DPT:cj.cj2:c1 := 3.65626e-10 , Old value := 3.65626e-10
+>
+alter -force :DPT:cj.cj2:c2 209.33145695403p
+NOTE: Confirming alter: :DPT:cj.cj2:c2 := 2.09331e-10 , Old value := 2.09331e-10
+>
+alter -force :DPT:cj.cj2:m 0.69998009989818
+NOTE: Confirming alter: :DPT:cj.cj2:m := 0.69998 , Old value := 0.69998
+>
+ 
+>
+dc  -progress 500;tr  -terror 5E-11 -order 1 -pins all -siglist :...:* -tniter 15 -progress 500 -tstep 0.1n -tend 310u 
+execution time= 31.2E-3 sec.
+Progress -   0% : Time: 0 sec
+Progress -   1% : Time: 5.0618416865117e-6 sec
+Progress -   1% : Time: 5.158464354807e-6 sec
+Progress -   1% : Time: 5.2646072701268e-6 sec
+Progress -   1% : Time: 5.4113343885692e-6 sec
+Progress -   4% : Time: 14.181715364962e-6 sec
+Progress -   8% : Time: 27.74869701113e-6 sec
+Progress -  13% : Time: 42.56574530191e-6 sec
+Progress -  17% : Time: 55.038570619968e-6 sec
+Progress -  23% : Time: 72.071772694915e-6 sec
+Progress -  28% : Time: 87.339847258324e-6 sec
+Progress -  33% : Time: 104.37304933326e-6 sec
+Progress -  39% : Time: 122.63682926323e-6 sec
+Progress -  42% : Time: 132.3979287197e-6 sec
+Progress -  47% : Time: 148.45390720387e-6 sec
+Progress -  52% : Time: 162.83941801152e-6 sec
+Progress -  58% : Time: 181.31479051385e-6 sec
+Progress -  64% : Time: 200.22448461207e-6 sec
+Progress -  69% : Time: 214.82715621767e-6 sec
+Progress -  74% : Time: 229.40755492091e-6 sec
+Progress -  77% : Time: 241.25117074744e-6 sec
+Progress -  83% : Time: 258.64073926004e-6 sec
+Progress -  90% : Time: 280.52386582247e-6 sec
+Progress -  95% : Time: 295.00968934704e-6 sec
+Progress -  95% : Time: 295.05566114431e-6 sec
+Progress -  95% : Time: 295.15993362331e-6 sec
+Progress -  95% : Time: 295.30286575998e-6 sec
+Progress -  95% : Time: 295.5955024415e-6 sec
+Progress -  96% : Time: 299.9858409015e-6 sec
+Progress -  96% : Time: 300.06146207078e-6 sec
+Progress -  96% : Time: 300.13158731512e-6 sec
+Progress -  96% : Time: 300.2411816278e-6 sec
+Progress -  98% : Time: 304.95834485133e-6 sec
+Progress -  98% : Time: 305.02467247438e-6 sec
+Progress -  98% : Time: 305.10765824464e-6 sec
+Progress -  98% : Time: 305.24810420584e-6 sec
+Progress -  98% : Time: 305.52122239677e-6 sec
+Progress - 100% : Time: 310e-6 sec
+execution time= 17.7 sec.
+>
+source fit_both.aim 
+time starts at 293.13u
+vds=WF:1:1
+vgs=WF:2:1
+id=WF:3:1
+C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/id_pl.ai_pl
 >
 exit 

@@ -1,0 +1,22 @@
+
+# Creation date.........Fri Oct 23 16:07:49 2020
+# Input file type.......pspice
+# Input file............C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/freq_dep.ckt
+# Output file...........C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/freq_dep.sin
+# Command script file...C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/freq_dep.scs
+# Log file..............C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/freq_dep.log
+
+
+
+template freq_dep   in out =r0, l0, r1, l1
+electrical  in,out
+{
+number  r0,l0,r1,l1
+
+
+r.int0 in n1 = rnom=r0
+l.int0 n1 n2 = l=l0
+r.int1 n2 out = rnom=r1
+l.int1 n2 out = l=l1
+}    # end freq_dep
+

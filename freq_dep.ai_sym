@@ -1,0 +1,41 @@
+[symbol20]
+desc {}
+uniq 7
+[resources]
+<font>
+{-family {OF Helvetica} -size 4}
+{-family {OF Helvetica} -size 12}
+{-family {OF Helvetica} -size 8}
+<color>
+<linestyle>
+{-}
+<image>
+<layer>
+{electrical}
+{vis}
+<style>
+[events]
+[section]
+default
+0 0 
+<properties>
+primitive freq_dep {} {} String 0 16 2 1 0 8 -1 -1 0 0 1 {} {} {} 6 l
+library ai_User_Library {} {} String 320 -400 0 1 0 5 -1 -1 0 0 1 {} {} {} 6 l
+r0 { } {} 1 {} 320 -512 0 0 0 5 -1 -1 0 0 1 {} {} {} 6 l
+l0 { } {} 1 {} 320 -640 0 0 0 5 -1 -1 0 0 1 {} {} {} 6 l
+r1 { } {} 1 {} 320 -752 0 0 0 5 -1 -1 0 0 1 {} {} {} 6 l
+l1 { } {} 1 {} 320 -880 0 0 0 5 -1 -1 0 0 1 {} {} {} 6 l
+ref *req* {} {} String 320 -992 0 0 0 5 -1 -1 0 0 1 {} {} {} 6 l
+<ports>
+in -640 0 1 0 0 -640 0 0 7 1 -1 -1 0 1 0 {} 6
+out 640 0 1 0 0 640 0 0 7 1 -1 -1 0 1 0 {} 6
+<sym_events>
+<prop_events>
+<view>
+Default
+{}
+-670 -80 670 80
+l gr_0_ 0 1 0 0 1 10 -1 0 {-320 0 -640 0 } {8 10 3} 6 0 
+l gr_2_ 0 1 0 0 1 10 -1 0 {256 0 640 0 } {8 10 3} 6 0 
+r gr_4_ -320 -80 256 80 0 1 10 -1 -1 0 6 0 
+<view_groups>

@@ -1,0 +1,8 @@
+parameter	alias	current	nominal	minimum	maximum	set
+:DPT:freq_dep.freq_dep7:r0	r0	0.0075	0.0075			
+:DPT:freq_dep.freq_dep7:r1	r1	0.125	0.1	0.075	0.125	
+:DPT:freq_dep.freq_dep7:l0	l0	9.48767e-09	8.5e-09	8e-09	1.1e-08	
+:DPT:freq_dep.freq_dep7:l1	l1	2e-08	1.4e-08	1e-08	2e-08	
+:DPT:cj.cj2:c1	cj11	4.18113e-10	1e-09	3.5e-10	2e-09	
+:DPT:cj.cj2:c2	cj12	3.49e-10	8e-11	5e-11	3.49e-10	
+:DPT:cj.cj2:m	cj1m	0.658983	0.699985	0.3	0.7	
