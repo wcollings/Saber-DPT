@@ -1,0 +1,20 @@
+set r [wf create -name resistance -xname freq -xunit Hz -yname resistance -yunit Ohm]
+set l [wf create -name inductance -xname freq -xunit Hz -yname inductance -yunit H]
+set z [wf create -name impedance -xname freq -xunit Hz -yname impedance -yunit Ohm]
+for {set i 0} {$i < [wf:info $wf -npoints]} {incr i} {
+    set point [wf:info $wf -value $i]
+    set freq [lindex $point 0]
+    set complex [lindex $point 1]
+    set resistance [calc real($complex)]
+    set inductance [calc imag($complex)/2/$math(pi)/$freq]
+	 set impedance [calc $resistance+($inductance*$freq)]
+    wf $r add -x $freq -y $resistance
+    wf $l add -x $freq -y $inductance
+	 wf $z add -x $freq -y $impedance
+}
+wf $r done
+wf $l done
+wf $z done
+puts r=$r
+puts l=$l
+puts z=$z

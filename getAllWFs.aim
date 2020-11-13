@@ -1,0 +1,6 @@
+set sigItems [Graph find withtag Signal]
+foreach item $sigItems {
+	set signal [lindex [Graph gettag $item] 1]
+	set wf [Graph itemquery $signal -waveform]
+	puts "$signal $wf"
+}

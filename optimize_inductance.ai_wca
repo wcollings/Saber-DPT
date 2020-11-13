@@ -1,0 +1,115 @@
+class ::PA::Tool
+version 1.6
+eval {
+	parallel 1
+	timeout 300
+}
+simulator saberhdl
+test {
+	1 {
+		class ::PA::Test
+		parameter {
+			1 {
+				name :DPT:freq_dep.freq_dep7:l0
+				alias l0
+				current 10.5n
+				nominal 10.5n
+				domain range
+				min 100p
+				max 50n
+				fixed 0
+				values 
+			}
+			2 {
+				name :DPT:freq_dep.freq_dep7:l1
+				alias l1
+				current 14n
+				nominal 14n
+				domain range
+				min 100p
+				max 50n
+				fixed 0
+				values 
+			}
+			3 {
+				name :DPT:freq_dep.freq_dep7:r0
+				alias r0
+				current 0.0075
+				nominal 0.0075
+				domain range
+				min 1u
+				max 1.0
+				fixed 1
+				values 
+			}
+			4 {
+				name :DPT:freq_dep.freq_dep7:r1
+				alias r1
+				current 0.1
+				nominal 0.1
+				domain range
+				min 0.001
+				max 0.1
+				fixed 0
+				values 
+			}
+		}
+		analysis {
+			1 {
+				text dc
+			}
+			2 {
+				text ac -fbegin 1k -fend 90meg
+			}
+		}
+		measure {
+			1 {
+				text inductance
+				analysis 2
+				signals :test_freq_dep:n_31
+				wfexpr :test_freq_dep:n_31
+				function procedure
+				procedure inductance_error
+			}
+		}
+		objective {
+			1 {
+				text min(inductance)
+				checked 1
+				weight 1
+				OF $inductance
+			}
+		}
+		algorithm {
+			1 {
+				text Variable Neighborhood Search
+				checked 1
+				sizes 0.15 0.05
+				max_stalled 200
+				restart 0
+				corner 0
+				max_eval 1000
+			}
+			2 {
+				text Downhill Simplex
+				checked 1
+				sizes 0.15 0.05
+				max_stalled 200
+				restart 0
+				max_eval 1000
+			}
+			3 {
+				text Steepest Descent
+				checked 1
+				perturbation 1u
+				resolution 10u
+				restart 0
+				max_eval 1000
+			}
+		}
+		loops 1
+		text test1
+		checked 1
+	}
+}
+

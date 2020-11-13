@@ -1,0 +1,18 @@
+global Inductance
+set pf [pf:open target_rl.ai_awd]
+set Inductance(target_wf) [pf:read $pf inductance]
+
+proc inductance_error {wf} {
+    global Inductance math
+    set error 0
+    for {set i 0} {$i < [wf:info $Inductance(target_wf) -npoints]} {incr i} {
+        set point [wf:info $Inductance(target_wf) -value $i]
+        set freq [lindex $point 0]
+        set target_inductance [lindex $point 1]
+        set inductance [calc imag([Measure:At $wf $freq])/2/$math(pi)/$freq]
+        puts sim=$inductance
+        puts target=$target_inductance
+        set error [calc $error+pow($inductance-$target_inductance, 2)]
+    }
+    return $error
+}
