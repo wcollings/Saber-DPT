@@ -1,1 +1,1 @@
-saberhdl -root DPT -source  ./cj.sin DPT.sin
+saberhdl -root DPT -source  DPT.sin

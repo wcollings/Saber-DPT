@@ -35,13 +35,13 @@
         <value>:...:*</value>
       </setting>
       <setting name="fend" serializeAs="String">
-        <value>90meg</value>
+        <value>1e8</value>
       </setting>
       <setting name="fbegin" serializeAs="String">
-        <value>1k</value>
+        <value>10</value>
       </setting>
       <setting name="increment" serializeAs="String">
-        <value>Lin</value>
+        <value>Dec</value>
       </setting>
     </sectionInstance>
   </sectionGroupInstance>

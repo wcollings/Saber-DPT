@@ -3,24 +3,19 @@ schtos Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 This program/application is protected under the patent and copyright laws
 of the United States and selected foreign countries.
 For a complete listing of intellectual property protection run the netlister as an operating system command or look in the manual.  
-PARSe mapping file schtos, execution time=0.437 sec.
+PARSe mapping file schtos, execution time=0.187 sec.
 Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64\bin\analogy.map'.
-PARSe mapping file analogy, execution time=0.453 sec.
+PARSe mapping file analogy, execution time=0.203 sec.
 Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64/bin/user.map'.
-PARSe mapping file user, execution time=0.531 sec.
-EXTract design from database, execution time=0.516 sec.
+PARSe mapping file user, execution time=0.219 sec.
+EXTract design from database, execution time=0.219 sec.
 Symbol 'rh' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/r.sin'.
-Symbol 'l' instantiated as template
+Symbol 'lh' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/l.sin'.
-Symbol 'pwld' instantiated as template
-'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/semiconductor/diodes/pwld
-.sin'.
-Symbol 'freq_dep' instantiated as template './freq_dep.sin'.
-Symbol 'cj' instantiated as template './cj.sin'.
 Symbol 'i' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_source/electrical/i.sin'.
-INStantiate design, execution time=0.453 sec.
-SPLIT design, execution time=0.437 sec.
-SIMUlator input for the vhdlams simulator done, execution time=0.437 sec.
-BACK annotation and renaming file writing done, execution time=0.437 sec.
+INStantiate design, execution time=0.187 sec.
+SPLIT design, execution time=0.187 sec.
+SIMUlator input for the vhdlams simulator done, execution time=0.187 sec.
+BACK annotation and renaming file writing done, execution time=0.187 sec.

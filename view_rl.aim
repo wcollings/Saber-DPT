@@ -1,6 +1,13 @@
 set r [wf create -name resistance -xname freq -xunit Hz -yname resistance -yunit Ohm]
 set l [wf create -name inductance -xname freq -xunit Hz -yname inductance -yunit H]
 set z [wf create -name impedance -xname freq -xunit Hz -yname impedance -yunit Ohm]
+
+set sigItems [Graph find withtag Signal]
+foreach item $sigItems {
+	set signal [lindex [Graph gettag $item] 1]
+	set wf [Graph itemquery $signal -waveform]
+}
+
 for {set i 0} {$i < [wf:info $wf -npoints]} {incr i} {
     set point [wf:info $wf -value $i]
     set freq [lindex $point 0]

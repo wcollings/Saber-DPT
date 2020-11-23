@@ -1,0 +1,97 @@
+class ::MA::ScanTool
+version 2.4
+image 
+zoom 1.0
+curveCount 1
+axis {
+	x {
+		name freq
+		start 10k
+		end 10meg
+		scale log
+	}
+	y {
+		name inductance
+		start 5n
+		end 25n
+		scale linear
+	}
+}
+paramDef none
+frame {
+	class ::MA::ScanFrame
+	x0 124.0
+	y0 231.0
+	x1 662.0
+	y1 231.0
+	x2 124.0
+	y2 30
+	color blue
+	type rectangle
+}
+curves {
+	class ::MA::ScanCurveMgr
+	0 {
+		class ::MA::ScanCurve
+		symbol s
+		coords 
+		symwidth 2
+		linestyle -
+		fill #0082cc
+		points {
+			point1 {
+				x 28.0
+				y 58.0
+			}
+			point2 {
+				x 60.0
+				y 59.0
+			}
+			point3 {
+				x 95.0
+				y 67.0
+			}
+			point4 {
+				x 122.0
+				y 76.0
+			}
+			point5 {
+				x 150.0
+				y 93.0
+			}
+			point6 {
+				x 186.0
+				y 113.0
+			}
+			point7 {
+				x 227.0
+				y 141.0
+			}
+			point8 {
+				x 271.0
+				y 162.0
+			}
+			point9 {
+				x 337.0
+				y 187.0
+			}
+			point10 {
+				x 411.0
+				y 202.0
+			}
+			point11 {
+				x 500.0
+				y 210.0
+			}
+			point12 {
+				x 643.0
+				y 212.0
+			}
+			point13 {
+				x 739.0
+				y 212.0
+			}
+		}
+	}
+}
+
