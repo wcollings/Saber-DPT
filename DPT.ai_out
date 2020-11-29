@@ -1,11 +1,11 @@
-SABER_PID 14524
+SABER_PID 15880
 SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 
      Searching for licenses ...
 SABER_SIMULATOR:                 license.
 
-     Mon Nov 16 10:18:10 Eastern Standard Time 2020
+     Sun Nov 29 10:41:32 Central Standard Time 2020
 
 Calling MAST compiler...
 DPT.sin:
@@ -15,16 +15,16 @@ Syntactic check complete; continuing design analysis....
 	
 SaberHDL
 >
-dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 10 -increment linear 
-execution time= 15.6E-3 sec.
-Progress -   1% : Frequency: 10Hz
-Progress - 100% : Frequency: 100e+6Hz
-execution time= 15.6E-3 sec.
->
 dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 10 -increment decade 
-execution time= 31.2E-3 sec.
+execution time= 78.1E-3 sec.
 Progress -   0% : Frequency: 10Hz
 Progress - 100% : Frequency: 100e+6Hz
-execution time= 31.2E-3 sec.
+execution time= 78.1E-3 sec.
+>
+dc  -progress 500;ac  -siglist :...:* -fend 1e7 -progress 500 -fbegin 10 -increment decade 
+execution time= 15.6E-3 sec.
+Progress -   0% : Frequency: 10Hz
+Progress - 100% : Frequency: 10e+6Hz
+execution time= 0 sec.
 >
 exit 

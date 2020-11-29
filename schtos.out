@@ -3,19 +3,19 @@ schtos Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 This program/application is protected under the patent and copyright laws
 of the United States and selected foreign countries.
 For a complete listing of intellectual property protection run the netlister as an operating system command or look in the manual.  
-PARSe mapping file schtos, execution time=0.187 sec.
+PARSe mapping file schtos, execution time=0.453 sec.
 Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64\bin\analogy.map'.
-PARSe mapping file analogy, execution time=0.203 sec.
+PARSe mapping file analogy, execution time=0.453 sec.
 Opening file 'C:/Synopsys/SaberRD64/Q-2020.03/64/bin/user.map'.
-PARSe mapping file user, execution time=0.219 sec.
-EXTract design from database, execution time=0.219 sec.
+PARSe mapping file user, execution time=0.531 sec.
+EXTract design from database, execution time=0.484 sec.
 Symbol 'rh' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/r.sin'.
 Symbol 'lh' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_electronic/passive/l.sin'.
 Symbol 'i' instantiated as template
 'C:/Synopsys/SaberRD64/Q-2020.03/generic/ai_source/electrical/i.sin'.
-INStantiate design, execution time=0.187 sec.
-SPLIT design, execution time=0.187 sec.
-SIMUlator input for the vhdlams simulator done, execution time=0.187 sec.
-BACK annotation and renaming file writing done, execution time=0.187 sec.
+INStantiate design, execution time=0.453 sec.
+SPLIT design, execution time=0.453 sec.
+SIMUlator input for the vhdlams simulator done, execution time=0.453 sec.
+BACK annotation and renaming file writing done, execution time=0.453 sec.

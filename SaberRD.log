@@ -1,288 +1,142 @@
-sch delete freq_dep_911_
-sch delete lh_729_
-sch delete {w_556_ w_350_ w_71_ w_916_ pwld_553_ w_913_}
-sch delete gate_driver_hilow_323_
-sch delete w_892_
-sch delete epc2022_572_
-sch create wire 1120 -480 1120 -1120
-sch pan down 0.1
-sch delete gnd_59_
-sch create symbol gnd -3650 -298 -quiet
-sch move gnd_966_ 3360 -1600 {}
-# w_968_ w_969_
-sch lower w_968_
-sch lower w_969_
-sch move gnd_966_ 0 0
-sch refit gnd_966_
-sch write DPT -force
-# aimFW:status frameway_exit
 SimSession loadDesign -blocking no
-SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 1e4} -blocking no
+SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 10 -increment decade} -blocking no
 ScopeSigMgr:LoadSigList ::Simulate::Session::session0 C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/DPT.ac.ai_awd openonly 1
 # PF:2
-SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 90meg -progress 500 -fbegin 1k -increment linear} -blocking no
+sch cut i_1047_
+sch delete w_1058_
+sch paste -3629 -584 1
+# i_1061_ 
+sch create wire -3520 -320 -3520 895 -2560 895 -2560 960
+# w_1064_
+sch lower w_1064_
+sch create wire -3520 -960 -1280 -960 -1280 -1760
+# w_1065_
+sch lower w_1065_
+sch coords w_1065_ -3520 -960 -3520 -1760 -1280 -1760
+sch xmirror i_1061_
+sch write DPT -force
+# aimFW:status frameway_exit
+SimSession closeDesign
+SimSession loadDesign -blocking no
+SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 10 -increment decade} -blocking no
 ScopeSigMgr:LoadSigList ::Simulate::Session::session0 C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/DPT.ac.ai_awd openonly 1
 # PF:3
-sch pan up 0.1
 GrXY:NewGraph
 # Graph0
-ScopeSigMgr:GetWFbyName PF:3 :DPT:n_1 1 1
+ScopeSigMgr:GetWFbyName PF:3 :DPT:n_1062 1 1
 # WF:3:2
 Graph addsignal {WF:3:2 WF:3:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
 # Signal0 Signal1
+# r=WF:4:1
+# l=WF:5:1
+# z=WF:6:1
 Graph:Select Graph0
+Graph:DSel
+Graph addsignal WF:5:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Graph:DSel 0
+Graph:ManipulateItem addtag selSet withtag 77
+Graph delsignal selected
 Graph:DSel
 Graph itemselect Signal0 add
 # Signal0
 Graph delsignal selected
 Graph:DSel
-Graph itemselect AxisX(0) add
-# AxisX(0)
-Graph axisconfig AxisX(0) -scale log -range all
-# Signal1 WF:3:2
-# r=WF:4:1
-# l=WF:5:1
-# z=WF:6:1
-Graph:DSel
-Graph:Select Graph0
-Graph:DSel
-Graph addsignal WF:5:1 -region new -yview real(y) -xview real(x) -tracehi 2
-# Signal2
-Graph:DSel
 Graph itemselect Signal1 add
 # Signal1
-Mdi:WinSel .mdi1
-sch delete c_89_
-sch create symbol i -3766 426 -quiet
-sch move i_970_ 640 160 {}
-sch move i_970_ 0 0
-sch refit i_970_
-sch property i_970_ value dc 0
-sch property i_970_ status 2 value
-sch property i_970_ value ac (mag=1,phase=180)
-sch write DPT -force
-# aimFW:status frameway_exit
-SimSession closeDesign
-SimSession loadDesign -blocking no
-SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 90meg -progress 500 -fbegin 1k -increment linear} -blocking no
-ScopeSigMgr:LoadSigList ::Simulate::Session::session0 C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/DPT.ac.ai_awd openonly 1
-# PF:7
-Mdi:WinSel .mdi2
-Graph:Select Graph0
-ScopeSigMgr:GetWFbyName PF:7 :DPT:n_1 1 1
-# WF:7:2
-Graph addsignal {WF:7:2 WF:7:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
-# Signal3 Signal4
-Graph:Select Graph0
-Graph:DSel
-Graph itemselect Signal3 add
-# Signal3
 Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
 Graph:DSel
 Graph itemselect AxisX(1) add
 # AxisX(1)
+Graph axisconfig AxisX(1) -scale log -range all
+Mdi:WinSel .mdi1
+Mdi:WinSel .mdi2
+Mdi:WinSel .mdi1
+sch property i_1061_ value ac (mag=1,phase=0)
+SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 10 -increment decade} -blocking no
+ScopeSigMgr:LoadSigList ::Simulate::Session::session0 C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/DPT.ac.ai_awd openonly 1
+# PF:7
+sch write DPT -force
+# aimFW:status frameway_exit
+SimSession closeDesign
+Mdi:WinSel .mdi2
+Graph:Select Graph0
 Graph:DSel
 Graph itemselect Signal2 add
 # Signal2
 Graph delsignal selected
+SimSession loadDesign -blocking no
+SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 1e8 -progress 500 -fbegin 10 -increment decade} -blocking no
+ScopeSigMgr:LoadSigList ::Simulate::Session::session0 C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/DPT.ac.ai_awd openonly 1
+# PF:8
+Graph:DSel
+Graph:Select Graph0
+ScopeSigMgr:GetWFbyName PF:8 :DPT:n_1062 1 1
+# WF:8:2
+Graph addsignal {WF:8:2 WF:8:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+# r=WF:9:1
+# l=WF:10:1
+# z=WF:11:1
+Graph:Select Graph0
+Graph:DSel
+Graph addsignal WF:10:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
 Graph:DSel
 Graph itemselect Signal1 add
 # Signal1
 Graph delsignal selected
-Graph:DSel 0
-Graph:ManipulateItem addtag selSet withtag 68
+Graph:DSel
+Graph itemselect AxisX(1) add
+# AxisX(1)
+Graph axisconfig AxisX(1) -scale log -range all
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
 Graph delsignal selected
-# Signal4 WF:7:2
-# r=WF:8:1
-# l=WF:9:1
-# z=WF:10:1
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+SaberRD:SetElementAttribute AxisY(0,0) rangemin 250n
+SaberRD:SetElementAttribute AxisY(0,0) rangemax 350n
+Graph:DSel
+Graph itemselect AxisX(1) add
+# AxisX(1)
+Graph axisconfig AxisX(1) -gridvis yes
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph axisconfig AxisY(0,0) -gridvis yes
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -fill #0000ff
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -width 3
+Graph:DSel
+Graph:DSel 0
+Graph:ManipulateItem addtag selSet withtag 198
+Graph delsignal selected
+SimSession runCommand {dc  -progress 500;ac  -siglist :...:* -fend 1e7 -progress 500 -fbegin 10 -increment decade} -blocking no
+ScopeSigMgr:LoadSigList ::Simulate::Session::session0 C:/Users/usr/Documents/SaberRD/projects/DPT/Saber-DPT/DPT.ac.ai_awd openonly 1
+# PF:12
 Graph:DSel
 Graph:Select Graph0
 Graph:DSel
-Graph addsignal WF:9:1 -region new -yview real(y) -xview real(x) -tracehi 2
-# Signal5
+Graph itemselect AxisX(1) add
+# AxisX(1)
+SaberRD:SetElementAttribute AxisX(1) rangemax 10meg
+Graph itemselect AxisX(1) add
+Graph itemselect AxisX(1) add
+Graph itemselect AxisX(1) add
 Graph:DSel
-Graph itemselect AxisX(3) add
-# AxisX(3)
-Graph axisconfig AxisX(3) -scale log -range all
+Graph:DSel
 Mdi:WinSel .mdi1
-Graph:Select Graph1
-Graph:DSel
-Graph:SetCMap 2
-Graph configure -sigcolors blue -bg white -legend none -font {Helvetica -12}
-Graph itemselect all add
-Graph delsignal selected
-Graph itemselect all add
-Graph delsignal selected
-Graph itemselect all add
-Graph delsignal selected
-Graph itemselect all add
-Graph delsignal selected
-SimSession runCommand {browse -analysis internalalter -global :test_freq_dep:freq_dep.freq_dep2:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :test_freq_dep:freq_dep.freq_dep2:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :test_freq_dep:freq_dep.freq_dep2:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :test_freq_dep:freq_dep.freq_dep2:l1 -internal} -blocking no -noTranscript yes
-Graph:DSel
-SimSession runCommand {browse -analysis internalalter -global :test_freq_dep:freq_dep.freq_dep2:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :test_freq_dep:freq_dep.freq_dep2:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :test_freq_dep:freq_dep.freq_dep2:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :test_freq_dep:freq_dep.freq_dep2:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 10.5n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 100p} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 50n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 10.5n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 1.05000e-08} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 14n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 100p} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 50n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 14n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 1.40000e-08} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 0.0075} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 1u} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 1.0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 0.0075} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.001} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.100000} -blocking no -noTranscript yes
-Graph itemselect all add
-Graph delsignal selected
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis acanalysis -global :test_freq_dep:n_31 -browse_type siglist} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis acanalysis -instance :test_freq_dep:n_31 -browse_type siglist} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 10.5n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 100p} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 50n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 10.5n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l0 1.05000e-08} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 14n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 100p} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 50n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 14n} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:l1 1.40000e-08} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 0.0075} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 1u} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 1.0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 0.0075} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r0 0.00750000} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.001} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {alter -force :DPT:freq_dep.freq_dep7:r1 0.100000} -blocking no -noTranscript yes
-Graph itemselect all add
-Graph delsignal selected
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:l1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:l1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r0} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r0 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -global :DPT:freq_dep.freq_dep7:r1} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis internalalter -instance :DPT:freq_dep.freq_dep7:r1 -internal} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis acanalysis -global :test_freq_dep:n_31 -browse_type siglist} -blocking no -noTranscript yes
-SimSession runCommand {browse -analysis acanalysis -instance :test_freq_dep:n_31 -browse_type siglist} -blocking no -noTranscript yes
-sch create symbol freq_dep
-SchMgr:SymUseCenter 0
-sch delete freq_dep_972_
-sch create symbol freq_dep
-SchMgr:SymUseCenter 0
-sch move freq_dep_974_ 0 0 {}
-LibraryEdit:ReplaceLibraryInfoType user ai_User_Library {}
-sch delete freq_dep_974_
-sch create symbol freq_dep
-SchMgr:SymUseCenter 0
-sch delete freq_dep_976_
-Mdi:WinSel .mdi2
-Mdi:WinSel .mdi1
-sch write DPT -force
 SaberRD:Cmd exitSaberRD

@@ -4,6 +4,7 @@
     <sectionGroup name="DesignSettings" type="Version=2.0">
       <section name="Tran" type="Version=2.0" />
       <section name="AC" type="Version=2.0" />
+      <section name="Sens" type="Version=2.0" />
     </sectionGroup>
   </configSections>
   <sectionGroupInstance name="DesignSettings">
@@ -35,13 +36,18 @@
         <value>:...:*</value>
       </setting>
       <setting name="fend" serializeAs="String">
-        <value>1e8</value>
+        <value>1e7</value>
       </setting>
       <setting name="fbegin" serializeAs="String">
         <value>10</value>
       </setting>
       <setting name="increment" serializeAs="String">
         <value>Dec</value>
+      </setting>
+    </sectionInstance>
+    <sectionInstance name="Sens">
+      <setting name="pfin" serializeAs="String">
+        <value>ac</value>
       </setting>
     </sectionInstance>
   </sectionGroupInstance>
