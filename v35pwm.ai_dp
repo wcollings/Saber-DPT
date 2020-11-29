@@ -15,9 +15,9 @@ DiodeParams {
 	nl 1.0
 	ish 0.001
 	nh 2.0
-	cjo 100p
-	vj 1.0
-	m 0.5
+	cjo 4.822n
+	vj 2.0
+	m 0.7302
 	fc 0.5
 	tt 50n
 	tm 10n
@@ -140,24 +140,24 @@ dc {
 }
 cj {
 	class ::MA::Diode_DP_Cj
-	cjo 100p
-	vj 1.0
-	m 0.5
+	cjo 4.823n
+	vj 2.0
+	m 0.7302
 	fc 0.5
 	optimcjo {
-		value 100p
+		value 4.823n
 		min 5p
 		max 100n
 		fixed 0
 	}
 	optimvj {
-		value 1.0
+		value 2.0
 		min 0.2
 		max 2.0
 		fixed 0
 	}
 	optimm {
-		value 0.5
+		value 0.7302
 		min 0.25
 		max 1.0
 		fixed 0
@@ -168,7 +168,7 @@ cj {
 			from 0
 			constant 0
 			to 100
-			steps 21
+			steps 40
 			type Linear Steps
 			by 0.1
 		}
@@ -183,7 +183,7 @@ cj {
 			scanTool {
 				class ::MA::ScanTool
 				version 2.4
-				image v34pwm diode reverse.PNG
+				image V35PWM10_junction_cap.PNG
 				zoom 1.0
 				curveCount 1
 				axis {
@@ -195,19 +195,19 @@ cj {
 					}
 					y {
 						name y
-						start 1
-						end 10000
+						start 1p
+						end 10000p
 						scale log
 					}
 				}
 				paramDef none
 				frame {
 					class ::MA::ScanFrame
-					x0 113.0
-					y0 366.0
-					x1 530.0
-					y1 366.0
-					x2 113.0
+					x0 108.0
+					y0 361.0
+					x1 529.0
+					y1 361.0
+					x2 108.0
 					y2 22.0
 					color blue
 					type rectangle
@@ -223,56 +223,40 @@ cj {
 						fill #0082cc
 						points {
 							point1 {
-								x 112.0
-								y 55.0
+								x 111.0
+								y 52.0
 							}
 							point2 {
-								x 210.0
-								y 60.0
+								x 243.0
+								y 59.0
 							}
 							point3 {
-								x 262.0
-								y 66.0
+								x 308.0
+								y 67.0
 							}
 							point4 {
-								x 321.0
-								y 74.0
+								x 336.0
+								y 71.0
 							}
 							point5 {
-								x 334.0
-								y 75.0
+								x 369.0
+								y 94.0
 							}
 							point6 {
-								x 360.0
-								y 91.0
+								x 386.0
+								y 107.0
 							}
 							point7 {
-								x 375.0
-								y 99.0
+								x 446.0
+								y 141.0
 							}
 							point8 {
-								x 403.0
-								y 120.0
-							}
-							point9 {
-								x 431.0
-								y 133.0
-							}
-							point10 {
-								x 475.0
-								y 150.0
-							}
-							point11 {
-								x 504.0
+								x 513.0
 								y 162.0
 							}
-							point12 {
-								x 517.0
-								y 165.0
-							}
-							point13 {
-								x 530.0
-								y 168.0
+							point9 {
+								x 528.0
+								y 162.0
 							}
 						}
 					}

@@ -1,0 +1,3 @@
+vary -increment linear -vbegin 0 -vend 20 -npoints 22 -vparam :V35PWM10_rev_cap:v_sin.v1:offset -body {
+dc;ac -fbegin 1 -fend 2 -npoints 2 -siglist :V35PWM10_rev_cap:v_sin.v1:i
+}
