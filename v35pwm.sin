@@ -14,8 +14,8 @@ pdmax_ja=undef, pdmax_jc=undef,tjmax=undef, tjmin=undef)
 
 number rth_ja=undef, rth_jc=undef, rth_hs=undef
 
-dp..model model=(rs=0.01,isl=100p,nl=1.0,
-ish=0.001,nh=2.0,cjo=4.823n,vj=2.0,m=0.7302,fc=0.5,
+dp..model model=(rs=0.003346,isl=1.452u,nl=1.184,
+ish=0.5718,nh=7.067,cjo=6.518n,vj=2.0,m=0.6251,fc=0.5,
 tt=50n,tm=10n,tsw=0,beta=0,betasw=0,
 trs1=0,trs2=0,xti=3,tnl1=0,tnl2=0,
 xtih=3,tnh1=0,tnh2=0,tnom=25,gamma=0)

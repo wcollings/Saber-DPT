@@ -129,14 +129,14 @@ enumdefn 4 {(2)
 _normal
 _soft
 }
-struc ref 1 model = {(81) =rs #0.01
-=isl #1.0e-10
-=nl #1.0
-=ish #0.001
-=nh #2.0
-=cjo #4.823e-09
+struc ref 1 model = {(81) =rs #0.003346
+=isl #1.452e-06
+=nl #1.184
+=ish #0.5718
+=nh #7.067
+=cjo #6.518e-09
 =vj #2.0
-=m #0.7302
+=m #0.6251
 =fc #0.5
 =tt #5.0e-08
 =tm #1.0e-08

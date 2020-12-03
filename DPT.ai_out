@@ -1,11 +1,11 @@
-SABER_PID 12052
+SABER_PID 5580
 SaberHDL Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 MAST Q-2020.03 Build 52 on 10-Mar-2020 Copyright (c) 1985-2020, Synopsys, Inc.
 
      Searching for licenses ...
 SABER_SIMULATOR:                 license.
 
-     Sun Nov 29 10:21:25 Central Standard Time 2020
+     Mon Nov 30 09:56:00 Central Standard Time 2020
 
 Calling MAST compiler...
 ./gate_driver_hilow.sin:
@@ -19,43 +19,40 @@ Syntactic check complete; continuing design analysis....
 SaberHDL
 >
 dc  -progress 500;tr  -terror 5E-11 -order 1 -pins all -siglist :...:* -tniter 15 -progress 500 -tstep 0.1n -tend 310u 
-execution time= 62.5E-3 sec.
+execution time= 46.9E-3 sec.
 Progress -   0% : Time: 0 sec
-Progress -   1% : Time: 5.0443871196806e-6 sec
-Progress -   1% : Time: 5.0776321678235e-6 sec
-Progress -   1% : Time: 5.112288026891e-6 sec
-Progress -   1% : Time: 5.1753100209402e-6 sec
-Progress -   1% : Time: 5.2482009561514e-6 sec
-Progress -   1% : Time: 5.3491700885468e-6 sec
-Progress -   1% : Time: 5.6505612720404e-6 sec
-Progress -   6% : Time: 21.541789367977e-6 sec
-Progress -  14% : Time: 45.079793449287e-6 sec
-Progress -  22% : Time: 69.908735210015e-6 sec
-Progress -  29% : Time: 91.464327433731e-6 sec
-Progress -  36% : Time: 112.23643480234e-6 sec
-Progress -  42% : Time: 132.2613039462e-6 sec
-Progress -  47% : Time: 148.29346735156e-6 sec
-Progress -  54% : Time: 170.45131127896e-6 sec
-Progress -  61% : Time: 189.64529612811e-6 sec
-Progress -  68% : Time: 212.33289849847e-6 sec
-Progress -  75% : Time: 234.21192219272e-6 sec
-Progress -  82% : Time: 256.73502062541e-6 sec
-Progress -  90% : Time: 279.70701963334e-6 sec
-Progress -  95% : Time: 295.01364369997e-6 sec
-Progress -  95% : Time: 295.09848277446e-6 sec
-Progress -  95% : Time: 295.24788105314e-6 sec
-Progress -  95% : Time: 295.54537651745e-6 sec
-Progress -  96% : Time: 299.99895567562e-6 sec
-Progress -  96% : Time: 300.0368270969e-6 sec
-Progress -  96% : Time: 300.07912853592e-6 sec
-Progress -  96% : Time: 300.13149515926e-6 sec
-Progress -  96% : Time: 300.20513092753e-6 sec
-Progress -  96% : Time: 300.3045483173e-6 sec
-Progress -  96% : Time: 300.570113602e-6 sec
-Progress -  98% : Time: 304.98843052681e-6 sec
-Progress -  98% : Time: 305.0802486831e-6 sec
-Progress -  98% : Time: 305.2205630435e-6 sec
+Progress -   1% : Time: 5.0484383301802e-6 sec
+Progress -   1% : Time: 5.1047727778905e-6 sec
+Progress -   1% : Time: 5.1874373273437e-6 sec
+Progress -   1% : Time: 5.2831662368065e-6 sec
+Progress -   1% : Time: 5.5029287522377e-6 sec
+Progress -   7% : Time: 21.705540393305e-6 sec
+Progress -  15% : Time: 47.12864184462e-6 sec
+Progress -  22% : Time: 71.244836048105e-6 sec
+Progress -  29% : Time: 91.794825876442e-6 sec
+Progress -  37% : Time: 116.55996712717e-6 sec
+Progress -  45% : Time: 141.55344159821e-6 sec
+Progress -  52% : Time: 163.22707122126e-6 sec
+Progress -  58% : Time: 182.2448249659e-6 sec
+Progress -  66% : Time: 206.97992237185e-6 sec
+Progress -  74% : Time: 232.49615974204e-6 sec
+Progress -  80% : Time: 251.05424266151e-6 sec
+Progress -  88% : Time: 273.19054749394e-6 sec
+Progress -  95% : Time: 295.00956079446e-6 sec
+Progress -  95% : Time: 295.07332978093e-6 sec
+Progress -  95% : Time: 295.14871544661e-6 sec
+Progress -  95% : Time: 295.34034518076e-6 sec
+Progress -  96% : Time: 299.98825345718e-6 sec
+Progress -  96% : Time: 300.01679146826e-6 sec
+Progress -  96% : Time: 300.06994393987e-6 sec
+Progress -  96% : Time: 300.13190915382e-6 sec
+Progress -  96% : Time: 300.20717733276e-6 sec
+Progress -  96% : Time: 300.3270362412e-6 sec
+Progress -  96% : Time: 300.65577531965e-6 sec
+Progress -  98% : Time: 304.9970933319e-6 sec
+Progress -  98% : Time: 305.07538072104e-6 sec
+Progress -  98% : Time: 305.2659931101e-6 sec
 Progress - 100% : Time: 310e-6 sec
-execution time= 17.3 sec.
+execution time= 15.2 sec.
 >
 exit 
